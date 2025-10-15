@@ -250,7 +250,7 @@ ACE builds upon the adaptive memory concepts from Dynamic Cheatsheet:
 If you use this specific implementation, you can also reference:
 
 ```
-This repository: https://github.com/yourusername/agentic-context-engine
+This repository: https://github.com/Kayba-ai/ace-framework
 Based on the open reproduction at: https://github.com/sci-m-wang/ACE-open
 ```
 

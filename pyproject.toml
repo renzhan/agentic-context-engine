@@ -3,7 +3,7 @@ requires = ["setuptools>=61.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "agentic-context-engine"
+name = "ac-engine"
 version = "0.1.0"
 description = "Build self-improving AI agents that learn from experience"
 readme = "README.md"
@@ -68,9 +68,9 @@ dev = [
 
 [project.urls]
 Homepage = "https://kayba.ai"
-Documentation = "https://github.com/yourusername/agentic-context-engine#readme"
-Repository = "https://github.com/yourusername/agentic-context-engine"
-Issues = "https://github.com/yourusername/agentic-context-engine/issues"
+Documentation = "https://github.com/Kayba-ai/ace-framework#readme"
+Repository = "https://github.com/Kayba-ai/ace-framework"
+Issues = "https://github.com/Kayba-ai/ace-framework/issues"
 
 [tool.setuptools]
 packages = ["ace", "ace.llm_providers"]
