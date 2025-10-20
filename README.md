@@ -49,7 +49,7 @@ playbook = Playbook()
 
 # Now it can solve new problems with learned strategies
 result = generator.generate(
-    question="What is 7*8?",
+    question="Give me the seahorse emoji",
     context="",
     playbook=playbook
 )
