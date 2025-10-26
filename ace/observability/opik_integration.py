@@ -16,8 +16,19 @@ try:
     import opik
     from opik import track, opik_context
     OPIK_AVAILABLE = True
+
+    # Try to import LiteLLM Opik integration
+    try:
+        from litellm.integrations.opik.opik import OpikLogger
+        LITELLM_OPIK_AVAILABLE = True
+    except ImportError:
+        LITELLM_OPIK_AVAILABLE = False
+        OpikLogger = None
+
 except ImportError:
     OPIK_AVAILABLE = False
+    LITELLM_OPIK_AVAILABLE = False
+    OpikLogger = None
     # Create mock decorators for graceful degradation
     def track(*args, **kwargs):
         def decorator(func):
@@ -255,9 +266,51 @@ class OpikIntegration:
         except Exception as e:
             logger.error(f"Failed to create experiment: {e}")
 
+    def setup_litellm_callback(self) -> bool:
+        """
+        Set up LiteLLM callback for automatic token and cost tracking.
+
+        Returns:
+            bool: True if callback was successfully configured, False otherwise
+        """
+        if not self.enabled or not LITELLM_OPIK_AVAILABLE:
+            return False
+
+        try:
+            import litellm
+
+            # Initialize OpikLogger
+            opik_logger = OpikLogger()
+
+            # Add to LiteLLM callbacks if not already present
+            if not hasattr(litellm, 'callbacks') or litellm.callbacks is None:
+                litellm.callbacks = []
+
+            # Check if OpikLogger is already in callbacks
+            opik_logger_present = any(
+                isinstance(callback, type(opik_logger))
+                for callback in litellm.callbacks
+            )
+
+            if not opik_logger_present:
+                litellm.callbacks.append(opik_logger)
+                logger.info("OpikLogger added to LiteLLM callbacks for automatic token tracking")
+                return True
+            else:
+                logger.debug("OpikLogger already present in LiteLLM callbacks")
+                return True
+
+        except Exception as e:
+            logger.error(f"Failed to setup LiteLLM callback: {e}")
+            return False
+
     def is_available(self) -> bool:
         """Check if Opik integration is available and configured."""
         return self.enabled
+
+    def is_litellm_integration_available(self) -> bool:
+        """Check if LiteLLM Opik integration is available."""
+        return LITELLM_OPIK_AVAILABLE
 
 
 # Global integration instance

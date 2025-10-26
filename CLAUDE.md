@@ -165,6 +165,8 @@ python scripts/explain_ace_performance.py
 
 **ace/observability/** - Production monitoring and observability:
 - Integration with Opik for enterprise-grade monitoring and tracking
+- **Automatic token usage and cost tracking** for all LLM calls
+- Real-time cost monitoring via Opik dashboard
 
 **benchmarks/** - Benchmark framework:
 - `base.py`: Base benchmark classes and interfaces
@@ -213,11 +215,48 @@ python scripts/explain_ace_performance.py
 - Core: Pydantic, Python-dotenv, LiteLLM, tenacity
 - Optional dependencies available for:
   - `demos`: Browser automation with browser-use, rich UI, datasets
-  - `observability`: Opik integration for production monitoring
+  - `observability`: Opik integration for production monitoring and **automatic token/cost tracking**
   - `langchain`: LangChain integration
   - `transformers`: Local model support with transformers, torch
   - `dev`: Development tools (pytest, black, mypy)
   - `all`: All optional dependencies combined
+
+## Automatic Token Usage & Cost Tracking
+
+ACE framework now includes **automatic token usage and cost tracking** via Opik integration:
+
+### Features
+- ✅ **Zero-configuration tracking**: Automatic when using `observability` dependencies
+- ✅ **Real-time cost monitoring**: View costs in Opik dashboard
+- ✅ **Multi-provider support**: Works with OpenAI, Anthropic, Google, Cohere, etc.
+- ✅ **Graceful degradation**: Works without Opik installed
+
+### Setup
+```bash
+# Install with observability features
+pip install ace-framework[observability]
+
+# Or for development
+uv sync  # Already includes Opik in optional dependencies
+```
+
+### Usage
+```python
+from ace.llm_providers.litellm_client import LiteLLMClient
+
+# Token tracking is automatically enabled
+client = LiteLLMClient(model="gpt-4")
+response = client.complete("Hello world!")
+
+# Costs and token usage automatically logged to Opik
+# View at: https://www.comet.com/opik
+```
+
+### Cost Analytics
+- **Per-call tracking**: Individual LLM call costs
+- **Role attribution**: Costs by Generator/Reflector/Curator
+- **Adaptation metrics**: Cost efficiency over time
+- **Budget monitoring**: Optional cost limits and alerts
 
 ## Environment Setup
 Set your LLM API key for examples and demos:

@@ -22,6 +22,14 @@ except ImportError:
     LITELLM_AVAILABLE = False
     logger.warning("LiteLLM not installed. Install with: pip install litellm")
 
+# Try to import Opik for span association
+try:
+    from opik.opik_context import get_current_span_data
+    OPIK_SPAN_AVAILABLE = True
+except ImportError:
+    get_current_span_data = None
+    OPIK_SPAN_AVAILABLE = False
+
 
 @dataclass
 class LiteLLMConfig:
@@ -162,6 +170,9 @@ class LiteLLMClient(LLMClient):
         if self.config.fallbacks:
             self._setup_router()
 
+        # Set up Opik integration for automatic token tracking
+        self._setup_opik_integration()
+
     def _setup_api_keys(self) -> None:
         """Set up API keys from config or environment variables."""
         if not self.config.api_key:
@@ -222,6 +233,28 @@ class LiteLLMClient(LLMClient):
             num_retries=self.config.max_retries,
             timeout=self.config.timeout,
         )
+
+    def _setup_opik_integration(self) -> None:
+        """Set up Opik integration for automatic token and cost tracking."""
+        try:
+            # Import observability module
+            from ..observability import get_integration
+
+            # Get or create global Opik integration
+            opik_integration = get_integration()
+
+            # Set up LiteLLM callback for automatic tracking
+            if opik_integration.setup_litellm_callback():
+                logger.debug("Opik LiteLLM integration configured for automatic token tracking")
+            else:
+                logger.debug("Opik LiteLLM integration not available or already configured")
+
+        except ImportError:
+            # Observability module not available, continue without it
+            logger.debug("Opik observability not available, continuing without automatic tracking")
+        except Exception as e:
+            # Non-critical error, log but don't interrupt initialization
+            logger.debug(f"Failed to setup Opik integration (non-critical): {e}")
 
     @staticmethod
     def _resolve_sampling_params(params: Dict[str, Any], model: str, sampling_priority: str = "temperature") -> Dict[str, Any]:
@@ -354,6 +387,22 @@ class LiteLLMClient(LLMClient):
         if self.config.api_base:
             call_params["api_base"] = self.config.api_base
 
+        # Add Opik span association for role-level token aggregation
+        if OPIK_SPAN_AVAILABLE and get_current_span_data:
+            try:
+                current_span_data = get_current_span_data()
+                if current_span_data:
+                    # Add metadata to associate this LLM call with the current Opik span
+                    if "metadata" not in call_params:
+                        call_params["metadata"] = {}
+                    if "opik" not in call_params["metadata"]:
+                        call_params["metadata"]["opik"] = {}
+                    call_params["metadata"]["opik"]["current_span_data"] = current_span_data
+                    logger.debug(f"Associated LLM call with Opik span: {current_span_data.get('name', 'unknown')}")
+            except Exception as e:
+                # Non-critical: continue without span association
+                logger.debug(f"Failed to associate LLM call with Opik span: {e}")
+
         # Add remaining kwargs (excluding ACE-specific and already-handled parameters)
         ace_specific_params = {"refinement_round", "max_refinement_rounds", "stream_thinking"}
         handled_params = {"temperature", "top_p", "top_k", "max_tokens", "timeout", "num_retries"}
@@ -436,6 +485,22 @@ class LiteLLMClient(LLMClient):
             call_params["api_key"] = self.config.api_key
         if self.config.api_base:
             call_params["api_base"] = self.config.api_base
+
+        # Add Opik span association for role-level token aggregation
+        if OPIK_SPAN_AVAILABLE and get_current_span_data:
+            try:
+                current_span_data = get_current_span_data()
+                if current_span_data:
+                    # Add metadata to associate this LLM call with the current Opik span
+                    if "metadata" not in call_params:
+                        call_params["metadata"] = {}
+                    if "opik" not in call_params["metadata"]:
+                        call_params["metadata"]["opik"] = {}
+                    call_params["metadata"]["opik"]["current_span_data"] = current_span_data
+                    logger.debug(f"Associated LLM call with Opik span: {current_span_data.get('name', 'unknown')}")
+            except Exception as e:
+                # Non-critical: continue without span association
+                logger.debug(f"Failed to associate LLM call with Opik span: {e}")
 
         # Add remaining kwargs (excluding ACE-specific and already-handled parameters)
         ace_specific_params = {"refinement_round", "max_refinement_rounds", "stream_thinking"}

@@ -110,7 +110,8 @@ class Generator:
 
     @maybe_track(
         name="generator_generate",
-        tags=["ace-framework", "role", "generator"]
+        tags=["ace-framework", "role", "generator"],
+        project_name="ace-roles"
     )
     def generate(
         self,
@@ -246,7 +247,8 @@ class Reflector:
 
     @maybe_track(
         name="reflector_reflect",
-        tags=["ace-framework", "role", "reflector"]
+        tags=["ace-framework", "role", "reflector"],
+        project_name="ace-roles"
     )
     def reflect(
         self,
@@ -404,7 +406,8 @@ class Curator:
 
     @maybe_track(
         name="curator_curate",
-        tags=["ace-framework", "role", "curator"]
+        tags=["ace-framework", "role", "curator"],
+        project_name="ace-roles"
     )
     def curate(
         self,
