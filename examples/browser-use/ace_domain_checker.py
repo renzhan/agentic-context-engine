@@ -241,7 +241,7 @@ class DomainCheckEnvironment(TaskEnvironment):
 
     async def _check_domain(self, domain: str, strategy: str):
         """Execute browser automation to check domain with retry logic."""
-        max_retries = 2
+        max_retries = 3
         last_error = None
         total_steps = 0
         attempt_details = []
@@ -289,7 +289,7 @@ ERROR: <reason>
 
                 print(f"   🚀 Running agent (timeout: 180s)...")
                 # Run with reasonable timeout to allow LLM calls to complete
-                history = await asyncio.wait_for(agent.run(), timeout=50.0)
+                history = await asyncio.wait_for(agent.run(), timeout=180.0)
                 print(f"   📋 Agent completed, processing results...")
 
                 # Parse result
