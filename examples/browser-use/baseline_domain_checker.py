@@ -33,7 +33,7 @@ def get_test_domains() -> List[str]:
     ]
 
 
-async def check_domain(domain: str, model: str = "gpt-4o-mini", headless: bool = True):
+async def check_domain(domain: str, model: str = "gpt-4o", headless: bool = True):
     """Check domain availability without any learning, with retry logic."""
     max_retries = 3
     last_error = None
@@ -246,7 +246,7 @@ def main():
         print(f"🔍 [{i}/{len(domains)}] Checking domain: {domain}")
 
         # Run check
-        result = asyncio.run(check_domain(domain, headless=False))
+        result = asyncio.run(check_domain(domain, headless=True))
         results.append(result)
 
         # Show what happened

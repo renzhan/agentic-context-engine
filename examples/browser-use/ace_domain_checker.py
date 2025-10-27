@@ -286,7 +286,7 @@ ERROR: <reason>
 
                 print(f"   🚀 Running agent (timeout: 20s)...")
                 # Run with reasonable timeout to allow LLM calls to complete
-                history = await asyncio.wait_for(agent.run(), timeout=20.0)
+                history = await asyncio.wait_for(agent.run(), timeout=180.0)
                 print(f"   📋 Agent completed, processing results...")
 
                 # Parse result
