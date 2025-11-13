@@ -11,7 +11,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-from browser_use import Agent, ChatAnthropic
+from browser_use import Agent, ChatBrowserUse
 
 task = """
 ### Migros Grocery Shopping Test - Essential 5 Items
@@ -150,7 +150,7 @@ def print_results_summary(output_text):
 
     print("="*80)
 
-agent = Agent(task=task, llm=ChatAnthropic(model='claude-sonnet-4-5-20250929'))
+agent = Agent(task=task, llm=ChatBrowserUse())
 
 async def run_grocery_shopping():
     """Run grocery shopping and collect metrics."""
