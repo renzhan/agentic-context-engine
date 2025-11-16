@@ -1,6 +1,8 @@
 # ACE Benchmarks
 
-Evaluation framework for Agentic Context Engineering (ACE) with multiple datasets and automatic metrics.
+Evaluate ACE performance with scientific rigor using our comprehensive benchmark suite.
+
+This evaluation framework tests Agentic Context Engineering (ACE) across multiple datasets with automatic metrics, train/test splits, and overfitting analysis to ensure honest performance measurements.
 
 ## Quick Start
 
@@ -119,6 +121,14 @@ The benchmark script supports three evaluation modes:
    ```bash
    uv run python scripts/run_benchmark.py simple_qa --limit 100 --compare
    ```
+
+## Key Features
+
+- **Overfitting Prevention**: Automatic 80/20 train/test splits ensure true generalization metrics
+- **Scientific Rigor**: Comprehensive evaluation modes with honest performance analysis
+- **Multiple Domains**: Finance, general knowledge, reasoning, math, and common sense benchmarks
+- **Flexible Configuration**: Customizable limits, models, and evaluation parameters
+- **Performance Tracking**: Detailed results with per-sample analysis options
 
 ## Notes
 

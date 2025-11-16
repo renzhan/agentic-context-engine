@@ -91,11 +91,6 @@ playbook.save_to_file("my_agent.json")
 
 🎉 **Your agent just got smarter!** It learned from examples and improved.
 
-**Want more?** Check out:
-- 📘 [Full example with custom environment](examples/simple_ace_example.py)
-- 🌊 [Seahorse emoji challenge demo](examples/kayba_ace_test.py)
-- 📚 [Complete guide to ACE](docs/COMPLETE_GUIDE_TO_ACE.md)
-
 ---
 
 ## Why Agentic Context Engine (ACE)?
@@ -118,7 +113,6 @@ ACE enables agents to learn from execution feedback: what works, what doesn't, a
 ### 🌊 The Seahorse Emoji Challenge
 
 A challenge where LLMs often hallucinate that a seahorse emoji exists (it doesn't).
-Watch ACE learn from its own mistakes in real-time. This demo shows how ACE handles the infamous challenge!
 
 ![Kayba Test Demo](kayba_test_demo.gif)
 
@@ -129,28 +123,23 @@ In this example:
 
 Try it yourself:
 ```bash
-python examples/kayba_ace_test.py
+uv run python examples/kayba_ace_test.py
 ```
 
 ### 🌐 Browser Use Automation Demos
 
 #### 🛒 Online Shopping Demo
 
-A comprehensive grocery shopping automation comparison where both agents shop for 5 essential items at Migros online store. The ACE agent learns optimal shopping strategies while the baseline agent repeats the same mistakes.
+A grocery shopping automation comparison where both agents find the basket price for 5 essential items at Migros online store. 
+- **ACE Agent**: Learns efficient product search patterns and UI navigation strategies improving performance over time
+- **Baseline Agent**: Struggles with inconsistent website interactions and search failures
 
 ![Online Shopping Demo Results](examples/browser-use/online-shopping/results-online-shopping-brwoser-use.png)
-
-**Task**: Shop for 5 essential items (milk, eggs, bananas, butter, bread) and find the cheapest options while adding them to the basket.
 
 **ACE Performance**:
 - **29.8% fewer steps** on average (57.2 vs 81.5)
 - **49.0% reduction** in browser-use tokens (595k vs 1,166k)
 - **42.6% total cost reduction** even when including ACE learning overhead
-
-**Key Results**:
-- **ACE Agent**: Learns efficient product search patterns and UI navigation strategies
-- **Baseline Agent**: Struggles with inconsistent website interactions and search failures
-- **Learning Advantage**: ACE adapts to website quirks and develops reliable shopping workflows
 
 Try it yourself:
 ```bash
@@ -161,66 +150,13 @@ uv run python examples/browser-use/online-shopping/baseline-online-shopping.py
 uv run python examples/browser-use/online-shopping/ace-online-shopping.py
 ```
 
-**Setup for Online Shopping Demo:**
-- Requires `browser-use` dependencies: `pip install ace-framework[demos]`
-- Browser-Use automatically installs Chromium via Playwright on first run
-- Demo uses Migros.ch online store (no account required)
-
-
-#### 🌐 Domain Availability Checker Demo
-
-A real-world comparison where both Browser Use agents check 10 domains for availability using browser automation. Same prompt, same Browser Use setup—but the ACE agent autonomously generates strategies from execution feedback.
-
-![Browser Use Demo Results](examples/browser-use/Browseruse_domain_demo_results.png)
-
-**How ACE + Browser-Use Works:**
-- **ACE learns strategies**: "Click search box, then type domain name"
-- **Browser-Use executes**: Actually controls the browser (clicking, typing, etc.)
-- **ACE improves**: Learns from failures like "search box was hidden, scroll first"
-
-**Default Agent Behavior:**
-- Repeats failed actions throughout all runs
-- 30% success rate (3/10 runs)
-- 38.8 steps per domain on average
-
-**ACE Agent Behavior:**
-- First two domain checks: Performs similar to baseline (double-digit steps per check)
-- Then learns from mistakes and identifies the pattern
-- Remaining checks: Consistent 3-step completion
-- **Agent autonomously figured out the optimal approach**
-
-| Metric | Default | ACE |
-|--------|---------|-----|
-| Success rate | 30% | 100% |
-| Avg steps per domain | 38.8 | 6.9 |
-| Token cost | 1776k | 605k (incl. ACE) |
-
-Try it yourself:
-```bash
-# Run baseline version (no learning)
-uv run python examples/browser-use/baseline_domain_checker.py
-
-# Run ACE-enhanced version (learns and improves)
-uv run python examples/browser-use/ace_domain_checker.py
-```
-
-**Setup for Domain Checker Demo:**
-- Requires `browser-use` dependencies: `pip install ace-framework[demos]`
-- Browser-Use automatically installs Chromium via Playwright on first run
-- Demo checks domain availability using automated web searches
+**[→ More Examples & Full Browser Use Documentation](examples/browser-use/README.md)**
 
 ---
 
 ## How does Agentic Context Engine (ACE) work?
 
 *Based on the [ACE research framework](https://arxiv.org/abs/2510.04618) from Stanford & SambaNova.*
-
-```
-Sample → [Generator] → Strategy → [Browser-Use] → Result
-            ↑                                        ↓
-        Playbook ← [Curator] ← [Reflector] ← Feedback
-        (learns)
-```
 
 ACE uses three specialized roles that work together:
 1. **🎯 Generator** - Creates strategies using learned patterns from the playbook
@@ -299,15 +235,6 @@ ACE works with any LLM provider through LiteLLM:
 # OpenAI
 client = LiteLLMClient(model="gpt-4o")
 
-# Anthropic Claude
-client = LiteLLMClient(model="claude-3-5-sonnet-20241022")
-
-# Google Gemini
-client = LiteLLMClient(model="gemini-pro")
-
-# Ollama (local)
-client = LiteLLMClient(model="ollama/llama2")
-
 # With fallbacks for reliability
 client = LiteLLMClient(
     model="gpt-4",
@@ -318,6 +245,7 @@ client = LiteLLMClient(
 ### Observability with Opik
 
 ACE includes built-in Opik integration for production monitoring and debugging.
+If Opik is not installed or configured, ACE continues to work normally without tracing. No code changes needed.
 
 #### Quick Start
 ```bash
@@ -352,48 +280,6 @@ output = generator.generate(
 # View traces at https://www.comet.com/opik or your local Opik instance
 ```
 
-#### Graceful Degradation
-If Opik is not installed or configured, ACE continues to work normally without tracing. No code changes needed.
-
----
-
-## 📊 Benchmarks
-
-Evaluate ACE performance with scientific rigor using our comprehensive benchmark suite.
-
-### Quick Benchmark
-
-```bash
-# Compare baseline vs ACE on any benchmark
-uv run python scripts/run_benchmark.py simple_qa --limit 50 --compare
-
-# Run with proper train/test split (prevents overfitting)
-uv run python scripts/run_benchmark.py finer_ord --limit 100
-
-# Baseline evaluation (no ACE learning)
-uv run python scripts/run_benchmark.py hellaswag --limit 50 --skip-adaptation
-```
-
-### Available Benchmarks
-
-| Benchmark | Description | Domain |
-|-----------|-------------|---------|
-| **simple_qa** | Question Answering (SQuAD) | General |
-| **finer_ord** | Financial Named Entity Recognition | Finance |
-| **mmlu** | Massive Multitask Language Understanding | General Knowledge |
-| **hellaswag** | Commonsense Reasoning | Common Sense |
-| **arc_easy/arc_challenge** | AI2 Reasoning Challenge | Reasoning |
-
-### Evaluation Modes
-
-- **ACE Mode**: Train/test split with learning (shows true generalization)
-- **Baseline Mode**: Direct evaluation without learning (`--skip-adaptation`)
-- **Comparison Mode**: Side-by-side baseline vs ACE (`--compare`)
-
-The benchmark system prevents overfitting with automatic 80/20 train/test splits and provides overfitting analysis to ensure honest metrics.
-
-**[→ Full Benchmark Documentation](benchmarks/README.md)**
-
 ---
 
 ## Documentation
@@ -403,6 +289,7 @@ The benchmark system prevents overfitting with automatic 80/20 train/test splits
 - [Examples](examples/) - Ready-to-run code examples
 - [ACE Framework Guide](docs/COMPLETE_GUIDE_TO_ACE.md) - Deep dive into Agentic Context Engineering
 - [Prompt Engineering](docs/PROMPT_ENGINEERING.md) - Advanced prompt techniques
+- [Benchmarks](benchmarks/README.md) - Evaluate ACE performance with scientific rigor across multiple datasets
 - [Changelog](CHANGELOG.md) - See recent changes
 
 ---

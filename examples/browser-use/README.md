@@ -26,18 +26,31 @@ Instead of static prompts, ACE agents:
 
 ```
 examples/browser-use/
-├── README.md              # Getting started guide (you are here!)
-├── TEMPLATE.py            # Clean template for your own use cases
-├── shared.py              # Generic utilities (domain-agnostic)
-├── debug.py               # Debug/inspection utilities
-├── domain-checker/        # Domain availability examples
-└── form-filler/           # Form filling examples
+├── README.md                           # Getting started guide (you are here!)
+├── TEMPLATE.py                         # Clean template for your own use cases
+├── shared.py                           # Generic utilities (domain-agnostic)
+├── debug.py                            # Debug/inspection utilities
+├── Browseruse_domain_demo_results.png  # Domain checker demo results
+├── online-shopping/                    # Online shopping automation demos
+│   ├── ace-online-shopping.py          # ACE version (WITH learning)
+│   ├── baseline-online-shopping.py     # Baseline version (WITHOUT learning)
+│   ├── results-online-shopping-brwoser-use.png  # Shopping demo results
+│   └── ace_grocery_shopping_playbook.json       # Saved ACE playbook
+├── domain-checker/                     # Domain availability examples
+│   ├── ace_domain_checker.py           # ACE version (WITH learning)
+│   ├── baseline_domain_checker.py      # Baseline version (WITHOUT learning)
+│   └── domain_utils.py                 # Domain checking utilities
+└── form-filler/                        # Form filling examples
+    ├── ace_form_filler.py              # ACE version (WITH learning)
+    ├── baseline_form_filler.py         # Baseline version (WITHOUT learning)
+    └── form_utils.py                   # Form data and utilities
 ```
 
 Each example folder contains:
 - ACE version (WITH learning)
 - Baseline version (WITHOUT learning for comparison)
 - Example-specific utilities (*_utils.py)
+- Results images and saved playbooks
 
 ## 🚀 Quick Start
 
@@ -71,7 +84,69 @@ uv run python examples/browser-use/domain-checker/ace_domain_checker.py
 uv run python examples/browser-use/form-filler/ace_form_filler.py
 ```
 
-## 📊 Expected Results
+## 🎬 Live Demos
+
+### 🛒 Online Shopping Demo
+
+A grocery shopping automation comparison where both agents find the basket price for 5 essential items at Migros online store.
+The ACE agent learns optimal shopping strategies while the baseline agent repeats the same mistakes.
+
+![Online Shopping Demo Results](online-shopping/results-online-shopping-brwoser-use.png)
+
+**Task**: Shop for 5 essential items (milk, eggs, bananas, butter, bread) and find the cheapest options while adding them to the basket.
+
+**ACE Performance**:
+- **29.8% fewer steps** on average (57.2 vs 81.5)
+- **49.0% reduction** in browser-use tokens (595k vs 1,166k)
+- **42.6% total cost reduction** even when including ACE learning overhead
+
+**Key Results**:
+- **ACE Agent**: Learns efficient product search patterns and UI navigation strategies
+- **Baseline Agent**: Struggles with inconsistent website interactions and search failures
+- **Learning Advantage**: ACE adapts to website quirks and develops reliable shopping workflows
+
+Try it yourself:
+```bash
+# Run baseline version (no learning)
+uv run python examples/browser-use/online-shopping/baseline-online-shopping.py
+
+# Run ACE-enhanced version (learns and improves)
+uv run python examples/browser-use/online-shopping/ace-online-shopping.py
+```
+
+---
+
+### 🌐 Domain Availability Checker Demo
+
+A real-world comparison where both Browser Use agents check 10 domains for availability using browser automation. Same prompt, same Browser Use setup—but the ACE agent autonomously generates strategies from execution feedback.
+
+![Browser Use Demo Results](Browseruse_domain_demo_results.png)
+
+**How ACE + Browser-Use Works:**
+- **ACE learns strategies**: "Click search box, then type domain name"
+- **Browser-Use executes**: Actually controls the browser (clicking, typing, etc.)
+- **ACE improves**: Learns from failures like "search box was hidden, scroll first"
+
+**Performance Comparison:**
+
+| Metric | Baseline | ACE |
+|--------|---------|-----|
+| Success rate | 30% | 100% |
+| Avg steps per domain | 38.8 | 6.9 |
+| Token cost | 1776k | 605k (incl. ACE) |
+
+**Result**: ACE starts similar to baseline but learns optimal patterns, achieving consistent 3-step completion.
+
+Try it yourself:
+```bash
+# Run baseline version (no learning)
+uv run python examples/browser-use/baseline_domain_checker.py
+
+# Run ACE-enhanced version (learns and improves)
+uv run python examples/browser-use/ace_domain_checker.py
+```
+
+## 📊 Results
 
 **Baseline (no learning):**
 - Same performance on every task
