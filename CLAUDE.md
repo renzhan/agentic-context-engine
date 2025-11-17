@@ -17,10 +17,9 @@ pip install ace-framework
 
 # Install with optional dependencies
 pip install ace-framework[all]           # All optional features
-pip install ace-framework[demos]         # Demo applications (browser automation)
-pip install ace-framework[langchain]     # LangChain integration
+pip install ace-framework[langchain]     # LangChain integration (enterprise)
+pip install ace-framework[observability] # Opik monitoring and cost tracking
 pip install ace-framework[transformers]  # Local model support
-pip install ace-framework[dev]           # Development tools
 
 # Development installation (contributors) - UV Method (Recommended)
 git clone https://github.com/kayba-ai/agentic-context-engine
@@ -304,14 +303,16 @@ features = get_available_features()
 ## Python Requirements
 - Python 3.11+ (developed with 3.12)
 - Dependencies managed via UV (see pyproject.toml/uv.lock)
-- Core: Pydantic, Python-dotenv, LiteLLM, tenacity
+- Core (~100MB): LiteLLM (required for Reflector/Curator), Pydantic, Python-dotenv, tenacity
 - Optional dependencies available for:
-  - `demos`: Browser automation with browser-use, rich UI, datasets
   - `observability`: Opik integration for production monitoring and **automatic token/cost tracking**
-  - `langchain`: LangChain integration
-  - `transformers`: Local model support with transformers, torch
-  - `dev`: Development tools (pytest, black, mypy)
-  - `all`: All optional dependencies combined
+  - `langchain`: LangChain integration (enterprise - langchain-openai + langchain-litellm)
+  - `transformers`: Local model support with transformers, torch, accelerate
+  - `all`: All optional dependencies combined (~500MB total)
+- Development dependencies (NOT distributed to PyPI):
+  - Managed via `[dependency-groups]` (PEP 735)
+  - Auto-installed for contributors via `uv sync`
+  - Includes: pytest, black, mypy, pre-commit, git-changelog
 
 ## Automatic Token Usage & Cost Tracking
 

@@ -57,13 +57,12 @@ Each example folder contains:
 ### 1. Installation
 
 ```bash
-# Install ACE framework with browser-use demo dependencies
-pip install ace-framework[demos]
+# Install ACE framework (core only - does NOT include browser-use)
+pip install ace-framework
 
-# Or for development (using UV - recommended)
+# For contributors running browser demos (UV - recommended)
 cd agentic-context-engine
-uv sync --extra demos      # Install with demos dependencies
-# Or: uv sync --all-extras  # Install all optional dependencies
+uv sync --group demos      # Installs browser-use, playwright, rich, etc.
 ```
 
 ### 2. Set API Key
@@ -280,7 +279,7 @@ Have a cool browser automation use case? Add a new example folder!
 
 **Browser not starting?**
 - Browser-use automatically downloads Chromium via Playwright on first run
-- If issues persist, check browser-use installation: `pip install browser-use`
+- If issues persist, install demos group: `uv sync --group demos` (contributors)
 
 **LLM API errors?**
 - Verify API key is set: `echo $OPENAI_API_KEY`

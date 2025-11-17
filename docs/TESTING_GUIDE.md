@@ -517,8 +517,8 @@ jobs:
 
     - name: Install dependencies
       run: |
-        python -m pip install --upgrade pip
-        pip install -e .[dev]
+        pip install uv
+        uv sync  # Installs dev dependencies via [dependency-groups]
 
     - name: Run tests
       run: |

@@ -2,18 +2,20 @@
 
 ### Installation
 ```bash
-# Basic installation
+# Basic installation (~100MB)
 pip install ace-framework
 
 # With optional features
-pip install ace-framework[demos]         # Browser automation demos
+pip install ace-framework[observability]  # Production monitoring (Opik)
+pip install ace-framework[langchain]     # LangChain integration
 pip install ace-framework[transformers]  # Local model support
-pip install ace-framework[all]          # All features
+pip install ace-framework[all]          # All features (~500MB)
 
 # Contributors (10-100x faster with UV)
 git clone https://github.com/kayba-ai/agentic-context-engine
 cd agentic-context-engine
-uv sync
+uv sync                    # Installs core + dev tools
+uv sync --group demos      # Also installs browser-use for demos
 ```
 
 ### Set API Key

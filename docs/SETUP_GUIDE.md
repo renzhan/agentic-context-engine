@@ -47,16 +47,11 @@ pip install ace-framework[langchain]
 pip install ace-framework[all]
 ```
 
-#### For Development
-```bash
-pip install ace-framework[dev]
-```
-
-### Installing from Source
+### Installing from Source (Contributors)
 ```bash
 git clone https://github.com/Kayba-ai/agentic-context-engine.git
 cd agentic-context-engine
-pip install -e .
+uv sync  # Installs core + dev dependencies automatically
 ```
 
 ### Virtual Environment (Recommended)

@@ -198,33 +198,31 @@ flowchart LR
 ## Installation Options
 
 ```bash
-# Basic installation
+# Basic installation (~100MB - includes LiteLLM for 100+ providers)
 pip install ace-framework
 
-# With demo support (browser automation)
-pip install ace-framework[demos]
+# With production monitoring (Opik integration)
+pip install ace-framework[observability]
 
-# With LangChain support
+# With LangChain integration (enterprise)
 pip install ace-framework[langchain]
 
-# With local model support
+# With local model support (Transformers)
 pip install ace-framework[transformers]
 
-# With all features
+# With all optional features (~500MB)
 pip install ace-framework[all]
 
-# Development
-pip install ace-framework[dev]
+# Mix and match
+pip install ace-framework[observability,langchain]
 
 # Development from source (contributors) - UV Method (10-100x faster)
 git clone https://github.com/kayba-ai/agentic-context-engine
 cd agentic-context-engine
-uv sync
+uv sync                    # Installs core + dev tools
 
-# Development from source (contributors) - Traditional Method
-git clone https://github.com/kayba-ai/agentic-context-engine
-cd agentic-context-engine
-pip install -e .
+# To run browser automation demos (contributors only)
+uv sync --group demos      # Also installs browser-use, playwright, etc.
 ```
 
 ## Configuration
