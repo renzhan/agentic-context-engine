@@ -17,6 +17,68 @@ from datetime import datetime
 from typing import Dict, Any, List, Optional
 
 # ================================
+# SHARED CONSTANTS
+# ================================
+
+PLAYBOOK_USAGE_INSTRUCTIONS = """\
+**How to use these strategies:**
+- Review bullets relevant to your current task
+- Prioritize strategies with high success rates (helpful > harmful)
+- Apply strategies when they match your context
+- Adapt general strategies to your specific situation
+- Learn from both successful patterns and failure avoidance
+
+**Important:** These are learned patterns, not rigid rules. Use judgment.\
+"""
+
+
+def wrap_playbook_for_external_agent(playbook) -> str:
+    """
+    Wrap playbook bullets with explanation for external agents.
+
+    This is the canonical function for injecting playbook context into
+    external agentic systems (browser-use, custom agents, LangChain, etc.).
+
+    Single source of truth for playbook presentation outside of ACE Generator.
+
+    Args:
+        playbook: Playbook instance with learned strategies
+
+    Returns:
+        Formatted text with playbook strategies and usage instructions.
+        Returns empty string if playbook has no bullets.
+
+    Example:
+        >>> from ace import Playbook
+        >>> from ace.prompts_v2_1 import wrap_playbook_for_external_agent
+        >>> playbook = Playbook()
+        >>> playbook.add_bullet("general", "Always verify inputs")
+        >>> context = wrap_playbook_for_external_agent(playbook)
+        >>> enhanced_task = f"{task}\\n\\n{context}"
+    """
+    bullets = playbook.bullets()
+
+    if not bullets:
+        return ""
+
+    # Get formatted bullets from playbook
+    bullet_text = playbook.as_prompt()
+
+    # Wrap with explanation using canonical instructions
+    wrapped = f"""
+## 📚 Available Strategic Knowledge (Learned from Experience)
+
+The following strategies have been learned from previous task executions.
+Each bullet shows its success rate based on helpful/harmful feedback:
+
+{bullet_text}
+
+{PLAYBOOK_USAGE_INSTRUCTIONS}
+"""
+    return wrapped
+
+
+# ================================
 # GENERATOR PROMPT - VERSION 2.1
 # ================================
 

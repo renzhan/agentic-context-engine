@@ -35,6 +35,7 @@ except ImportError:
 from ..llm_providers import LiteLLMClient
 from ..playbook import Playbook
 from ..roles import Reflector, Curator, GeneratorOutput
+from ..prompts_v2_1 import PromptManager
 from .base import wrap_playbook_context
 
 
@@ -142,9 +143,14 @@ class ACEAgent:
             model=ace_model, max_tokens=ace_max_tokens
         )
 
-        # Create ACE learning components (NO GENERATOR!)
-        self.reflector = Reflector(self.ace_llm)
-        self.curator = Curator(self.ace_llm)
+        # Create ACE learning components with v2.1 prompts (NO GENERATOR!)
+        prompt_mgr = PromptManager()
+        self.reflector = Reflector(
+            self.ace_llm, prompt_template=prompt_mgr.get_reflector_prompt()
+        )
+        self.curator = Curator(
+            self.ace_llm, prompt_template=prompt_mgr.get_curator_prompt()
+        )
 
     async def run(
         self,

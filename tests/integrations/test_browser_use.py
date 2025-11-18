@@ -418,6 +418,73 @@ class TestACEAgentIntegration:
         pass
 
 
+class TestPromptVersionUsage:
+    """Test that ACEAgent uses v2.1 prompts by default."""
+
+    def test_reflector_uses_v2_1(self):
+        """Should use v2.1 prompt for Reflector."""
+        from browser_use import ChatBrowserUse
+
+        agent = ACEAgent(llm=ChatBrowserUse())
+
+        # Verify Reflector uses v2.1
+        assert agent.reflector.prompt_template is not None
+        assert (
+            "v2.1" in agent.reflector.prompt_template
+            or "2.1" in agent.reflector.prompt_template
+        )
+        # v2.1 has enhanced structure with QUICK REFERENCE
+        assert "QUICK REFERENCE" in agent.reflector.prompt_template
+
+    def test_curator_uses_v2_1(self):
+        """Should use v2.1 prompt for Curator."""
+        from browser_use import ChatBrowserUse
+
+        agent = ACEAgent(llm=ChatBrowserUse())
+
+        # Verify Curator uses v2.1
+        assert agent.curator.prompt_template is not None
+        assert (
+            "v2.1" in agent.curator.prompt_template
+            or "2.1" in agent.curator.prompt_template
+        )
+        # v2.1 has atomicity scoring
+        assert "atomicity" in agent.curator.prompt_template.lower()
+
+    def test_playbook_wrapper_uses_canonical_function(self):
+        """Should use canonical wrap function from prompts_v2_1."""
+        from ace.integrations.base import wrap_playbook_context
+        from ace.prompts_v2_1 import wrap_playbook_for_external_agent
+        from ace import Playbook
+
+        playbook = Playbook()
+        playbook.add_bullet("general", "Test strategy")
+
+        # Both functions should produce identical output
+        result1 = wrap_playbook_context(playbook)
+        result2 = wrap_playbook_for_external_agent(playbook)
+
+        assert result1 == result2
+        assert "📚 Available Strategic Knowledge" in result1
+        assert "Test strategy" in result1
+
+    def test_playbook_wrapper_includes_usage_instructions(self):
+        """Should include PLAYBOOK_USAGE_INSTRUCTIONS constant."""
+        from ace.integrations.base import wrap_playbook_context
+        from ace import Playbook
+
+        playbook = Playbook()
+        playbook.add_bullet("general", "Test strategy")
+
+        result = wrap_playbook_context(playbook)
+
+        # Should include instructions from constant
+        assert "How to use these strategies" in result
+        assert "Review bullets relevant to your current task" in result
+        assert "Prioritize strategies with high success rates" in result
+        assert "These are learned patterns, not rigid rules" in result
+
+
 class TestBackwardsCompatibility:
     """Test that existing code patterns still work."""
 

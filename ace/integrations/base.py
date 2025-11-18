@@ -21,6 +21,7 @@ Example:
 """
 
 from ..playbook import Playbook
+from ..prompts_v2_1 import wrap_playbook_for_external_agent
 
 
 def wrap_playbook_context(playbook: Playbook) -> str:
@@ -28,9 +29,8 @@ def wrap_playbook_context(playbook: Playbook) -> str:
     Wrap playbook bullets with explanation for external agents.
 
     This helper formats learned strategies from the playbook with instructions
-    on how to apply them. It uses the same explanation as the ACE Generator
-    so that external agents (browser-use, custom agents, etc.) can understand
-    and leverage learned knowledge.
+    on how to apply them. Delegates to the canonical implementation in
+    prompts_v2_1 to ensure consistency across all ACE components.
 
     The formatted output includes:
     - Header explaining these are learned strategies
@@ -50,34 +50,13 @@ def wrap_playbook_context(playbook: Playbook) -> str:
         >>> playbook.add_bullet("general", "Always verify inputs")
         >>> context = wrap_playbook_context(playbook)
         >>> enhanced_task = f"{task}\\n\\n{context}"
+
+    Note:
+        This function delegates to wrap_playbook_for_external_agent() in
+        prompts_v2_1 module, which is the single source of truth for
+        playbook presentation. Kept here for backward compatibility.
     """
-    bullets = playbook.bullets()
-
-    if not bullets:
-        return ""
-
-    # Get formatted bullets from playbook
-    bullet_text = playbook.as_prompt()
-
-    # Wrap with explanation (extracted from Generator v2.1 prompt)
-    wrapped = f"""
-## 📚 Available Strategic Knowledge (Learned from Experience)
-
-The following strategies have been learned from previous task executions.
-Each bullet shows its success rate based on helpful/harmful feedback:
-
-{bullet_text}
-
-**How to use these strategies:**
-- Review bullets relevant to your current task
-- Prioritize strategies with high success rates (helpful > harmful)
-- Apply strategies when they match your context
-- Adapt general strategies to your specific situation
-- Learn from both successful patterns and failure avoidance
-
-**Important:** These are learned patterns, not rigid rules. Use judgment.
-"""
-    return wrapped
+    return wrap_playbook_for_external_agent(playbook)
 
 
 __all__ = ["wrap_playbook_context"]
