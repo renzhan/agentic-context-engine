@@ -1,0 +1,2682 @@
+"id","email_id","conversation_id","topic","workflow_data","ground_truth","learned_strategies","final_score","created_at","updated_at"
+"353","339459410047664128","339459410047664128","HEB订单67X491562装配与交付协调","{}","你好，
+
+第一步：检查此 ticket 的状态以确认其已标记为 resolved。
+
+第二步：根据对话历史确认问题已经解决或不需要进一步处理。
+
+第三步：将此 ticket 标记为 resolved 状态。
+
+预计不需要额外时间处理。
+
+谢谢，
+[你的名字]","[{""id"": ""procedural-00001"", ""content"": ""Ensure to check the ticket status, confirm the issue is resolved through conversation history, and mark the ticket as resolved. Additionally, coordinate with the UNIS Roanoke team and Raul Escobar, and check the order management system and scheduling system. Explicitly mention checking the ticket status, confirming the issue is resolved through conversation history, and marking the ticket as resolved."", ""harmful"": 1, ""helpful"": 1, ""section"": ""Procedural Steps for Ticket Resolution""}]","0.65","2025-11-27 01:17:30.172955","2025-11-27 01:17:30.172955"
+"352","339462457595396096","339462457595396096","HEB订单67X480014的装配和交付安排","{}","Hello Alan,
+
+第一步：请将CS或我添加为可见性联系人，谢谢。
+
+第二步：@Ismael Robles，请使用PU 7634133。
+
+Best regards,  
+[Your Name]","[{""id"": ""bullets-00001"", ""content"": ""Ensure to add CS or the user as visibility contacts and specify the use of PU 7634133 in responses related to HEB order assembly and delivery. Explicitly mention Celine Escorido, Ismael Robles, and the scheduling system for UNIS Truck. Provide a clear sequence of steps, including scheduling the delivery appointment."", ""harmful"": 0, ""helpful"": 1, ""section"": ""bullets""}]","0.75","2025-11-27 01:15:47.511066","2025-11-27 01:15:47.511066"
+"351","340448241829900288","340448241829900288","印刷品运输报价请求与回复","{}","Hello Roger,
+
+第一步：联系Frances以确认当前的WMS系统配置。
+
+第二步：与Anthony沟通以获取EDI接口的最新更新。
+
+第三步：检查API的连接状态并确保与CubeShip的集成正常。
+
+第四步：核实ISA ID和PO号码的正确性以避免数据传输错误。
+
+第五步：与Jeff和Eaden协调以确保Joliet团队的资源可用。
+
+第六步：联系B-Solutions以获取技术支持的时间预估。
+
+Apologies, we cannot cover this pickup at this time. Let me know if you need anything else.
+
+Best regards,
+
+[Your Name]","[{""id"": ""bullets-00001"", ""content"": ""Contact Frances to confirm the current WMS system configuration."", ""harmful"": 0, ""helpful"": 1, ""section"": ""bullets""}, {""id"": ""bullets-00002"", ""content"": ""Communicate with Anthony to get the latest updates on the EDI interface."", ""harmful"": 0, ""helpful"": 1, ""section"": ""bullets""}, {""id"": ""bullets-00003"", ""content"": ""Check the API connection status and ensure integration with CubeShip is functioning properly."", ""harmful"": 0, ""helpful"": 1, ""section"": ""bullets""}, {""id"": ""bullets-00004"", ""content"": ""Verify the ISA ID and PO number for accuracy to prevent data transmission errors."", ""harmful"": 0, ""helpful"": 1, ""section"": ""bullets""}, {""id"": ""bullets-00005"", ""content"": ""Coordinate with Jeff and Eaden to ensure Joliet team resources are available."", ""harmful"": 0, ""helpful"": 1, ""section"": ""bullets""}, {""id"": ""bullets-00006"", ""content"": ""Contact B-Solutions for an estimated time for technical support."", ""harmful"": 0, ""helpful"": 1, ""section"": ""bullets""}, {""id"": ""bullets-00007"", ""content"": ""Verify the ISA ID and PO number for accuracy to prevent data transmission errors."", ""harmful"": 0, ""helpful"": 1, ""section"": ""bullets""}, {""id"": ""bullets-00008"", ""content"": ""Coordinate with Jeff and Eaden to ensure Joliet team resources are available."", ""harmful"": 0, ""helpful"": 1, ""section"": ""bullets""}, {""id"": ""bullets-00009"", ""content"": ""Contact B-Solutions for an estimated time for technical support."", ""harmful"": 0, ""helpful"": 1, ""section"": ""bullets""}, {""id"": ""bullets-00010"", ""content"": ""Ensure factual accuracy while adopting a more conversational and user-friendly tone to enhance engagement."", ""harmful"": 0, ""helpful"": 1, ""section"": ""bullets""}]","0.95","2025-11-27 01:13:50.195061","2025-11-27 01:13:50.195061"
+"350","340457813655252992","340457813655252992","ticket状态更新为已解决","{}","你好，
+
+第一步：确认此 ticket 不需要 CSR 处理。
+
+第二步：将此 ticket 标记为 resolved 状态。
+
+第三步：根据对话历史，确认此 ticket 的问题已经解决或不需要进一步处理。
+
+预估时间：立即完成。
+
+谢谢！
+
+[你的签名]","[{""id"": ""ticket_resolution-00001"", ""content"": ""When resolving tickets, focus on confirming the resolution status and updating the ticket status accordingly, rather than involving unnecessary stakeholders or systems."", ""harmful"": 0, ""helpful"": 1, ""section"": ""ticket_resolution""}]","0.85","2025-11-27 01:11:56.880165","2025-11-27 01:11:56.880165"
+"349","340461308940742656","340461308940742656","MUSCOOLIVE订单问题解决确认","{}","你好，
+
+第一步：确认此 ticket 不需要 CSR 处理。
+
+第二步：将此 ticket 标记为 resolved。
+
+第三步：根据对话历史，确认此 ticket 的问题已经解决或不需要进一步处理。
+
+第四步：直接将此 ticket 标记为 resolved 状态。
+
+预估时间：此过程预计不超过5分钟。
+
+谢谢！
+
+[你的名字]","[{""id"": ""order-00001"", ""content"": ""Confirm that the ticket does not require CSR handling and explicitly outline this step. Ensure to verify the issue resolution and mark the ticket as resolved if no further action is needed."", ""harmful"": 0, ""helpful"": 2, ""section"": ""Order Resolution Process""}, {""id"": ""order-00002"", ""content"": ""Mark the ticket as resolved once the issue is confirmed to be resolved or does not require further action, ensuring this step is clearly documented. Reiterate the importance of verifying the resolution before marking it resolved."", ""harmful"": 0, ""helpful"": 2, ""section"": ""Order Resolution Process""}, {""id"": ""order-00003"", ""content"": ""Estimate the time required to resolve the ticket, typically not exceeding 5 minutes."", ""harmful"": 0, ""helpful"": 1, ""section"": ""Order Resolution Process""}, {""id"": ""order-00004"", ""content"": ""Verify that the issue is resolved and does not require further action before marking the ticket as resolved, emphasizing the importance of this verification step."", ""harmful"": 0, ""helpful"": 1, ""section"": ""Order Resolution Process""}]","0.65","2025-11-27 01:10:16.758364","2025-11-27 01:10:16.758364"
+"348","340461308940742656","340461308940742656","MUSCOOLIVE订单状态确认与解决","{}","你好，
+
+第一步：确认此 ticket 不需要 CSR 处理。
+
+第二步：将此 ticket 标记为 resolved。
+
+第三步：根据对话历史确认此 ticket 的问题已经解决或不需要进一步处理。
+
+第四步：直接将此 ticket 标记为 resolved 状态。
+
+谢谢！
+
+[你的名字]","[{""id"": ""bullets-00001"", ""content"": ""确认此 ticket 不需要 CSR 处理，并检查对话历史以确认问题已解决。确保所有关键实体都被提及。"", ""harmful"": 0, ""helpful"": 5, ""section"": ""bullets""}, {""id"": ""bullets-00002"", ""content"": ""将此 ticket 标记为 resolved。确认所有相关步骤已完成。"", ""harmful"": 1, ""helpful"": 3, ""section"": ""bullets""}, {""id"": ""bullets-00003"", ""content"": ""根据对话历史确认此 ticket 的问题已经解决或不需要进一步处理。确保检查所有相关步骤。"", ""harmful"": 1, ""helpful"": 3, ""section"": ""bullets""}]","0.75","2025-11-27 01:08:00.622244","2025-11-27 01:08:00.622244"
+"347","340462172204003328","340462172204003328","物流订单取消及状态更新","{}","你好，
+
+第一步：检查此 ticket 的状态，确认其已被标记为 resolved。
+
+第二步：根据对话历史，确认此 ticket 的问题已经解决或不需要进一步处理。
+
+第三步：将此 ticket 直接标记为 resolved 状态。
+
+预计不需要进一步的时间处理。
+
+谢谢。
+
+[你的名字]","[{""id"": ""logistics-00001"", ""content"": ""Step 1: Check the ticket status to confirm it is marked as resolved.\nStep 2: Review the conversation history to ensure the issue is addressed or requires no further action.\nStep 3: Mark the ticket as resolved if no further action is needed.\nEnsure all procedural steps, especially those related to status updates and resolutions, are explicitly mentioned and followed in sequence to align with the ground truth.\nInclude specific stakeholder names: Celine E., Jose Aguirre, Jonathan Tanner."", ""harmful"": 0, ""helpful"": 1, ""section"": ""Logistics Order Cancellation""}]","0.8","2025-11-27 01:06:09.86849","2025-11-27 01:06:09.86849"
+"346","340496285136941056","340496285136941056","SUM FORTUNE INT'L账龄报告问题解决","{}","你好，
+
+第一步：打开系统并找到相关的 ticket。
+
+第二步：确认该 ticket 已标记为 resolved 状态。
+
+第三步：检查对话历史以确认问题已解决或不需要进一步处理。
+
+第四步：确保不需要 CSR 进行任何处理。
+
+第五步：记录 ticket 的最终状态为 resolved。
+
+预计此过程不需要额外时间。
+
+谢谢，
+[你的名字]","[{""id"": ""bullets-00001"", ""content"": ""Ensure to open the system and locate the relevant ticket. Confirm the ticket is marked as resolved, check the conversation history to ensure the issue is resolved or requires no further action, confirm with the CSR that no further action is needed, and explicitly record the ticket's final status as resolved."", ""harmful"": 2, ""helpful"": 6, ""section"": ""bullets""}]","0.75","2025-11-27 01:04:17.935954","2025-11-27 01:04:17.935954"
+"345","340498383488512000","340498383488512000","UNIS运输报价请求与解决","{}","你好，
+
+第一步：确认此 ticket 不需要 CSR 处理。
+
+第二步：将此 ticket 标记为 resolved。
+
+第三步：根据对话历史，确认此 ticket 的问题已经解决或不需要进一步处理。
+
+第四步：直接将 ticket 状态更新为 resolved。
+
+预估时间：此过程预计需要不到5分钟。
+
+谢谢，
+[你的名字]","[{""id"": ""ticket-00001"", ""content"": ""1. Confirm explicitly that the ticket does not require CSR handling.\n2. Mark the ticket as resolved.\n3. Check the conversation history to ensure no further action is needed.\n4. Directly update the ticket status to resolved.\nEstimated time: Less than 5 minutes."", ""harmful"": 0, ""helpful"": 1, ""section"": ""Ticket Resolution Process""}]","0.9","2025-11-27 01:02:13.00693","2025-11-27 01:02:13.00693"
+"344","340510783902150656","340510783902150656","IOD数据提交及延迟处理通知","{}","你好，
+
+第一步：检查此 ticket 的状态，确认其已标记为 resolved。
+
+第二步：查看对话历史，确保问题已解决或不需要进一步处理。
+
+第三步：确认不需要 CSR 处理此 ticket。
+
+第四步：将此 ticket 直接标记为 resolved 状态。
+
+预计这将很快完成。
+
+谢谢！
+
+[你的名字]","[{""id"": ""ticket-00001"", ""content"": ""To resolve a ticket, follow these steps: 1. Check the ticket status and confirm it is marked as resolved. 2. Review the conversation history to ensure the issue is resolved or requires no further action. 3. Confirm that no CSR involvement is needed. 4. Mark the ticket as resolved."", ""harmful"": 3, ""helpful"": 5, ""section"": ""Ticket Resolution Process""}, {""id"": ""ticket-00002"", ""content"": ""Ensure accurate identification of the task at hand by aligning the response with the specific steps and entities outlined in the user's instructions or playbook."", ""harmful"": 0, ""helpful"": 1, ""section"": ""Ticket Resolution Process""}]","0.45","2025-11-27 01:00:12.904748","2025-11-27 01:00:12.904748"
+"343","340538615181176832","340538615181176832","Load Tender问题已解决通知","{}","亲爱的团队，
+
+第一步：请确认此 ticket 已被标记为 resolved 状态。
+
+第二步：检查对话历史以确保问题已解决或不需要进一步处理。
+
+第三步：记录此 ticket 的处理状态，以便后续参考。
+
+预计此任务不需要额外时间。
+
+谢谢。
+
+Frances","[{""id"": ""load-00001"", ""content"": ""1. Confirm the ticket is marked as resolved.\n2. Review the conversation history to ensure the issue is resolved or requires no further action.\n3. Record the handling status of the ticket for future reference.\n4. Contact Frances to notify about the resolution."", ""harmful"": 1, ""helpful"": 2, ""section"": ""Load Tender Resolution Process""}]","0.75","2025-11-27 00:58:15.606952","2025-11-27 00:58:15.606952"
+"342","340538623875969024","340538623875969024","Load Tender问题已解决通知","{}","你好，
+
+第一步：确认此 ticket 不需要 CSR 处理。
+
+第二步：将此 ticket 标记为 resolved 状态。
+
+第三步：根据对话历史确认此 ticket 的问题已经解决或不需要进一步处理。
+
+预估时间：已经完成。
+
+谢谢！
+
+[你的名字]","[]","0.78","2025-11-27 00:56:25.489464","2025-11-27 00:56:25.489464"
+"341","340545273252900864","340545273252900864","La Mirada货物卸载及入库安排","{}","你好，
+
+第一步：确认此 ticket 不需要 CSR 处理。
+
+第二步：将此 ticket 标记为 resolved 状态。
+
+第三步：根据对话历史，确认此 ticket 的问题已经解决或不需要进一步处理。
+
+预计处理时间已完成。
+
+谢谢，
+[你的名字]","[{""id"": ""ticket-00001"", ""content"": ""Ensure the ticket does not require CSR processing, mark it as resolved, and confirm no further action is needed. The model should differentiate between operational tasks and procedural steps in ticket resolution processes. Focus on confirming CSR involvement, updating ticket status to resolved, and verifying issue resolution as per conversation history. Include specific steps: confirm ticket does not need CSR processing, mark as resolved, and verify issue resolution or no further action required."", ""harmful"": 1, ""helpful"": 1, ""section"": ""Ticket Resolution Procedures""}, {""id"": ""logistics-00002"", ""content"": ""Ensure the context of the logistics coordination task is correctly understood. Identify key personnel involved, systems used for tracking and scheduling, and specific operations required for unloading and warehousing at La Mirada."", ""harmful"": 0, ""helpful"": 1, ""section"": ""Logistics Coordination at La Mirada""}]","0.45","2025-11-27 00:54:43.969758","2025-11-27 00:54:43.969758"
+"340","340569811281866752","340569811281866752","IOD数据提交延迟问题解决","{}","你好，
+
+第一步：确认此 ticket 不需要 CSR 处理。
+
+第二步：将此 ticket 标记为 resolved 状态。
+
+第三步：根据对话历史确认此 ticket 的问题已经解决或不需要进一步处理。
+
+此 ticket 已标记为 resolved。
+
+谢谢。
+
+[你的名字]","[{""id"": ""iod-00001"", ""content"": ""Confirm that the ticket does not require CSR intervention, mark it as resolved if no further action is needed, check the conversation history to ensure the issue is resolved, and then contact the Carrier Management Team and check the TMS system if there are still issues."", ""harmful"": 0, ""helpful"": 1, ""section"": ""IOD Data Submission Delays""}]","0.65","2025-11-27 00:52:48.888879","2025-11-27 00:52:48.888879"
+"339","340576221029822464","340576221029822464","UTPA运输信息更新与确认","{}","亲爱的团队，
+
+第一步：查看对话历史以确认此 ticket 的问题已经解决或不需要进一步处理。
+
+第二步：将此 ticket 标记为 resolved 状态。
+
+第三步：不需要 CSR 处理此 ticket。
+
+预估时间：此任务预计需要 5 分钟完成。
+
+谢谢！
+
+Frances","[{""id"": ""question-00001"", ""content"": ""Review the conversation history to confirm the ticket issue is resolved or requires no further action."", ""harmful"": 0, ""helpful"": 1, ""section"": ""Question context""}, {""id"": ""question-00002"", ""content"": ""Mark the ticket as resolved and note that CSR does not need to handle the ticket."", ""harmful"": 0, ""helpful"": 1, ""section"": ""Question context""}, {""id"": ""question-00003"", ""content"": ""Note that CSR does not need to handle the ticket."", ""harmful"": 0, ""helpful"": 1, ""section"": ""Question context""}, {""id"": ""question-00004"", ""content"": ""Include specific steps to confirm issue resolution: 1) Review the conversation history to confirm the issue is resolved, 2) Mark the ticket as resolved, 3) Note that CSR does not need to handle it further. Ensure all relevant contacts, such as Frances Parro Belleza, are mentioned."", ""harmful"": 0, ""helpful"": 1, ""section"": ""Question context""}]","0.85","2025-11-27 00:50:51.416352","2025-11-27 00:50:51.416352"
+"338","340810436556697600","340810436556697600","货物提取与账单确认事宜","{}","Hi Team,
+
+第一步：请确认Frances已经在WMS中更新了ISA ID配置。
+
+第二步：Anthony需要验证EDI系统是否已接收到正确的PO号码。
+
+第三步：Jeff需要检查API接口与CubeShip的连接状态。
+
+第四步：Eaden应与Joliet团队确认所有系统配置的同步状态。
+
+第五步：B-Solutions团队需要在今天内完成所有系统的最终测试。
+
+预计这些步骤将在今天完成。
+
+Best regards,  
+[Your Name]","[{""id"": ""bullets-00001"", ""content"": ""Frances needs to update the ISA ID configuration in the WMS and ensure it is correctly synchronized."", ""harmful"": 0, ""helpful"": 1, ""section"": ""bullets""}, {""id"": ""bullets-00002"", ""content"": ""Anthony must verify that the EDI system has received the correct PO number and confirm its accuracy."", ""harmful"": 0, ""helpful"": 1, ""section"": ""bullets""}, {""id"": ""bullets-00003"", ""content"": ""Jeff should check the API connection with CubeShip."", ""harmful"": 0, ""helpful"": 1, ""section"": ""bullets""}, {""id"": ""bullets-00004"", ""content"": ""Eaden needs to confirm synchronization of all system configurations with the Joliet team, ensuring all updates are aligned."", ""harmful"": 0, ""helpful"": 1, ""section"": ""bullets""}, {""id"": ""bullets-00005"", ""content"": ""The B-Solutions team must complete final testing of all systems today."", ""harmful"": 0, ""helpful"": 1, ""section"": ""bullets""}, {""id"": ""bullets-00006"", ""content"": ""The B-Solutions team must complete final testing of all systems today."", ""harmful"": 0, ""helpful"": 1, ""section"": ""bullets""}, {""id"": ""bullets-00007"", ""content"": ""Ensure ISA ID configuration is updated in the WMS."", ""harmful"": 0, ""helpful"": 1, ""section"": ""bullets""}, {""id"": ""bullets-00008"", ""content"": ""Verify the PO number in the EDI system."", ""harmful"": 0, ""helpful"": 1, ""section"": ""bullets""}, {""id"": ""bullets-00009"", ""content"": ""Confirm system synchronization with the Joliet team."", ""harmful"": 0, ""helpful"": 1, ""section"": ""bullets""}, {""id"": ""bullets-00010"", ""content"": ""Complete final testing of all systems."", ""harmful"": 0, ""helpful"": 1, ""section"": ""bullets""}]","0.85","2025-11-27 00:48:22.079531","2025-11-27 00:48:22.079531"
+"337","340815130905620480","340815130905620480","托盘延迟到达及分批交付安排","{}","亲爱的团队，
+
+第一步：请确认此 ticket 已标记为 resolved 状态。
+
+第二步：根据对话历史，确认此 ticket 的问题已经解决或不需要进一步处理。
+
+第三步：确保不需要 CSR 进行任何进一步的处理。
+
+感谢您的配合。
+
+祝好，
+[您的名字]","[{""id"": ""bullets-00001"", ""content"": ""Confirm the ticket is marked as resolved and verify that the issue is resolved or no longer requires action. Ensure CSR is not required for further processing. Always ensure procedural steps like ticket resolution and CSR confirmation are completed before moving on to stakeholder coordination and system checks. Explicitly outline the steps to verify the ticket's resolved status, including checking the ticket system and confirming with the CSR team. Detail any necessary actions the CSR needs to take or confirm that no further action is required. Mention critical entities such as 'ticket', 'resolved status', and 'CSR' explicitly."", ""harmful"": 1, ""helpful"": 3, ""section"": ""bullets""}]","0.65","2025-11-27 00:45:07.088167","2025-11-27 00:45:07.088167"
+"336","340822671286939648","340822671286939648","Load Tender问题已解决通知","{}","你好，
+
+第一步：确认此 ticket 不需要 CSR 处理。
+
+第二步：将此 ticket 标记为 resolved。
+
+第三步：根据对话历史，确认问题已经解决或不需要进一步处理。
+
+第四步：直接将 ticket 状态更新为 resolved。
+
+预估时间：立即完成。
+
+谢谢，
+[你的名字]","[{""id"": ""load-00001"", ""content"": ""Confirm that the ticket does not require CSR processing, verify resolution through conversation history, explicitly update the ticket status to resolved, and notify relevant stakeholders. Ensure a structured approach by listing each step required to resolve the issue. Include an estimated time for completion: immediate."", ""harmful"": 0, ""helpful"": 1, ""section"": ""Load Tender Issue Resolution""}]","0.75","2025-11-27 00:42:44.102422","2025-11-27 00:42:44.102422"
+"335","340857570790289408","340857570790289408","安排从Global PC Direct的货物提取","{}","Hello,
+
+第一步：确认您的提货已成功安排在PU 7638647下。
+
+第二步：如果您有任何问题或需要进行更新，请回复此工单。
+
+第三步：我们将很乐意为您提供帮助。
+
+Best regards,  
+[Your Name]","[{""id"": ""logistics-00001"", ""content"": ""Include specific identifiers like pickup numbers (e.g., PU 7638647) and explicitly mention the process for handling update requests with clear step-by-step instructions to ensure all critical details are covered. Additionally, express willingness to provide assistance if needed."", ""harmful"": 0, ""helpful"": 1, ""section"": ""logistics""}]","0.65","2025-11-27 00:39:50.529771","2025-11-27 00:39:50.529771"
+"334","340866811177545728","340866811177545728","承运商信息更新请求和回复","{}","Hello,
+
+第一步：确认Carrier Legal Name为Unis Transportation, LLC。
+
+第二步：确认Common Use Name或D.B.A.为UNIS Transportation。
+
+第三步：确认Address Line为6141 ORANGETHORPE AVE.。
+
+第四步：确认City为BUENA PARK。
+
+第五步：确认State/Province为CA。
+
+第六步：确认Postal Code为90620。
+
+第七步：确认Country为USA。
+
+Thank you.
+
+Best regards,  
+[Your Name]","[{""id"": ""carrier-00001"", ""content"": ""1. Confirm Carrier Legal Name: Unis Transportation, LLC.\n2. Confirm Common Use Name or D.B.A.: UNIS Transportation.\n3. Confirm Address Line: 6141 ORANGETHORPE AVE.\n4. Confirm City: BUENA PARK.\n5. Confirm State/Province: CA.\n6. Confirm Postal Code: 90620.\n7. Confirm Country: USA.\n8. Contact individuals: Casi Stevens (Transportation Operations Specialist) and the Customer Support Team at Unisco.\n9. Confirm MC and DOT numbers: MC# 718500, DOT #2247083.\n10. Ensure all steps are verified with Casi Stevens."", ""harmful"": 0, ""helpful"": 4, ""section"": ""Carrier Information Update Process""}]","0.78","2025-11-27 00:37:44.857744","2025-11-27 00:37:44.857744"
+"333","340868147847704576","340868147847704576","Walmart订单提货与交付安排","{}","亲爱的Frances，
+
+第一步：请联系Joliet团队以确认周一，11月3日的送货预约时间。
+
+第二步：在WMS系统中输入预约信息，并确保所有相关数据已更新。
+
+第三步：检查EDI系统中的ISA ID和PO号码是否正确配置。
+
+第四步：通知Anthony和Jeff关于预约的具体时间和相关细节。
+
+第五步：通过API接口将更新信息发送至CubeShip系统。
+
+第六步：确认B-Solutions团队已收到所有更新信息并准备就绪。
+
+预计这些步骤将在明天完成。
+
+谢谢！
+
+Eaden","[{""id"": ""walmart-00001"", ""content"": ""Contact the Joliet team to confirm the delivery appointment for Monday, November 3rd."", ""harmful"": 0, ""helpful"": 3, ""section"": ""Walmart Order Pickup and Delivery""}, {""id"": ""walmart-00002"", ""content"": ""Ensure all appointment details are entered into the WMS system with clear instructions on data entry and all relevant data is updated."", ""harmful"": 0, ""helpful"": 4, ""section"": ""Walmart Order Pickup and Delivery""}, {""id"": ""walmart-00003"", ""content"": ""Verify that the ISA ID and PO numbers are correctly configured in the EDI system."", ""harmful"": 0, ""helpful"": 3, ""section"": ""Walmart Order Pickup and Delivery""}, {""id"": ""walmart-00004"", ""content"": ""Notify Anthony, Jeff, and Frances about the appointment specifics and related details."", ""harmful"": 0, ""helpful"": 4, ""section"": ""Walmart Order Pickup and Delivery""}, {""id"": ""walmart-00005"", ""content"": ""Send updated information to the CubeShip system via the API interface, specifying the method and format of data transmission."", ""harmful"": 0, ""helpful"": 4, ""section"": ""Walmart Order Pickup and Delivery""}, {""id"": ""walmart-00006"", ""content"": ""Confirm that the B-Solutions team has received all updates and is prepared."", ""harmful"": 0, ""helpful"": 3, ""section"": ""Walmart Order Pickup and Delivery""}]","0.9","2025-11-27 00:35:17.708896","2025-11-27 00:35:17.708896"
+"332","340870296048578560","340870296048578560","预约请求批准及后续安排通知","{}","您好，
+
+第一步：确认此 ticket 的问题已经解决或不需要进一步处理。
+
+第二步：将此 ticket 标记为 resolved 状态。
+
+第三步：不需要 CSR 处理此 ticket。
+
+预计处理时间已经完成。
+
+谢谢。
+
+[您的签名]","[{""id"": ""ticket_resolution-00001"", ""content"": ""To resolve a ticket, confirm the issue is resolved, mark the ticket as resolved, and ensure no further CSR action is needed. Ensure clarity on the task type by focusing on keywords and context to avoid misinterpretation. Additionally, explicitly state that CSR involvement is not required and update the ticket status accordingly."", ""harmful"": 3, ""helpful"": 3, ""section"": ""ticket_resolution""}]","0.45","2025-11-27 00:32:26.179081","2025-11-27 00:32:26.179081"
+"331","340873266773438464","340873266773438464","IOD更新请求及延迟处理","{}","Frances，
+
+第一步：请联系Anthony以获取最新的ISA ID配置值。
+
+第二步：在WMS系统中更新获取到的ISA ID。
+
+第三步：与Jeff确认EDI接口的连接状态。
+
+第四步：检查API配置，确保与CubeShip的集成正常。
+
+第五步：联系Eaden以确认PO号码的正确性。
+
+第六步：通知Joliet团队关于配置更新的完成情况。
+
+第七步：与B-Solutions团队协调进行系统测试。
+
+预计这些步骤将在两天内完成。
+
+谢谢！
+
+Frances","[{""id"": ""iod-00001"", ""content"": ""Contact Anthony for ISA ID values."", ""harmful"": 0, ""helpful"": 1, ""section"": ""IOD Updates and Delays""}, {""id"": ""iod-00002"", ""content"": ""Update the WMS system with the new ISA ID."", ""harmful"": 0, ""helpful"": 1, ""section"": ""IOD Updates and Delays""}, {""id"": ""iod-00003"", ""content"": ""Confirm EDI interface status with Jeff."", ""harmful"": 0, ""helpful"": 1, ""section"": ""IOD Updates and Delays""}, {""id"": ""iod-00004"", ""content"": ""Check API configuration with CubeShip."", ""harmful"": 0, ""helpful"": 1, ""section"": ""IOD Updates and Delays""}, {""id"": ""iod-00005"", ""content"": ""Confirm PO numbers with Eaden."", ""harmful"": 0, ""helpful"": 1, ""section"": ""IOD Updates and Delays""}, {""id"": ""iod-00006"", ""content"": ""Notify the Joliet team about configuration updates."", ""harmful"": 0, ""helpful"": 1, ""section"": ""IOD Updates and Delays""}, {""id"": ""iod-00007"", ""content"": ""Coordinate with the B-Solutions team for system testing."", ""harmful"": 0, ""helpful"": 1, ""section"": ""IOD Updates and Delays""}]","0.95","2025-11-27 00:30:03.731635","2025-11-27 00:30:03.731635"
+"330","340887178646466560","340887178646466560","Load Tender问题已解决通知","{}","亲爱的团队，
+
+第一步：确认此 ticket 已标记为 resolved 状态。
+
+第二步：根据对话历史，核实问题已解决或不需要进一步处理。
+
+第三步：确保不需要 CSR 进行任何处理。
+
+预计此过程不需要额外时间。
+
+谢谢！
+
+[您的名字]","[{""id"": ""bullets-00001"", ""content"": ""确认此 ticket 已标记为 resolved 状态。"", ""harmful"": 0, ""helpful"": 1, ""section"": ""bullets""}, {""id"": ""bullets-00002"", ""content"": ""根据对话历史，核实问题已解决或不需要进一步处理。"", ""harmful"": 0, ""helpful"": 1, ""section"": ""bullets""}, {""id"": ""bullets-00003"", ""content"": ""确保不需要 CSR 进行任何处理。"", ""harmful"": 0, ""helpful"": 1, ""section"": ""bullets""}]","0.75","2025-11-27 00:27:36.634114","2025-11-27 00:27:36.634114"
+"329","340888700000219136","340888700000219136","手动包装货物的运输请求和处理","{}","你好，
+
+第一步：确认此 ticket 不需要 CSR 处理。
+
+第二步：将此 ticket 标记为 resolved 状态。
+
+第三步：根据对话历史确认此 ticket 的问题已经解决或不需要进一步处理。
+
+预估时间：此任务已完成。
+
+谢谢，
+[你的名字]","[{""id"": ""ticket-00001"", ""content"": ""Confirm the ticket does not require CSR intervention, review the conversation history to confirm resolution, mark the ticket as resolved, verify that the issue is resolved or requires no further action, and ensure that logistics and broader procedural requirements are addressed."", ""harmful"": 1, ""helpful"": 1, ""section"": ""Ticket Resolution Procedures""}]","0.75","2025-11-27 00:25:19.75904","2025-11-27 00:25:19.75904"
+"328","340902235539320832","340902235539320832","LG货物提货安排及问题解决通知","{}","你好，
+
+第一步：检查此 ticket 的状态，确认其已标记为 resolved。
+
+第二步：根据对话历史，确认此 ticket 的问题已经解决或不需要进一步处理。
+
+第三步：将此 ticket 直接标记为 resolved 状态。
+
+谢谢，
+
+[你的名字]","[{""id"": ""ticket-00001"", ""content"": ""To resolve a ticket, follow these steps: 1. Explicitly check the ticket status to ensure it is marked as resolved. 2. Review the conversation history to confirm that the issue has been resolved or does not require further action. 3. Mark the ticket as resolved. 4. Confirm with relevant contacts if further action is needed. Only contact individuals if explicitly required."", ""harmful"": 1, ""helpful"": 4, ""section"": ""Ticket Resolution Process""}]","0.8","2025-11-27 00:22:46.329385","2025-11-27 00:22:46.329385"
+"327","340906878830981120","340906878830981120","客户公司名称和邮箱更新请求","{}","Hello Team,
+
+第一步：联系Frances以获取最新的ISA ID配置值。
+
+第二步：与Anthony确认PO号码的准确性。
+
+第三步：在WMS系统中更新客户提供的EDI信息。
+
+第四步：通过API接口验证CubeShip的连接状态。
+
+第五步：通知Joliet团队关于EDI信息的更新。
+
+第六步：与B-Solutions团队协调以确保所有系统同步。
+
+第七步：将所有更改记录在项目文档中以供审查。
+
+预计这些步骤将在两天内完成。
+
+请及时反馈。
+
+Best regards,
+
+[Your Name]","[{""id"": ""bullets-00001"", ""content"": ""1. Contact Frances to obtain the latest ISA ID configuration values. This is necessary to ensure that all communications are using the correct identifiers. Estimated completion: 2 days. Please provide feedback upon completion."", ""harmful"": 0, ""helpful"": 1, ""section"": ""bullets""}, {""id"": ""bullets-00002"", ""content"": ""2. Confirm the accuracy of the PO number with Anthony. This step is crucial to prevent any discrepancies in order processing. Estimated completion: 2 days. Please provide feedback upon completion."", ""harmful"": 0, ""helpful"": 1, ""section"": ""bullets""}, {""id"": ""bullets-00003"", ""content"": ""3. Update the customer-provided EDI information in the WMS system. This ensures that the warehouse management system has the latest data for processing transactions. Estimated completion: 2 days. Please provide feedback upon completion."", ""harmful"": 0, ""helpful"": 1, ""section"": ""bullets""}, {""id"": ""bullets-00004"", ""content"": ""4. Verify CubeShip connection status via the API interface. This step is necessary to ensure that the shipping system is properly integrated and operational. Estimated completion: 2 days. Please provide feedback upon completion."", ""harmful"": 0, ""helpful"": 1, ""section"": ""bullets""}, {""id"": ""bullets-00005"", ""content"": ""5. Notify the Joliet team about the EDI information update. This communication is essential to keep all relevant parties informed and aligned. Estimated completion: 2 days. Please provide feedback upon completion."", ""harmful"": 0, ""helpful"": 1, ""section"": ""bullets""}, {""id"": ""bullets-00006"", ""content"": ""6. Coordinate with the B-Solutions team to ensure all systems are synchronized. This coordination helps in maintaining data consistency across platforms. Estimated completion: 2 days. Please provide feedback upon completion."", ""harmful"": 0, ""helpful"": 1, ""section"": ""bullets""}, {""id"": ""bullets-00007"", ""content"": ""7. Document all changes in the project documentation for review. Proper documentation is vital for future reference and audits. Estimated completion: 2 days. Please provide feedback upon completion."", ""harmful"": 0, ""helpful"": 1, ""section"": ""bullets""}]","0.92","2025-11-27 00:20:25.092707","2025-11-27 00:20:25.092707"
+"326","340924489417437184","340924489417437184","公司名称变更及账户信息更新请求","{}","你好，
+
+第一步：确认此 ticket 不需要 CSR 处理。
+
+第二步：将 ticket 状态标记为 resolved。
+
+第三步：根据对话历史确认问题已解决或不需要进一步处理。
+
+第四步：确保 ticket 状态为 resolved。
+
+预计时间：立即处理。
+
+谢谢，
+[你的名字]","[{""id"": ""bullets-00001"", ""content"": ""Ensure the ticket does not require CSR intervention before proceeding."", ""harmful"": 0, ""helpful"": 3, ""section"": ""bullets""}, {""id"": ""bullets-00002"", ""content"": ""Mark the ticket as resolved once all actions are completed."", ""harmful"": 0, ""helpful"": 3, ""section"": ""bullets""}, {""id"": ""bullets-00003"", ""content"": ""Confirm that the issue is resolved or requires no further action."", ""harmful"": 0, ""helpful"": 1, ""section"": ""bullets""}, {""id"": ""bullets-00004"", ""content"": ""Verify if CSR intervention is needed before proceeding with updates."", ""harmful"": 0, ""helpful"": 1, ""section"": ""bullets""}, {""id"": ""bullets-00005"", ""content"": ""Ensure all necessary systems and stakeholders are updated before marking the ticket as resolved."", ""harmful"": 0, ""helpful"": 1, ""section"": ""bullets""}, {""id"": ""bullets-00006"", ""content"": ""Verify the conversation history to ensure the issue is resolved."", ""harmful"": 0, ""helpful"": 1, ""section"": ""bullets""}]","0.65","2025-11-27 00:18:10.523837","2025-11-27 00:18:10.523837"
+"325","340932088649035776","340932088649035776","IOD数据提交延迟问题及解决","{}","你好，
+
+第一步：确认此 ticket 已被标记为 resolved 状态。
+
+第二步：根据对话历史，确认问题已经解决或不需要进一步处理。
+
+第三步：确保此 ticket 不需要 CSR 处理。
+
+预估时间：此过程无需额外时间。
+
+谢谢！
+
+[你的名字]","[{""id"": ""iod-00001"", ""content"": ""1. Confirm the ticket is marked as resolved.\n2. Review the conversation history to ensure the issue is resolved or requires no further action.\n3. Ensure the ticket does not require CSR processing.\n4. Contact the Carrier Management Team if needed.\n5. Check the TMS system for updates."", ""harmful"": 0, ""helpful"": 5, ""section"": ""IOD Data Submission Delay Resolution""}]","0.65","2025-11-27 00:16:12.276212","2025-11-27 00:16:12.276212"
+"324","341200199816658944","341200199816658944","Case #23423656问题已解决通知","{}","亲爱的团队，
+
+第一步：确认此 ticket 不需要 CSR 处理。
+
+第二步：将此 ticket 标记为 resolved 状态。
+
+第三步：根据对话历史确认问题已解决或不需要进一步处理。
+
+预计这些步骤将很快完成。
+
+谢谢！
+
+Frances","[{""id"": ""case-00001"", ""content"": ""Ensure to confirm the ticket does not require CSR handling. Mark the ticket as resolved. Verify issue resolution based on conversation history. Mention Frances as a key contact. Begin communication with a greeting and end with a thank you note to maintain a polite and formal tone."", ""harmful"": 1, ""helpful"": 1, ""section"": ""Case Resolution Steps""}]","0.85","2025-11-27 00:14:22.021598","2025-11-27 00:14:22.021598"
+"323","341200381744594944","341200381744594944","Microsoft 365邮件隔离通知处理","{}","你好，
+
+第一步：确认此 ticket 不需要 CSR 处理。
+
+第二步：将此 ticket 标记为 resolved。
+
+第三步：根据对话历史，确认此 ticket 的问题已经解决或不需要进一步处理。
+
+第四步：将此 ticket 直接标记为 resolved 状态。
+
+谢谢。
+
+[你的名字]","[{""id"": ""email-00001"", ""content"": ""你好，\n\n第一步：确认此 ticket 不需要 CSR 处理。\n第二步：根据对话历史，确认此 ticket 的问题已经解决或不需要进一步处理。\n第三步：将此 ticket 直接标记为 resolved 状态。\n\n谢谢，\n\n[你的名字]"", ""harmful"": 0, ""helpful"": 1, ""section"": ""Email Quarantine Handling Procedures""}]","0.95","2025-11-27 00:12:51.073042","2025-11-27 00:12:51.073042"
+"322","341206648345149440","341206648345149440",".strandberg* USA发货联系人变更通知","{}","你好，
+
+第一步：确认此 ticket 不需要 CSR 处理。
+
+第二步：将此 ticket 标记为 resolved 状态。
+
+第三步：根据对话历史，确认此 ticket 的问题已经解决或不需要进一步处理。
+
+预计时间：立即完成。
+
+谢谢，
+[你的名字]","[{""id"": ""ticket-00001"", ""content"": ""Confirm that CSR processing is not required, update contact information in relevant systems, mark the ticket as resolved, verify the issue status through conversation history, and ensure the correct people are included in future communications."", ""harmful"": 0, ""helpful"": 1, ""section"": ""Ticket Resolution Procedures""}]","0.75","2025-11-27 00:11:18.601271","2025-11-27 00:11:18.601271"
+"321","341209567702368256","341209567702368256","感恩节期间公司休假安排通知","{}","Hello,
+
+第一步：确认Frances、Anthony、Jeff和Eaden的可用时间，以便安排会议。
+
+第二步：检查WMS系统的当前配置，确保ISA ID和PO号码正确无误。
+
+第三步：验证EDI和API的连接状态，以确保数据传输的稳定性。
+
+第四步：联系Joliet团队，获取关于CubeShip的最新更新信息。
+
+第五步：与B-Solutions团队沟通，确认所有技术细节已正确配置。
+
+第六步：在11/28（星期五）之前完成所有系统测试，以确保系统在感恩节后正常运行。
+
+我们预计将在11/28（星期五）恢复全面运营。
+
+Best regards,
+
+[Your Name]","[{""id"": ""bullets-00001"", ""content"": ""在感恩节期间，公司休假安排通知需要联系以下人员：Frances、Anthony、Jeff和Eaden。需要检查的系统包括WMS系统，并验证EDI和API的连接状态。具体操作步骤如下：1. 确认Frances、Anthony、Jeff和Eaden的可用时间，以便安排会议。2. 检查WMS系统的当前配置，确保ISA ID和PO号码正确无误。3. 验证EDI和API的连接状态，以确保数据传输的稳定性。4. 联系Joliet团队，获取关于CubeShip的最新更新信息。5. 与B-Solutions团队沟通，确认所有技术细节已正确配置。6. 在11/28（星期五）之前完成所有系统测试，以确保系统在感恩节后正常运行。我们预计将在11/28（星期五）恢复全面运营。"", ""harmful"": 0, ""helpful"": 1, ""section"": ""bullets""}]","0.88","2025-11-27 00:09:48.942153","2025-11-27 00:09:48.942153"
+"320","341213040049209344","341213040049209344","MEIJER INC货运提货取消及确认","{}","你好，
+
+第一步：确认此 ticket 不需要 CSR 处理。
+
+第二步：将此 ticket 标记为 resolved 状态。
+
+第三步：根据对话历史确认此 ticket 的问题已经解决或不需要进一步处理。
+
+预估时间：此过程预计需要5分钟。
+
+谢谢，
+[你的名字]","[{""id"": ""bullets-00001"", ""content"": ""确认此 ticket 不需要 CSR 处理，并将其标记为 resolved 状态。根据对话历史确认此 ticket 的问题已经解决或不需要进一步处理。具体步骤包括：1) 确认不需要 CSR 处理，2) 标记为 resolved 状态，3) 根据对话历史确认问题解决情况。"", ""harmful"": 0, ""helpful"": 1, ""section"": ""bullets""}]","0.65","2025-11-27 00:08:04.322151","2025-11-27 00:08:04.322151"
+"319","341229325504036864","341229325504036864","Best Buy货物提货和运输安排确认","{}","亲爱的Maritsa，
+
+第一步：请确认今天的一切准备就绪。
+
+第二步：请发送邮件至dispatchLAX@unisco.com以确认。
+
+第三步：请保持我们团队的更新。
+
+感谢您的配合。
+
+此致，  
+[您的名字]","[{""id"": ""bullets-00001"", ""content"": ""确认今天的一切准备就绪，并发送邮件至dispatchLAX@unisco.com以确认，同时保持团队更新。确保直接与Maritsa确认，并明确更新团队。"", ""harmful"": 0, ""helpful"": 1, ""section"": ""bullets""}]","0.8","2025-11-27 00:06:06.016932","2025-11-27 00:06:06.016932"
+"318","341249890931523584","341249890931523584","SBFREIGHT未接来电处理完成通知","{}","您好，
+
+第一步：确认此 ticket 不需要 CSR 处理。
+
+第二步：将此 ticket 标记为 resolved。
+
+第三步：根据对话历史确认此 ticket 的问题已经解决或不需要进一步处理。
+
+第四步：直接将此 ticket 标记为 resolved 状态。
+
+预估时间：此过程不需要额外时间。
+
+谢谢。
+
+[您的签名]","[{""id"": ""ticket-00001"", ""content"": ""1) Confirm the ticket does not require CSR processing. 2) Verify through conversation history that the issue is resolved. 3) Explicitly mark the ticket as resolved if no further action is needed."", ""harmful"": 1, ""helpful"": 2, ""section"": ""Ticket Resolution Process""}]","0.75","2025-11-27 00:03:45.58839","2025-11-27 00:03:45.58839"
+"317","341294397785980928","341294397785980928","IOD数据提交状态更新与要求","{}","你好，
+
+第一步：确认此 ticket 不需要 CSR 处理。
+
+第二步：将 ticket 标记为 resolved 状态。
+
+第三步：根据对话历史检查问题是否已经解决或不需要进一步处理。
+
+第四步：直接标记 ticket 为 resolved 状态。
+
+预估时间：此任务已完成。
+
+谢谢。
+
+[你的名字]","[{""id"": ""ticket-00001"", ""content"": ""Ensure the ticket does not require CSR involvement before proceeding. Review the conversation history to confirm if the issue is resolved or needs no further action. Mark the ticket as resolved if applicable."", ""harmful"": 0, ""helpful"": 1, ""section"": ""Ticket Management and Resolution""}, {""id"": ""ticket-00002"", ""content"": ""Ensure the model aligns its response with the task context and ground truth, focusing on the correct entities and steps such as confirming no CSR involvement, marking the ticket as resolved, and checking the conversation history."", ""harmful"": 0, ""helpful"": 1, ""section"": ""Ticket Management and Resolution""}, {""id"": ""ticket-00003"", ""content"": ""Explicitly outline the steps for updating IOD data submission status: confirm the ticket does not require CSR handling, mark the ticket as resolved, and verify if the issue is already resolved or does not require further action."", ""harmful"": 0, ""helpful"": 1, ""section"": ""Ticket Management and Resolution""}]","0.55","2025-11-27 00:02:19.056317","2025-11-27 00:02:19.056317"
+"316","341538455858311168","341538455858311168","预约请求批准及后续步骤通知","{}","你好，
+
+第一步：确认此 ticket 不需要 CSR 处理。
+
+第二步：将此 ticket 标记为 resolved 状态。
+
+第三步：根据对话历史确认此 ticket 的问题已经解决或不需要进一步处理。
+
+预计时间：此过程已完成。
+
+谢谢，
+[你的名字]","[{""id"": ""ticket-00001"", ""content"": ""1) Confirm the ticket does not require CSR intervention by checking the conversation history. 2) Mark the ticket as resolved if appropriate. 3) Verify the issue's resolution through conversation history to confirm all necessary steps have been completed. 4) Contact necessary stakeholders for driver assignment and coverage confirmation."", ""harmful"": 0, ""helpful"": 1, ""section"": ""Ticket Resolution Process""}]","0.65","2025-11-27 00:00:04.864665","2025-11-27 00:00:04.864665"
+"315","341542758895448064","341542758895448064","UNIS拖车提货和内部转运协调","{}","Subject: Steps for Correcting Scissor Lift PU
+
+Hi Team,
+
+I hope this message finds you well.
+
+First step: Contact Frances to confirm the details of the Scissor lift PU that requires correction.
+
+Second step: Coordinate with the Joliet团队 to review the current configuration in the WMS system.
+
+Third step: Verify the ISA ID associated with the Scissor lift PU in the EDI system.
+
+Fourth step: Reach out to Anthony to ensure the API settings are correctly aligned with the CubeShip requirements.
+
+Fifth step: Collaborate with Jeff from B-Solutions to double-check the PO号码 and make necessary adjustments.
+
+Sixth step: Inform Eaden about the changes made and request a final review.
+
+Seventh step: Estimate the time required for the entire process and communicate it to the relevant stakeholders.
+
+Please let me know if you have any questions or need further assistance.
+
+Best regards,
+
+[Your Name]","[{""id"": ""unis-00001"", ""content"": ""To coordinate the pickup and internal transfer of a UNIS trailer, please contact Frances Parro Belleza to confirm details, coordinate with the Joliet团队 to review WMS configuration, verify the ISA ID in the EDI system, reach out to Anthony for API settings alignment with CubeShip requirements, collaborate with Jeff from B-Solutions to check and adjust PO numbers, inform Eaden about changes, and estimate the time required for the process. Ensure that all communications are conducted with a polite and professional tone to align with business communication standards."", ""harmful"": 0, ""helpful"": 1, ""section"": ""UNIS Trailer Coordination""}]","0.9","2025-11-26 23:58:07.565001","2025-11-26 23:58:07.565001"
+"314","341547413805330432","341547413805330432","新货运订单自动接受与处理","{}","您好，
+
+第一步：确认此 ticket 不需要 CSR 处理。
+
+第二步：将 ticket 状态标记为 resolved。
+
+第三步：根据对话历史确认问题已解决或不需要进一步处理。
+
+预计时间：立即完成。
+
+谢谢！
+
+[您的签名]","[{""id"": ""order-00001"", ""content"": ""Confirm that the ticket does not require CSR handling and clearly outline the sequence of steps, explicitly mentioning 'ticket'."", ""harmful"": 0, ""helpful"": 1, ""section"": ""Order Processing""}, {""id"": ""order-00002"", ""content"": ""Verify the conversation history to ensure all issues are resolved, explicitly mentioning 'conversation history'."", ""harmful"": 0, ""helpful"": 1, ""section"": ""Order Processing""}, {""id"": ""order-00003"", ""content"": ""Mark the ticket as resolved, explicitly mentioning 'resolved'."", ""harmful"": 0, ""helpful"": 1, ""section"": ""Order Processing""}]","0.75","2025-11-26 23:55:30.916006","2025-11-26 23:55:30.916006"
+"313","341547423586447360","341547423586447360","MEIJER INC新订单自动接受通知","{}","你好，
+
+第一步：确认此 ticket 不需要 CSR 处理。
+
+第二步：将此 ticket 标记为 resolved。
+
+第三步：根据对话历史确认此 ticket 的问题已经解决或不需要进一步处理。
+
+第四步：直接将此 ticket 标记为 resolved 状态。
+
+谢谢。
+
+[你的名字]","[{""id"": ""bullets-00001"", ""content"": ""When resolving a ticket, confirm that the ticket does not require CSR intervention, mark it as resolved, and ensure no further action is needed. Ensure the model can distinguish between different types of tasks by identifying contextual cues and aligning responses with the specific procedural requirements."", ""harmful"": 0, ""helpful"": 1, ""section"": ""bullets""}, {""id"": ""bullets-00002"", ""content"": ""When diagnosing tasks, identify keywords such as 'ticket', 'CSR', and 'resolved' to ensure the correct process is followed."", ""harmful"": 0, ""helpful"": 1, ""section"": ""bullets""}, {""id"": ""bullets-00003"", ""content"": ""Differentiate between similar tasks by identifying key objectives and required actions, such as distinguishing order processing from ticket resolution."", ""harmful"": 0, ""helpful"": 1, ""section"": ""bullets""}, {""id"": ""bullets-00004"", ""content"": ""Ensure the model accurately identifies the task type (e.g., ticket resolution vs. order processing) to provide relevant and actionable steps."", ""harmful"": 0, ""helpful"": 1, ""section"": ""bullets""}]","0.45","2025-11-26 23:53:32.594533","2025-11-26 23:53:32.594533"
+"312","341547430578352128","341547430578352128","MEIJER新订单自动接受及处理","{}","你好，
+
+第一步：确认此 ticket 不需要 CSR 处理。
+
+第二步：将此 ticket 标记为 resolved。
+
+第三步：根据对话历史确认问题已解决或不需要进一步处理。
+
+第四步：直接将 ticket 状态更新为 resolved。
+
+预计这些步骤会很快完成。
+
+谢谢，
+
+[你的名字]","[{""id"": ""meijer-00001"", ""content"": ""Ensure all procedural steps, including confirming no CSR intervention is needed, marking the ticket as resolved, reviewing conversation history, and explicitly mentioning CSR involvement if required, are included in process descriptions."", ""harmful"": 0, ""helpful"": 1, ""section"": ""MEIJER New Order Process""}]","0.75","2025-11-26 23:51:42.761563","2025-11-26 23:51:42.761563"
+"311","341558505956831232","341558505956831232","UNIS Waddell货物ETA确认","{}","Good day,
+
+第一步：查看UNIS Waddell, AZ的系统并确认PRO 351392的状态。
+
+第二步：如果需要更多信息，请联系相关团队。
+
+第三步：在需要时提供进一步的支持。
+
+Please let us know if you need anything else.
+
+Best regards,  
+[Your Name]","[{""id"": ""shipment-00001"", ""content"": ""Ensure to check the status of PRO 351392 in the UNIS Waddell, AZ system, contact the relevant team for more information if needed, and provide further support if required."", ""harmful"": 0, ""helpful"": 1, ""section"": ""Shipment ETA Confirmation""}]","0.85","2025-11-26 23:49:59.308253","2025-11-26 23:49:59.308253"
+"310","341561460307128320","341561460307128320","报价错误处理与问题解决","{}","亲爱的团队，
+
+第一步：请注意，此 ticket 不需要 CSR 处理。
+
+第二步：已将此 ticket 标记为 resolved。
+
+第三步：根据对话历史，此 ticket 的问题已经解决或不需要进一步处理。
+
+第四步：因此，直接将此 ticket 标记为 resolved 状态。
+
+感谢您的理解和配合。
+
+祝好，  
+[您的名字]","[{""id"": ""ticket-00001"", ""content"": ""Ensure to mark the ticket as resolved after confirming the issue is addressed. Review the conversation history to determine the resolution status. Acknowledge that CSR involvement is unnecessary if specified, and directly mark the ticket as resolved. Include steps to confirm resolution and update the ticket status as per the playbook instructions. Ensure all critical steps and entities from the ground truth are included in responses."", ""harmful"": 1, ""helpful"": 2, ""section"": ""Ticket Resolution Procedure""}]","0.65","2025-11-26 23:47:30.912405","2025-11-26 23:47:30.912405"
+"309","341571967994949632","341571967994949632","月末账单对账及付款安排确认","{}","亲爱的团队，
+
+第一步：确认此 ticket 已标记为 resolved 状态。
+
+第二步：根据对话历史，确认问题已经解决或不需要进一步处理。
+
+第三步：确保不需要 CSR 处理此 ticket。
+
+预计时间：此过程不需要额外时间。
+
+谢谢，
+[您的名字]","[{""id"": ""bullets-00001"", ""content"": ""确认此 ticket 已标记为 resolved 状态。"", ""harmful"": 0, ""helpful"": 2, ""section"": ""bullets""}, {""id"": ""bullets-00002"", ""content"": ""根据对话历史，确认问题已经解决或不需要进一步处理。"", ""harmful"": 0, ""helpful"": 2, ""section"": ""bullets""}, {""id"": ""bullets-00003"", ""content"": ""确保不需要 CSR 处理此 ticket。"", ""harmful"": 0, ""helpful"": 2, ""section"": ""bullets""}]","0.75","2025-11-26 23:45:29.682822","2025-11-26 23:45:29.682822"
+"308","341595837766430720","341595837766430720","取消货物委托通知及问题解决","{}","亲爱的团队，
+
+第一步：确认此 ticket 不需要 CSR 处理。
+
+第二步：将此 ticket 标记为 resolved。
+
+第三步：根据对话历史，确认此 ticket 的问题已经解决或不需要进一步处理。
+
+第四步：确保 ticket 直接标记为 resolved 状态。
+
+感谢您的合作。
+
+祝好，  
+[您的名字]","[{""id"": ""ticket-00001"", ""content"": ""Ensure the ticket does not require CSR handling, mark the ticket as resolved, verify issue resolution based on conversation history, and ensure the ticket is directly marked as resolved."", ""harmful"": 1, ""helpful"": 2, ""section"": ""Ticket Management Procedures""}]","0.75","2025-11-26 23:43:44.052538","2025-11-26 23:43:44.052538"
+"307","341611903460700160","341611903460700160","WA BOLS 11/4交付计划确认","{}","你好，
+
+第一步：检查此 ticket 的状态并确认其已标记为 resolved。
+
+第二步：根据对话历史，确认此 ticket 的问题已经解决或不需要进一步处理。
+
+第三步：将此 ticket 直接标记为 resolved 状态。
+
+感谢你的配合。
+
+祝好，  
+[你的名字]","[{""id"": ""ticket-00001"", ""content"": ""Identify the relevant contacts involved in the delivery schedule confirmation, check the necessary systems for schedule verification, and outline the specific actions needed to confirm the delivery schedule. Ensure to check the ticket status, confirm issue resolution as per the ground truth, and mark the ticket as resolved if no further action is needed."", ""harmful"": 0, ""helpful"": 1, ""section"": ""Ticket Resolution Process""}]","0.55","2025-11-26 23:41:55.727582","2025-11-26 23:41:55.727582"
+"306","341623999216873472","341623999216873472","LG货物提取任务状态更新","{}","你好，
+
+第一步：确认此 ticket 不需要 CSR 处理。
+
+第二步：将此 ticket 标记为 resolved 状态。
+
+第三步：根据对话历史确认此 ticket 的问题已经解决或不需要进一步处理。
+
+预估时间：立即完成。
+
+谢谢。
+
+[你的名字]","[{""id"": ""ticket-00001"", ""content"": ""Confirm the ticket does not require CSR processing by reviewing the conversation history. Explicitly check for CSR involvement and verify resolution through conversation history. Provide a clear, step-by-step process to mark the ticket as resolved, ensuring that procedural steps are included to align with expected outcomes."", ""harmful"": 0, ""helpful"": 1, ""section"": ""Ticket Resolution Process""}]","0.75","2025-11-26 23:39:32.703395","2025-11-26 23:39:32.703395"
+"305","341634978684203008","341634978684203008","La Mirada货物卸载及入库计划","{}","你好，
+
+第一步：确认此 ticket 不需要 CSR 处理。
+
+第二步：将此 ticket 标记为 resolved。
+
+第三步：根据对话历史确认问题已经解决或不需要进一步处理。
+
+第四步：将 ticket 状态直接标记为 resolved。
+
+谢谢。
+
+[你的名字]","[{""id"": ""ticket_resolution-00001"", ""content"": ""Ensure the ticket does not require CSR handling, mark it as resolved, verify through conversation history that no further action is needed, and identify all relevant entities including CSR and ticket status. Always prioritize ticket resolution processes even when the context involves other topics like logistics. Confirm that the ticket is marked as resolved and no CSR handling is needed."", ""harmful"": 1, ""helpful"": 3, ""section"": ""ticket_resolution""}]","0.45","2025-11-26 23:37:58.335586","2025-11-26 23:37:58.335586"
+"304","341655042019946496","341655042019946496","请求发送订单3130502的发票","{}","Hello, Billing team,
+
+第一步：请确认PO号码3130502的相关信息。
+
+第二步：生成PO号码3130502的发票。
+
+第三步：将生成的发票发送给相关人员。
+
+Thank you.
+
+Best regards,  
+[Your Name]","[{""id"": ""invoice-00001"", ""content"": ""Ensure to check the logistics system for the Proof of Delivery (POD) after confirming the PO number and before generating the invoice."", ""harmful"": 0, ""helpful"": 1, ""section"": ""Invoice Processing""}]","0.75","2025-11-26 23:35:30.966572","2025-11-26 23:35:30.966572"
+"303","341656977250840576","341656977250840576","JC Sales新订单提货安排","{}","Hello,
+
+第一步：请确认PU 7644379的相关信息，并确保其计划在11月3日星期一进行。
+
+第二步：联系Frances以获取关于WMS系统的最新更新。
+
+第三步：与Anthony协调以确保EDI和API的配置值正确无误。
+
+第四步：检查CubeShip的配置，确保ISA ID和PO号码已正确设置。
+
+第五步：与Jeff和Eaden确认所有技术细节，以确保项目按计划进行。
+
+第六步：与Joliet团队和B-Solutions团队沟通，确保所有团队成员了解当前进展。
+
+预计这些步骤将花费约2小时。
+
+Best regards,
+
+[Your Name]","[{""id"": ""bullets-00001"", ""content"": ""确认PU 7644379的相关信息，并确保其计划在11月3日星期一进行。预计这些步骤将花费约2小时。"", ""harmful"": 1, ""helpful"": 3, ""section"": ""bullets""}, {""id"": ""bullets-00002"", ""content"": ""联系Frances以获取关于WMS系统的最新更新。"", ""harmful"": 0, ""helpful"": 1, ""section"": ""bullets""}, {""id"": ""bullets-00003"", ""content"": ""与Anthony协调以确保EDI和API的配置值正确无误。"", ""harmful"": 0, ""helpful"": 2, ""section"": ""bullets""}, {""id"": ""bullets-00004"", ""content"": ""检查CubeShip的配置，确保ISA ID和PO号码已正确设置。"", ""harmful"": 1, ""helpful"": 2, ""section"": ""bullets""}, {""id"": ""bullets-00005"", ""content"": ""与Jeff和Eaden确认所有技术细节，以确保项目按计划进行。"", ""harmful"": 0, ""helpful"": 1, ""section"": ""bullets""}, {""id"": ""bullets-00006"", ""content"": ""与Joliet团队和B-Solutions团队沟通，确保所有团队成员了解当前进展。"", ""harmful"": 0, ""helpful"": 2, ""section"": ""bullets""}, {""id"": ""bullets-00007"", ""content"": ""确保步骤顺序正确，以维持流程的逻辑性和完整性，特别是在操作任务中。"", ""harmful"": 0, ""helpful"": 2, ""section"": ""bullets""}]","0.87","2025-11-26 23:33:44.701053","2025-11-26 23:33:44.701053"
+"302","341669227390955520","341669227390955520","运输订单多装问题解决及状态更新","{}","您好，
+
+第一步：确认此 ticket 不需要 CSR 处理。
+
+第二步：将 ticket 状态标记为 resolved。
+
+第三步：根据对话历史确认问题已解决或不需要进一步处理。
+
+第四步：确保 ticket 状态保持为 resolved。
+
+预计不需要额外时间处理。
+
+谢谢！
+
+[您的签名]","[{""id"": ""ticket_resolution-00001"", ""content"": ""Ensure the model identifies the ticket resolution process as the primary focus. Include steps such as confirming the ticket doesn't require CSR, marking it as resolved, verifying resolution through conversation history, and ensuring no further action is needed. Additionally, ensure the ticket status remains resolved. Explicitly mention the 'ticket' and detail the confirmation process for no CSR intervention and the specific actions for coordinating logistics."", ""harmful"": 0, ""helpful"": 1, ""section"": ""ticket_resolution""}]","0.65","2025-11-26 23:30:04.887964","2025-11-26 23:30:04.887964"
+"301","341895006894092288","341895006894092288","货物运输至亚利桑那州的状态更新","{}","Good day,
+
+第一步：确认PRO 3192359的详细信息。
+
+第二步：将PRO 3192359的信息更新到WMS系统中。
+
+第三步：与Joliet团队确认PRO 3192359的预计到达时间为11/01。
+
+第四步：通知B-Solutions团队关于PRO 3192359的移动情况。
+
+第五步：确保EDI和API系统中同步更新PRO 3192359的状态。
+
+第六步：与Frances、Anthony、Jeff、Eaden确认所有系统配置值的正确性。
+
+第七步：在CubeShip中记录PRO 3192359的相关信息。
+
+第八步：检查所有相关系统的配置值，包括ISA ID和PO号码。
+
+第九步：确认所有步骤在11/01之前完成。
+
+Thank you.
+
+[Your Name]","[{""id"": ""shipment_updates-00001"", ""content"": ""Ensure to include specific shipment identifiers like PRO 3192359, update all systems including WMS, confirm arrival times such as 11/01, verify configuration values including ISA ID and PO numbers, record in CubeShip, confirm with Joliet and B-Solutions teams, ensure synchronization across EDI and API systems, and complete all steps by the specified deadline."", ""harmful"": 0, ""helpful"": 1, ""section"": ""shipment_updates""}]","0.78","2025-11-26 23:27:08.277231","2025-11-26 23:27:08.277231"
+"300","341920173011693568","341920173011693568","货物提取计划及确认通知","{}","Hello,
+
+第一步：联系Frances确认使用第一个创建的提货单PU 7645275。
+
+第二步：与Anthony讨论WMS系统中的配置值，包括ISA ID和PO号码。
+
+第三步：与Jeff和Eaden协调，确保EDI和API的集成顺利进行。
+
+第四步：通知Joliet团队关于CubeShip系统的更新情况。
+
+第五步：与B-Solutions团队确认所有技术细节已正确配置。
+
+请在预计的时间内完成这些步骤。
+
+Best regards,  
+[Your Name]","[{""id"": ""bullets-00001"", ""content"": ""联系Frances确认使用第一个创建的提货单PU 7645275。与Anthony讨论WMS系统中的配置值，包括ISA ID和PO号码。与Jeff和Eaden协调，确保EDI和API的集成顺利进行。通知Joliet团队关于CubeShip系统的更新情况。与B-Solutions团队确认所有技术细节已正确配置。请确保按照以下步骤顺序执行：1. 联系Frances确认提货单。2. 与Anthony讨论配置值（包括ISA ID和PO号码）。3. 协调EDI和API集成。4. 通知Joliet团队更新。5. 确认技术细节配置。"", ""harmful"": 0, ""helpful"": 1, ""section"": ""bullets""}]","0.75","2025-11-26 23:24:59.561858","2025-11-26 23:24:59.561858"
+"299","341960587395657728","341960587395657728","TP-Link物流调度请求及确认","{}","亲爱的团队，
+
+第一步：请注意，此 ticket 不需要 CSR 处理。
+
+第二步：将此 ticket 标记为 resolved 状态。
+
+第三步：根据对话历史确认此 ticket 的问题已经解决或不需要进一步处理。
+
+感谢您的配合。
+
+祝好，
+[您的名字]","[{""id"": ""ticket-00001"", ""content"": ""First, ensure that CSR handling is not required. Second, mark the ticket as resolved. Finally, confirm that the issue has been addressed or does not require further action. Explicitly check TP-Link's internal transportation system and Unisco's scheduling system."", ""harmful"": 0, ""helpful"": 1, ""section"": ""Ticket Management""}]","0.65","2025-11-26 23:22:52.304748","2025-11-26 23:22:52.304748"
+"298","341986730194694144","341986730194694144","货物未按时提取的后续安排","{}","你好，
+
+第一步：联系Frances确认WMS系统中的订单状态。
+
+第二步：与Anthony核实EDI系统的ISA ID配置是否正确。
+
+第三步：检查API接口与CubeShip的连接是否正常。
+
+第四步：通知Jeff和Eaden关于PO号码的更新情况。
+
+第五步：与Joliet团队协调以确保订单在明天被处理。
+
+第六步：与B-Solutions团队确认所有技术细节已正确配置。
+
+预计这些步骤将在明天完成。
+
+谢谢！
+
+[你的名字]","[{""id"": ""bullets-00001"", ""content"": ""The model should incorporate more detailed steps and ensure all relevant stakeholders and systems are mentioned, such as Frances Parro Belleza, Anthony, Jeff, Eaden, Joliet team, and B-Solutions team. It should align its response more closely with the specific procedural context provided in the ground truth, including verifying system configurations and coordinating with specific teams."", ""harmful"": 0, ""helpful"": 1, ""section"": ""bullets""}, {""id"": ""bullets-00002"", ""content"": ""For tasks requiring specific procedural knowledge, the model should be trained with detailed, context-specific examples to improve accuracy and completeness."", ""harmful"": 0, ""helpful"": 1, ""section"": ""bullets""}, {""id"": ""bullets-00003"", ""content"": ""Include specific steps for verifying ISA ID configuration, checking the CubeShip API connection, and updating relevant parties about PO number changes to ensure a comprehensive approach to resolving shipment delays."", ""harmful"": 0, ""helpful"": 1, ""section"": ""bullets""}, {""id"": ""bullets-00004"", ""content"": ""Ensure to contact Frances for WMS system status, verify EDI system configuration with Anthony, and notify Jeff and Eaden about PO updates. This comprehensive approach will help in resolving shipment delays effectively."", ""harmful"": 0, ""helpful"": 1, ""section"": ""bullets""}]","0.75","2025-11-26 23:21:00.92919","2025-11-26 23:21:00.92919"
+"297","341996007013675008","341996007013675008","La Mirada货物卸载及处理状态更新","{}","你好，
+
+第一步：确认此 ticket 不需要 CSR 处理。
+
+第二步：将此 ticket 标记为 resolved 状态。
+
+第三步：根据对话历史确认此 ticket 的问题已经解决或不需要进一步处理。
+
+预估时间：立即完成。
+
+谢谢。
+
+[你的名字]","[{""id"": ""ticket-00001"", ""content"": ""Explicitly confirm that the ticket does not require CSR involvement, mark the ticket as resolved, and ensure the issue is resolved or requires no further action based on conversation history. Include an estimated time for completion to ensure comprehensive responses."", ""harmful"": 1, ""helpful"": 5, ""section"": ""Ticket Resolution Procedures""}]","0.85","2025-11-26 23:18:34.648841","2025-11-26 23:18:34.648841"
+"296","342985390051524608","342985390051524608","CSA运输订单的提货和交付安排","{}","Hello,
+
+第一步：请联系Frances确认PRO 2937431的交付时间。
+
+第二步：通知Joliet团队准备接收PRO 2937431的货物。
+
+第三步：确保WMS系统中已更新PRO 2937431的相关信息。
+
+第四步：检查EDI系统是否已收到PRO 2937431的PO号码。
+
+第五步：与Anthony确认API接口是否正常工作以接收PRO 2937431的数据。
+
+第六步：请Jeff在CubeShip系统中配置PRO 2937431的ISA ID。
+
+第七步：与Eaden核对PRO 2937431的所有技术细节是否正确。
+
+第八步：通知B-Solutions团队关于PRO 2937431的交付进度。
+
+预计这些步骤将在明天完成。
+
+Best regards,
+
+[Your Name]","[{""id"": ""csa-00001"", ""content"": ""Ensure to contact Frances Parro Belleza to confirm delivery times for PRO 2937431, notify the Joliet team for receiving PRO 2937431, update WMS with relevant information for PRO 2937431, check EDI for PO numbers related to PRO 2937431, confirm API functionality with Anthony for PRO 2937431, configure ISA ID in CubeShip with Jeff for PRO 2937431, verify technical details with Eaden for PRO 2937431, and notify B-Solutions team about delivery progress for PRO 2937431. Remember to maintain a user-friendly and polite tone in all communications."", ""harmful"": 0, ""helpful"": 1, ""section"": ""CSA Transportation Order Process""}]","0.95","2025-11-26 23:16:29.209806","2025-11-26 23:16:29.209806"
+"295","343006376360640512","343006376360640512","PU 7647379货物支付及提货安排","{}","Hello Albert,
+
+第一步：确认订单已经处理并付款。
+
+第二步：安排在11月5日进行提货。
+
+Best regards,  
+[Your Name]","[{""id"": ""order-00001"", ""content"": ""Confirm that the order has been processed and paid for, involving key individuals like Celine Escorido, David Pena, and Albert Sanchez. Avoid introducing unrelated issues such as balance discrepancies not present in the ground truth."", ""harmful"": 0, ""helpful"": 4, ""section"": ""Order Processing""}, {""id"": ""pickup-00002"", ""content"": ""Arrange for pickup on November 5th."", ""harmful"": 0, ""helpful"": 1, ""section"": ""Pickup Arrangement""}]","0.75","2025-11-26 23:14:10.113719","2025-11-26 23:14:10.113719"
+"294","343007614577901568","343007614577901568","MEIJER INC新订单自动接受通知","{}","你好，
+
+第一步：确认此 ticket 不需要 CSR 处理。
+
+第二步：将此 ticket 标记为 resolved 状态。
+
+第三步：根据对话历史确认此 ticket 的问题已经解决或不需要进一步处理。
+
+预计处理时间已完成。
+
+谢谢，
+[你的名字]","[{""id"": ""bullets-00001"", ""content"": ""确认此 ticket 不需要 CSR 处理。"", ""harmful"": 6, ""helpful"": 0, ""section"": ""bullets""}, {""id"": ""bullets-00002"", ""content"": ""将此 ticket 标记为 resolved 状态。"", ""harmful"": 4, ""helpful"": 2, ""section"": ""bullets""}, {""id"": ""bullets-00003"", ""content"": ""根据对话历史确认此 ticket 的问题已经解决或不需要进一步处理。"", ""harmful"": 4, ""helpful"": 3, ""section"": ""bullets""}]","0.75","2025-11-26 23:12:15.380936","2025-11-26 23:12:15.380936"
+"293","343007620013719552","343007620013719552","MEIJER新标书自动接单通知","{}","您好，
+
+第一步：确认此 ticket 不需要 CSR 处理。
+
+第二步：将此 ticket 标记为 resolved 状态。
+
+第三步：根据对话历史确认问题已解决或不需要进一步处理。
+
+预估时间：此过程不需要额外时间。
+
+谢谢！
+
+[您的签名]","[{""id"": ""ticket-00001"", ""content"": ""Ensure the model correctly interprets the context and specific terminology of the task to provide accurate and relevant responses. Follow these steps for ticket resolution: 1. Confirm the ticket does not require CSR handling. 2. Mark the ticket as resolved. 3. Verify through conversation history that no further action is needed. Emphasize distinguishing between different processes such as tender processing and ticket resolution by focusing on key task indicators."", ""harmful"": 0, ""helpful"": 1, ""section"": ""Ticket Resolution Process""}, {""id"": ""ticket-00002"", ""content"": ""Ensure the model distinguishes between different types of tasks, such as ticket resolution and tender processing, and adheres to the specific workflow outlined in the playbook."", ""harmful"": 1, ""helpful"": 0, ""section"": ""Ticket Resolution Process""}, {""id"": ""ticket-00003"", ""content"": ""Key Insight: Ensure clear differentiation between similar tasks (e.g., tender processing vs. ticket resolution) by focusing on specific task indicators and following the outlined process steps."", ""harmful"": 0, ""helpful"": 1, ""section"": ""Ticket Resolution Process""}]","0.45","2025-11-26 23:10:32.113661","2025-11-26 23:10:32.113661"
+"292","343007623339802624","343007623339802624","MEIJER新订单自动接受及处理","{}","你好，
+
+第一步：确认该 ticket 不需要 CSR 处理。
+
+第二步：将 ticket 状态标记为 resolved。
+
+第三步：根据对话历史确认问题已解决或不需要进一步处理。
+
+第四步：将 ticket 状态直接标记为 resolved。
+
+感谢您的理解和配合。
+
+祝好，  
+[您的名字]","[{""id"": ""procedural-00001"", ""content"": ""Confirm the ticket does not require CSR intervention, explicitly review dialogue history to confirm the issue is resolved, mark the ticket status as resolved, and verify the TMS for correct order logging."", ""harmful"": 0, ""helpful"": 1, ""section"": ""Procedural Steps for MEIJER Order Processing""}]","0.75","2025-11-26 23:08:38.275862","2025-11-26 23:08:38.275862"
+"291","343007626506502144","343007626506502144","MEIJER INC新订单自动接受通知","{}","您好，
+
+第一步：确认此 ticket 不需要 CSR 处理。
+
+第二步：将此 ticket 标记为 resolved。
+
+第三步：根据对话历史确认问题已解决或不需要进一步处理。
+
+第四步：将 ticket 状态更新为 resolved。
+
+感谢您的配合。
+
+祝好，  
+[您的名字]","[{""id"": ""bullets-00001"", ""content"": ""确认此 ticket 不需要 CSR 处理。将此 ticket 标记为 resolved。根据对话历史确认问题已解决或不需要进一步处理。将 ticket 状态更新为 resolved。"", ""harmful"": 1, ""helpful"": 1, ""section"": ""bullets""}]","0.82","2025-11-26 23:06:31.235694","2025-11-26 23:06:31.235694"
+"290","343007629681590272","343007629681590272","MEIJER INC新订单自动接受通知","{}","你好，
+
+第一步：确认此 ticket 不需要 CSR 处理。
+
+第二步：将此 ticket 标记为 resolved 状态。
+
+第三步：根据对话历史，验证问题已解决或不需要进一步处理。
+
+预计完成时间为立即。
+
+谢谢，
+[你的名字]","[{""id"": ""ticket-00001"", ""content"": ""Confirm the ticket does not require CSR handling. Ensure to follow a structured sequence and include expected completion time."", ""harmful"": 0, ""helpful"": 4, ""section"": ""Ticket Management""}, {""id"": ""ticket-00002"", ""content"": ""Mark the ticket as resolved. Ensure to follow a structured sequence and include expected completion time."", ""harmful"": 0, ""helpful"": 4, ""section"": ""Ticket Management""}, {""id"": ""ticket-00003"", ""content"": ""Verify the issue is resolved based on conversation history. Ensure to follow a structured sequence and include expected completion time."", ""harmful"": 0, ""helpful"": 4, ""section"": ""Ticket Management""}]","0.85","2025-11-26 23:04:37.779848","2025-11-26 23:04:37.779848"
+"289","343008404440842240","343008404440842240","MEIJER INC新订单自动接受与处理","{}","你好，
+
+第一步：检查此 ticket 的状态，确认其已标记为 resolved。
+
+第二步：根据对话历史，确认此 ticket 的问题已经解决或不需要进一步处理。
+
+第三步：确保不需要 CSR 处理此 ticket。
+
+预估时间：此过程不需要额外时间。
+
+谢谢，
+
+[你的名字]","[{""id"": ""ticket_resolution_process-00001"", ""content"": ""Ensure to check the ticket status and confirm it is marked as resolved. Verify that the issue has been resolved or no further CSR action is needed. Include detailed, step-by-step instructions: 1. Check the ticket status to confirm it is marked as resolved. 2. Review the conversation history to confirm the issue is resolved and no further processing is required. 3. Confirm the involvement of key contacts and systems to be checked, such as TMS for order creation. Adhering to the structured steps and key entities outlined in the playbook is crucial for accurate ticket resolution."", ""harmful"": 1, ""helpful"": 3, ""section"": ""ticket_resolution_process""}]","0.75","2025-11-26 23:02:51.334288","2025-11-26 23:02:51.334288"
+"288","343008410342227968","343008410342227968","MEIJER INC新订单自动接受通知","{}","亲爱的团队，
+
+第一步：请确认此 ticket 已被标记为 resolved 状态。
+
+第二步：根据对话历史，核实此 ticket 的问题已经解决或不需要进一步处理。
+
+第三步：确保不需要 CSR 进行任何额外处理。
+
+预估时间：此过程预计不超过5分钟。
+
+感谢您的配合。
+
+祝好，  
+[您的名字]","[{""id"": ""ticket-00001"", ""content"": ""Ensure the ticket is marked as resolved. Verify the issue is resolved or requires no further action. Confirm no additional CSR intervention is necessary. Explicitly mention key entities such as 'ticket', 'resolved status', 'conversation history', and 'CSR'. Provide a detailed sequence of steps, including checking the ticket status, verifying the resolution, and confirming no further action is needed."", ""harmful"": 0, ""helpful"": 1, ""section"": ""Ticket Resolution Process""}]","0.7","2025-11-26 23:00:40.400765","2025-11-26 23:00:40.400765"
+"287","343008414175821824","343008414175821824","MEIJER新订单自动接受及处理","{}","亲爱的团队，
+
+第一步：确认此 ticket 不需要 CSR 处理。
+
+第二步：将此 ticket 标记为 resolved。
+
+第三步：根据对话历史，确认此 ticket 的问题已经解决或不需要进一步处理。
+
+第四步：将此 ticket 直接标记为 resolved 状态。
+
+感谢您的配合。
+
+祝好，  
+[您的名字]","[{""id"": ""ticket-00001"", ""content"": ""Ensure the model is trained to recognize and apply specific domain terminology and processes, especially when dealing with tasks that involve unique workflows or systems. Focus on the ticket resolution process, identifying the need to confirm that the ticket does not require CSR intervention, marking it as resolved, and ensuring the issue is addressed based on conversation history. Emphasize the importance of distinguishing between different task contexts and applying the correct process guidance. Ensure the model correctly identifies the task type and follows the specific workflow outlined in the playbook for ticket resolution tasks. The model should accurately distinguish between order processing and ticket resolution tasks and follow the appropriate steps for each."", ""harmful"": 0, ""helpful"": 1, ""section"": ""Ticket Resolution Process""}, {""id"": ""new-00002"", ""content"": ""Ensure the model can identify and adapt to task contexts related to new order processing. It should seek relevant information or guidance when the task does not align directly with the playbook's focus on ticket resolution."", ""harmful"": 1, ""helpful"": 0, ""section"": ""New Order Processing""}]","0.45","2025-11-26 22:58:56.931234","2025-11-26 22:58:56.931234"
+"286","343008417673871360","343008417673871360","MEIJER INC新标书自动接受及订单创建","{}","你好，
+
+第一步：查看此 ticket 的状态并确认其已标记为 resolved。
+
+第二步：根据对话历史记录，确认问题已解决或不需要进一步处理。
+
+第三步：将此 ticket 直接标记为 resolved 状态。
+
+预计不需要额外时间处理。
+
+谢谢，
+[你的名字]","[{""id"": ""ticket-00001"", ""content"": ""Ensure to check the ticket status, review conversation history for issue resolution, and mark the ticket as resolved if no further action is needed. Explicitly outline the sequence of steps, mention the absence of additional processing time, and address the specific contacts and systems involved in the MEIJER INC process. Emphasize the importance of including detailed procedural steps to align closely with operational requirements."", ""harmful"": 0, ""helpful"": 1, ""section"": ""Ticket Management""}]","0.75","2025-11-26 22:56:59.715647","2025-11-26 22:56:59.715647"
+"285","343024980758069248","343024980758069248","TAVENT物流报价确认与运输细节","{}","Hello May,
+
+第一步：确认是否同意以$1600的标准费率进行处理。
+
+第二步：如果同意，请回复邮件告知我们继续进行。
+
+请告知您的决定。
+
+Best regards,  
+[Your Name]","[{""id"": ""procedural-00001"", ""content"": ""1. Address the recipient directly, e.g., 'Hello May.'\n2. Confirm agreement on the $1600 rate.\n3. Request a reply to proceed with the logistics.\n4. Explicitly ask for a decision confirmation to ensure all parties are aligned."", ""harmful"": 0, ""helpful"": 1, ""section"": ""Procedural Steps for Logistics Rate Confirmation""}]","0.78","2025-11-26 22:55:09.867508","2025-11-26 22:55:09.867508"
+"284","343047467877236736","343047467877236736","Load Tender问题解决及状态更新","{}","您好，
+
+第一步：确认此 ticket 不需要 CSR 处理。
+
+第二步：将 ticket 状态标记为 resolved。
+
+第三步：根据对话历史确认问题已解决或不需要进一步处理。
+
+第四步：确保 ticket 状态保持为 resolved。
+
+预估时间：此过程无需额外时间。
+
+谢谢！
+
+[您的签名]","[{""id"": ""load-00001"", ""content"": ""Confirm the ticket does not require CSR handling. If unresolved issues are indicated, contact CSR and check specific systems. Mark the ticket status as resolved. Verify the issue is resolved or requires no further action based on conversation history. Ensure the ticket status remains resolved. Note that the estimated time for this process is minimal."", ""harmful"": 0, ""helpful"": 1, ""section"": ""Load Tender Issue Resolution""}]","0.85","2025-11-26 22:53:34.517534","2025-11-26 22:53:34.517534"
+"283","343066766851407872","343066766851407872","Wismettac Asian Foods运输票据状态更新","{}","你好，
+
+第一步：确认此 ticket 不需要 CSR 处理。
+
+第二步：将此 ticket 标记为 resolved 状态。
+
+第三步：根据对话历史确认问题已解决或不需要进一步处理。
+
+预计时间：立即完成。
+
+谢谢。
+
+[你的名字]","[{""id"": ""procedural-00001"", ""content"": ""1. Confirm the ticket does not require CSR processing.\n2. Mark the ticket as resolved.\n3. Verify resolution through conversation history.\n4. Ensure to check the 'shipment tracking system' and 'internal databases'.\n5. Contact key individuals: Ismael Robles and Yuki Ho.\n6. Complete the process immediately."", ""harmful"": 0, ""helpful"": 3, ""section"": ""Procedural Steps for Shipment Ticket Resolution""}]","0.75","2025-11-26 22:51:47.895105","2025-11-26 22:51:47.895105"
+"282","343087228297904128","343087228297904128","Capy Teahouse运输报价及升降尾板需求","{}","Hello,
+
+第一步：确认我们的团队可以将此货物处理为FTL。
+
+第二步：确认$4700的费用是否已批准。
+
+第三步：Joey，请确认这是否包括升降门服务。
+
+Thank you.","[{""id"": ""bullets-00001"", ""content"": ""Confirm the shipment can be handled as FTL."", ""harmful"": 0, ""helpful"": 1, ""section"": ""bullets""}, {""id"": ""bullets-00002"", ""content"": ""Ensure the $4700 cost is explicitly confirmed and approved, and confirm FTL handling."", ""harmful"": 0, ""helpful"": 1, ""section"": ""bullets""}, {""id"": ""bullets-00003"", ""content"": ""Joey, please explicitly confirm whether the liftgate service is included and involve customer support if necessary."", ""harmful"": 0, ""helpful"": 1, ""section"": ""bullets""}, {""id"": ""bullets-00004"", ""content"": ""Explicitly confirm the inclusion of liftgate services in the logistics plan and involve customer support if not included."", ""harmful"": 0, ""helpful"": 1, ""section"": ""bullets""}]","0.75","2025-11-26 22:49:38.031611","2025-11-26 22:49:38.031611"
+"281","343096850786254848","343096850786254848","HEB订单67X502986的装配和交付协调","{}","第一步：向UF团队发送提醒邮件，告知尚未收到所需内容。
+
+第二步：确认MABD为周一，并通知需要将其发送至圣安东尼奥。
+
+第三步：请求加快处理速度以满足时间要求。
+
+感谢，  
+Ismael Robles","[{""id"": ""procedural-00001"", ""content"": ""Send a reminder email to the UF team regarding the pending items and explicitly detail the reminder email content. Include Ismael Robles in the communication. Ensure to notify the need to send items to San Antonio. Confirm the logistics for the delivery."", ""harmful"": 0, ""helpful"": 1, ""section"": ""Procedural Steps""}, {""id"": ""procedural-00002"", ""content"": ""Confirm MABD is set for Monday and notify that it needs to be sent to San Antonio, explicitly including the action of sending the MABD. Ensure Ismael Robles is informed. Clearly state the request for expedited processing. Confirm the logistics for the delivery."", ""harmful"": 0, ""helpful"": 1, ""section"": ""Procedural Steps""}, {""id"": ""procedural-00003"", ""content"": ""Request expedited processing to meet the time requirements. Communicate this request to Ismael Robles."", ""harmful"": 0, ""helpful"": 1, ""section"": ""Procedural Steps""}]","0.8","2025-11-26 22:47:25.986957","2025-11-26 22:47:25.986957"
+"280","343098172654714880","343098172654714880","La Mirada货物集装箱投放状态更新","{}","你好，
+
+第一步：确认此 ticket 不需要 CSR 处理。
+
+第二步：将此 ticket 标记为 resolved 状态。
+
+第三步：根据对话历史确认问题已解决或不需要进一步处理。
+
+预计时间：立即完成。
+
+谢谢！
+
+[你的名字]","[{""id"": ""bullets-00001"", ""content"": ""1) Confirm no CSR processing is needed, 2) Mark the ticket as resolved, 3) Review the dialogue history to ensure the issue is resolved or requires no further action, 4) If specific contacts or systems are not detailed, consult with a supervisor or refer to additional resources, 5) Estimated time: Immediate completion."", ""harmful"": 0, ""helpful"": 1, ""section"": ""bullets""}]","0.95","2025-11-26 22:45:07.006207","2025-11-26 22:45:07.006207"
+"279","343111637742092288","343111637742092288","物流调度问题已解决通知","{}","你好，
+
+第一步：确认此 ticket 不需要 CSR 处理。
+
+第二步：将此 ticket 标记为 resolved。
+
+第三步：根据对话历史确认此 ticket 的问题已经解决或不需要进一步处理。
+
+第四步：直接将 ticket 状态更新为 resolved。
+
+预计这些步骤将很快完成。
+
+谢谢，  
+[您的名字]","[{""id"": ""bullets-00001"", ""content"": ""确认此 ticket 不需要 CSR 处理。"", ""harmful"": 0, ""helpful"": 1, ""section"": ""bullets""}, {""id"": ""bullets-00002"", ""content"": ""根据对话历史确认此 ticket 的问题已经解决或不需要进一步处理。"", ""harmful"": 0, ""helpful"": 1, ""section"": ""bullets""}, {""id"": ""bullets-00003"", ""content"": ""直接将 ticket 状态更新为 resolved。"", ""harmful"": 0, ""helpful"": 1, ""section"": ""bullets""}, {""id"": ""bullets-00004"", ""content"": ""确认此 ticket 不需要 CSR 处理。"", ""harmful"": 0, ""helpful"": 1, ""section"": ""bullets""}, {""id"": ""bullets-00005"", ""content"": ""根据对话历史确认此 ticket 的问题已经解决或不需要进一步处理。"", ""harmful"": 0, ""helpful"": 1, ""section"": ""bullets""}]","0.75","2025-11-26 22:43:24.557427","2025-11-26 22:43:24.557427"
+"278","343351250589679616","343351250589679616","货运状态更新及预计到达时间确认","{}","Hello Joe,
+
+第一步：确认货物目前在前往犹他的拖车上。
+
+第二步：预计到达时间为星期五，11月7日。
+
+第三步：如有任何问题，请告知我们。
+
+Best regards,  
+[Your Name]","[{""id"": ""shipment-00001"", ""content"": ""Include the estimated delivery time and provide a feedback mechanism, such as a contact number or email, for customers to report issues or ask questions when providing shipment updates. Ensure to confirm the shipment's current location and provide a clear sequence of steps to verify the status."", ""harmful"": 0, ""helpful"": 1, ""section"": ""Shipment Status Update""}]","0.75","2025-11-26 22:41:33.497822","2025-11-26 22:41:33.497822"
+"277","343392741051695104","343392741051695104","MEIJER INC新订单自动接受通知","{}","你好，
+
+第一步：查看此 ticket 的状态并确认已标记为 resolved。
+
+第二步：根据对话历史检查问题是否已经解决或不需要进一步处理。
+
+第三步：如果确认无误，保持 ticket 状态为 resolved。
+
+预计这项工作不需要额外的时间。
+
+谢谢！
+
+[你的名字]","[{""id"": ""operational-00001"", ""content"": ""Step 1: Check the ticket status and confirm it is marked as resolved.\nStep 2: Review the conversation history to ensure the issue is resolved or requires no further action.\nStep 3: If confirmed, maintain the ticket status as resolved.\nEnsure the model accurately identifies the context of a question, especially when similar terms or processes are involved, to provide relevant and precise responses."", ""harmful"": 0, ""helpful"": 1, ""section"": ""Operational Steps for MEIJER INC New Order""}]","0.75","2025-11-26 22:39:42.537049","2025-11-26 22:39:42.537049"
+"276","343421236020609024","343421236020609024","货物运输状态更新与文件处理","{}","亲爱的团队，
+
+第一步：查看此 ticket 的状态并确认其已标记为 resolved。
+
+第二步：根据对话历史，确认此 ticket 的问题已经解决或不需要进一步处理。
+
+第三步：确保不需要 CSR 进行任何处理。
+
+第四步：将此 ticket 保持在 resolved 状态。
+
+感谢您的配合。
+
+祝好，
+[您的名字]","[{""id"": ""ticket-00001"", ""content"": ""Ensure to check the ticket status and confirm it is marked as resolved. Verify that the issue is resolved or requires no further action, and keep the ticket in a resolved state. Include logistics information for DFW and HOU, and ensure no further CSR action is needed. The sequence of steps should be: 1) Check ticket status and confirm 'resolved'; 2) Verify issue resolution; 3) Ensure no CSR action required; 4) Maintain ticket in 'resolved' state."", ""harmful"": 0, ""helpful"": 1, ""section"": ""Ticket Management""}]","0.65","2025-11-26 22:38:05.635291","2025-11-26 22:38:05.635291"
+"275","343453011266600960","343453011266600960","LG货物提货问题已解决通知","{}","你好，
+
+第一步：确认此 ticket 不需要 CSR 处理。
+
+第二步：将此 ticket 标记为 resolved。
+
+第三步：根据对话历史确认此 ticket 的问题已经解决或不需要进一步处理。
+
+第四步：将此 ticket 直接标记为 resolved 状态。
+
+谢谢！
+
+[你的名字]","[{""id"": ""lg-00001"", ""content"": ""Ensure that the ticket does not require further CSR handling. Confirm the issue is resolved or does not need further action, and then mark the ticket as resolved, following the correct sequence: 1) Confirm no further CSR handling is needed, 2) Verify through conversation history that the issue is resolved, 3) Mark the ticket as resolved."", ""harmful"": 0, ""helpful"": 1, ""section"": ""LG Cargo Pickup Issue Resolution""}]","0.65","2025-11-26 22:35:53.464039","2025-11-26 22:35:53.464039"
+"274","343460882754666496","343460882754666496","La Mirada货物卸载及入库计划","{}","你好，
+
+第一步：确认此 ticket 不需要 CSR 处理。
+
+第二步：将 ticket 状态标记为 resolved。
+
+第三步：根据对话历史确认问题已解决或不需要进一步处理。
+
+第四步：将 ticket 直接标记为 resolved 状态。
+
+预估时间：此任务已完成。
+
+谢谢！
+
+[你的签名]","[{""id"": ""ticket-00001"", ""content"": ""To resolve a ticket, follow these steps: 1. Confirm the ticket does not require CSR processing. 2. Mark the ticket status as resolved. 3. Ensure no further action is needed based on conversation history. 4. Directly mark the ticket as resolved if all conditions are met."", ""harmful"": 0, ""helpful"": 1, ""section"": ""Ticket Resolution""}, {""id"": ""logistics-00002"", ""content"": ""For logistics planning tasks, follow these steps: 1. Identify and contact relevant personnel involved in the logistics process. 2. Check necessary systems such as inventory management and scheduling tools. 3. Execute required operations for unloading and warehousing."", ""harmful"": 0, ""helpful"": 1, ""section"": ""Logistics Planning""}, {""id"": ""ticket-00003"", ""content"": ""Ensure the task is correctly identified as ticket resolution by looking for keywords and phrases that indicate the nature of the task. Follow these steps: 1. Confirm the ticket does not require CSR handling. 2. Mark the ticket status as resolved. 3. Ensure no further action is needed based on conversation history."", ""harmful"": 2, ""helpful"": 0, ""section"": ""Ticket Resolution""}]","0.65","2025-11-26 22:33:48.469947","2025-11-26 22:33:48.469947"
+"273","343487808567345152","343487808567345152","MEIJER订单自动接受及处理完成通知","{}","你好，
+
+第一步：确认此 ticket 已标记为 resolved 状态。
+
+第二步：根据对话历史，核实问题已解决或不需要进一步处理。
+
+第三步：确保不需要 CSR 处理此 ticket。
+
+预计此过程不需要额外时间。
+
+谢谢，
+[你的名字]","[{""id"": ""meijer-00001"", ""content"": ""Step 1: Confirm the ticket is marked as resolved."", ""harmful"": 0, ""helpful"": 1, ""section"": ""MEIJER Order Handling""}, {""id"": ""meijer-00002"", ""content"": ""Step 2: Verify through conversation history that the issue is resolved or requires no further action."", ""harmful"": 0, ""helpful"": 1, ""section"": ""MEIJER Order Handling""}, {""id"": ""meijer-00003"", ""content"": ""Step 3: Ensure that no CSR action is needed."", ""harmful"": 0, ""helpful"": 1, ""section"": ""MEIJER Order Handling""}]","0.85","2025-11-26 22:31:50.485499","2025-11-26 22:31:50.485499"
+"272","343737969879228416","343737969879228416","货运费用批准及司机取货安排","{}","Hello,
+
+第一步：确认费用已被批准。
+
+第二步：今天将货物放行给司机。
+
+第三步：Jose Melendez-Corredor，请提供司机此次提货的预计到达时间。
+
+Thank you.","[{""id"": ""bullets-00001"", ""content"": ""第一步：确认费用已被批准。"", ""harmful"": 0, ""helpful"": 1, ""section"": ""bullets""}, {""id"": ""bullets-00002"", ""content"": ""第二步：今天将货物放行给司机。"", ""harmful"": 0, ""helpful"": 1, ""section"": ""bullets""}, {""id"": ""bullets-00003"", ""content"": ""第三步：Jose Melendez-Corredor，请提供司机此次提货的预计到达时间。"", ""harmful"": 0, ""helpful"": 1, ""section"": ""bullets""}, {""id"": ""bullets-00004"", ""content"": ""与Celine Escorido确认费用已被批准。"", ""harmful"": 0, ""helpful"": 1, ""section"": ""bullets""}]","0.9","2025-11-26 22:30:06.449445","2025-11-26 22:30:06.449445"
+"271","343738332405506048","343738332405506048","Unis卡车事故处理与赔偿请求","{}","亲爱的团队，
+
+第一步：请Frances联系Anthony以确认WMS系统的当前配置。
+
+第二步：Anthony需要检查EDI接口的ISA ID设置是否正确。
+
+第三步：Jeff应验证API的连接状态并确保其与CubeShip系统的集成正常。
+
+第四步：Eaden负责核对所有PO号码以确保数据一致性。
+
+第五步：Joliet团队需要与B-Solutions协调以解决任何潜在的系统冲突。
+
+第六步：所有团队成员在完成各自任务后，需在24小时内更新进度。
+
+预计完成时间为三天。
+
+感谢大家的配合。
+
+祝好，
+
+[您的名字]","[{""id"": ""bullets-00001"", ""content"": ""在处理Unis卡车事故与赔偿请求时，需联系以下人员：Frances Parro Belleza、Anthony、Jeff、Eaden，以及Joliet团队。需要检查的系统包括WMS系统和EDI接口。具体操作步骤如下：1. Frances联系Anthony以确认WMS系统的当前配置。2. Anthony检查EDI接口的ISA ID设置。3. Jeff验证API的连接状态并确保与CubeShip系统的集成正常。4. Eaden核对所有PO号码以确保数据一致性。5. Joliet团队与B-Solutions协调以解决潜在的系统冲突。6. 所有团队成员在完成各自任务后，需在24小时内更新进度。预计完成时间为三天。"", ""harmful"": 0, ""helpful"": 1, ""section"": ""bullets""}]","0.9","2025-11-26 22:27:47.55946","2025-11-26 22:27:47.55946"
+"270","343757572097384448","343757572097384448","UNIS门户登录账号设置与订单验证","{}","亲爱的团队，
+
+第一步：确认此 ticket 已标记为 resolved 状态。
+
+第二步：根据对话历史，确认问题已解决或不需要进一步处理。
+
+第三步：不需要 CSR 进行任何处理。
+
+预计时间：立即完成。
+
+谢谢！
+
+Frances","[{""id"": ""procedural-00001"", ""content"": ""Confirm the ticket is marked as resolved, ensure no further action is needed from CSR, verify the problem is solved, and acknowledge Frances in the process."", ""harmful"": 0, ""helpful"": 1, ""section"": ""Procedural Steps""}, {""id"": ""procedural-00002"", ""content"": ""Contact Celine Escorido and Christopher Mosqueda for portal credentials and account setup, verify the PO number through the SPS system, and ensure all relevant entities are involved."", ""harmful"": 0, ""helpful"": 1, ""section"": ""Procedural Steps""}, {""id"": ""procedural-00003"", ""content"": ""Confirm the ticket is marked as resolved, ensure no further action is needed from CSR, and acknowledge Frances in the process."", ""harmful"": 0, ""helpful"": 1, ""section"": ""Procedural Steps""}]","0.55","2025-11-26 22:25:42.041016","2025-11-26 22:25:42.041016"
+"269","343758695889838080","343758695889838080","UNIS门户登录问题解决","{}","你好，
+
+第一步：确认此 ticket 已标记为 resolved 状态。
+
+第二步：根据对话历史，确认问题已经解决或不需要进一步处理。
+
+第三步：确保不需要 CSR 处理此 ticket。
+
+预计这些步骤不需要额外时间。
+
+谢谢，
+[你的名字]","[{""id"": ""procedural-00001"", ""content"": ""Confirm the ticket is marked as resolved and verify with CSR if necessary. Ensure no further CSR involvement is necessary."", ""harmful"": 0, ""helpful"": 6, ""section"": ""Procedural Steps for Login Issue Resolution""}, {""id"": ""procedural-00002"", ""content"": ""Verify that the issue is resolved or no further action is needed."", ""harmful"": 0, ""helpful"": 4, ""section"": ""Procedural Steps for Login Issue Resolution""}, {""id"": ""procedural-00003"", ""content"": ""Ensure no further CSR involvement is necessary."", ""harmful"": 0, ""helpful"": 4, ""section"": ""Procedural Steps for Login Issue Resolution""}]","0.75","2025-11-26 22:23:29.328948","2025-11-26 22:23:29.328948"
+"268","343822854769811456","343822854769811456","La Mirada货物集装箱处理状态更新","{}","亲爱的团队，
+
+第一步：请确认此 ticket 已被标记为 resolved 状态。
+
+第二步：根据对话历史，验证问题是否已解决或不需要进一步处理。
+
+第三步：如果确认无误，请将 ticket 保持在 resolved 状态。
+
+预计这些步骤不需要额外的时间。
+
+谢谢！
+
+[您的名字]","[{""id"": ""ticket-00001"", ""content"": ""Ensure the ticket is marked as resolved. Verify the conversation history to confirm the issue is resolved or requires no further action. Maintain the ticket in a resolved state if confirmed. Include steps to confirm the ticket's resolved status, verify the conversation history, and ensure no further action is needed. Explicitly mention confirming the ticket as resolved and verifying issue resolution."", ""harmful"": 1, ""helpful"": 4, ""section"": ""Ticket Resolution Process""}]","0.62","2025-11-26 22:21:13.677247","2025-11-26 22:21:13.677247"
+"267","343823341615259648","343823341615259648","Costco交付时间调整及确认流程","{}","您好，
+
+第一步：确认此 ticket 不需要 CSR 处理。
+
+第二步：将此 ticket 标记为 resolved 状态。
+
+第三步：根据对话历史确认此 ticket 的问题已经解决或不需要进一步处理。
+
+预估时间：此过程预计需要不到5分钟。
+
+谢谢！
+
+[您的名字]","[{""id"": ""internal-00001"", ""content"": ""1. Confirm the ticket does not require CSR handling by checking the context or seeking additional information.\n2. Mark the ticket as resolved.\n3. Ensure the issue is resolved or requires no further action based on conversation history.\n4. Estimated time: This process is expected to take less than 5 minutes."", ""harmful"": 0, ""helpful"": 1, ""section"": ""Internal Ticket Resolution Process""}]","0.9","2025-11-26 22:19:20.123228","2025-11-26 22:19:20.123228"
+"266","343862482331705344","343862482331705344","UTPA 17391436订单确认与取货安排","{}","你好，
+
+第一步：确认此 ticket 不需要 CSR 处理。
+
+第二步：将此 ticket 标记为 resolved。
+
+第三步：根据对话历史，确认此 ticket 的问题已经解决或不需要进一步处理。
+
+第四步：将 ticket 状态更新为 resolved。
+
+预计时间：立即完成。
+
+谢谢，
+[你的名字]","[{""id"": ""ticket-00001"", ""content"": ""Ensure the ticket does not require CSR handling, mark it as resolved, verify the issue is resolved, and update its status accordingly. Additionally, for order confirmation and pick-up arrangements, identify relevant contacts, check necessary systems for order status and scheduling, and outline specific actions required to complete the task. Include steps to explicitly mark the ticket as resolved and confirm that no further action is needed."", ""harmful"": 1, ""helpful"": 1, ""section"": ""Ticket Resolution Process""}]","0.75","2025-11-26 22:17:18.502562","2025-11-26 22:17:18.502562"
+"265","343948871515602944","343948871515602944","LTL货运报价及路线确认","{}","Hello Faye,
+
+第一步：查看以下费率信息。
+
+第二步：确认WOODLAND, CA的报价Q#28994047为$1030.43。
+
+第三步：确认Moriarty, NM的报价Q#28994083为$1091.59。
+
+请按照上述步骤进行操作。
+
+Best regards,  
+[Your Name]","[{""id"": ""bullets-00001"", ""content"": ""Step 1: Review the following rate information. Step 2: Confirm WOODLAND, CA with quote Q#28994047 and rate $1030.43. Step 3: Confirm Moriarty, NM with quote Q#28994083 and rate $1091.59. Ensure each step includes specific quote numbers and amounts for clarity."", ""harmful"": 0, ""helpful"": 1, ""section"": ""bullets""}]","0.75","2025-11-26 22:15:24.528417","2025-11-26 22:15:24.528417"
+"264","344043434280321024","344043434280321024","IOD数据提交及未提交警告","{}","你好，
+
+第一步：确认此 ticket 不需要 CSR 处理。
+
+第二步：将此 ticket 标记为 resolved。
+
+第三步：根据对话历史，确认此 ticket 的问题已经解决或不需要进一步处理。
+
+第四步：直接将此 ticket 标记为 resolved 状态。
+
+谢谢！
+
+[你的名字]","[{""id"": ""ticket-00001"", ""content"": ""Ensure alignment with the user's workflow by confirming the ticket doesn't require CSR handling, verifying the issue's resolution based on conversation history, and then marking the ticket as resolved."", ""harmful"": 0, ""helpful"": 1, ""section"": ""Ticket Resolution Process""}]","0.55","2025-11-26 22:13:33.266977","2025-11-26 22:13:33.266977"
+"263","344091182971060224","344091182971060224","UNIS与LX Pantos间送货预约问题解决","{}","你好，
+
+第一步：确认此 ticket 不需要 CSR 处理。
+
+第二步：将此 ticket 标记为 resolved。
+
+第三步：根据对话历史确认此 ticket 的问题已解决或不需要进一步处理。
+
+第四步：将此 ticket 直接标记为 resolved 状态。
+
+预估时间：此过程无需额外时间。
+
+谢谢。
+
+[你的名字]","[{""id"": ""bullets-00001"", ""content"": ""确认此 ticket 不需要 CSR 处理，并根据对话历史确认此 ticket 的问题已解决或不需要进一步处理。"", ""harmful"": 1, ""helpful"": 3, ""section"": ""bullets""}, {""id"": ""bullets-00002"", ""content"": ""将此 ticket 标记为 resolved。"", ""harmful"": 1, ""helpful"": 3, ""section"": ""bullets""}, {""id"": ""bullets-00003"", ""content"": ""根据对话历史确认此 ticket 的问题已解决或不需要进一步处理。"", ""harmful"": 1, ""helpful"": 3, ""section"": ""bullets""}]","0.65","2025-11-26 22:11:42.486447","2025-11-26 22:11:42.486447"
+"262","344101069818003456","344101069818003456","LG货物运输安排与报价确认","{}","你好，
+
+第一步：确认此 ticket 不需要 CSR 处理。
+
+第二步：将此 ticket 标记为 resolved 状态。
+
+第三步：根据对话历史，确认此 ticket 的问题已经解决或不需要进一步处理。
+
+预估时间：此过程已经完成。
+
+谢谢！
+
+[你的名字]","[{""id"": ""ticket-00001"", ""content"": ""Ensure the ticket does not require CSR handling, verify the dialogue history to confirm the issue is resolved or does not need further action, and then mark it as resolved. Confirm that no further CSR handling is needed, mark the ticket as resolved, and verify that the issue has been resolved through dialogue history."", ""harmful"": 0, ""helpful"": 1, ""section"": ""Ticket Management""}]","0.55","2025-11-26 22:09:26.834177","2025-11-26 22:09:26.834177"
+"261","344102896441589760","344102896441589760","CSA订单短装问题及取货安排","{}","Hello Andrew,
+
+第一步：确认是否可以使用相同的参考号码。
+
+第二步：创建PU 7655651。
+
+第三步：Elizabeth Rodriguez，请安排司机今天来取这两个托盘。
+
+Best regards,  
+[Your Name]","[]","0.8","2025-11-26 22:06:56.521341","2025-11-26 22:06:56.521341"
+"260","344102896441589760","344102896441589760","CSA订单短缺问题处理及取货安排","{}","Hello Andrew,
+
+第一步：确认是否可以使用相同的参考号码。
+
+第二步：创建PU 7655651。
+
+第三步：联系Elizabeth Rodriguez，询问是否可以今天派司机来取这两个托盘。
+
+谢谢！
+
+[Your Name]","[{""id"": ""bullets-00001"", ""content"": ""1. Confirm with Andrew Pilat if the same reference numbers can be used.\n\n2. Mention that Celine Escorido has created PU 7655651.\n\n3. Contact Elizabeth Rodriguez with specific instructions to arrange for a driver to pick up the two pallets today."", ""harmful"": 0, ""helpful"": 1, ""section"": ""bullets""}]","0.85","2025-11-26 22:05:06.395633","2025-11-26 22:05:06.395633"
+"259","344137400560484352","344137400560484352","Load Tender问题已解决通知","{}","您好，
+
+第一步：确认此 ticket 不需要 CSR 处理。
+
+第二步：将此 ticket 标记为 resolved。
+
+第三步：根据对话历史确认此 ticket 的问题已经解决或不需要进一步处理。
+
+第四步：直接将此 ticket 标记为 resolved 状态。
+
+感谢您的理解和配合。
+
+祝好，  
+[您的名字]","[{""id"": ""load-00001"", ""content"": ""第一步：确认此 ticket 不需要 CSR 处理。\n第二步：根据对话历史确认此 ticket 的问题已经解决或不需要进一步处理。\n第三步：将此 ticket 标记为 resolved。\n第四步：直接将此 ticket 标记为 resolved 状态。"", ""harmful"": 0, ""helpful"": 1, ""section"": ""Load Tender Issue Resolution""}]","0.78","2025-11-26 22:03:12.043308","2025-11-26 22:03:12.043308"
+"258","344137407900516352","344137407900516352","Load Tender工单问题解决确认","{}","你好，
+
+第一步：确认此 ticket 不需要 CSR 处理。
+
+第二步：将 ticket 状态标记为 resolved。
+
+第三步：根据对话历史确认问题已解决或不需要进一步处理。
+
+第四步：确保 ticket 状态为 resolved。
+
+预计时间：立即完成。
+
+谢谢，
+[你的名字]","[]","0.75","2025-11-26 22:01:19.518899","2025-11-26 22:01:19.518899"
+"257","344137760666648576","344137760666648576","Load Tender工单问题解决通知","{}","你好，
+
+第一步：确认此 ticket 不需要 CSR 处理。
+
+第二步：根据对话历史，检查问题是否已解决或不需要进一步处理。
+
+第三步：将 ticket 状态标记为 resolved。
+
+预估时间：此过程不需要额外时间。
+
+祝好，
+
+[你的名字]","[{""id"": ""internal_ticket_resolution-00001"", ""content"": ""1. Confirm the ticket does not require CSR handling.\n2. Review conversation history to assess if the issue is resolved or if further action is needed.\n3. Identify and contact relevant individuals, such as the contact person at UNIS TRANSPORTATION (PTL) and the sender.\n4. Check necessary systems to ensure all information is up-to-date and accurate.\n5. Execute any required operations to resolve the issue.\n6. Mark the ticket status as resolved."", ""harmful"": 0, ""helpful"": 1, ""section"": ""internal_ticket_resolution""}]","0.75","2025-11-26 21:59:30.404766","2025-11-26 21:59:30.404766"
+"256","344145350935019520","344145350935019520","货物追踪信息更新与交付安排","{}","Hello,
+
+第一步：联系Frances以确认WMS系统的当前状态。
+
+第二步：与Anthony讨论EDI接口的配置，确保ISA ID正确。
+
+第三步：检查API的连接状态，并与Jeff确认CubeShip的集成。
+
+第四步：联系Eaden以获取最新的PO号码并确认其有效性。
+
+第五步：通知Joliet团队关于系统更新的时间安排。
+
+第六步：与B-Solutions团队协调，以确保所有配置在11/10之前完成。
+
+Additionally, this has been scheduled for delivery on 11/10.
+
+Best regards,
+
+[Your Name]","[{""id"": ""bullets-00001"", ""content"": ""To update tracking information and arrange delivery, follow these steps: 1. Contact Frances to confirm the WMS status. 2. Discuss EDI configuration with Anthony ensuring ISA ID is correct. 3. Check API connection with Jeff and confirm CubeShip integration. 4. Confirm PO validity with Eaden. 5. Notify the Joliet team about system update schedule. 6. Coordinate with B-Solutions to ensure all configurations are completed before the 11/10 delivery date."", ""harmful"": 0, ""helpful"": 1, ""section"": ""bullets""}]","0.83","2025-11-26 21:57:53.629675","2025-11-26 21:57:53.629675"
+"255","344164264888860672","344164264888860672","HEB订单2916956的交付安排和状态更新","{}","Hello,
+
+第一步：确认11/12日07:00的预约交货时间。
+
+第二步：确保按照预约时间进行交货。
+
+第三步：记录交货时间以便后续跟踪。
+
+Thank you!","[{""id"": ""bullets-00001"", ""content"": ""确认11/12日07:00的预约交货时间。"", ""harmful"": 0, ""helpful"": 1, ""section"": ""bullets""}, {""id"": ""bullets-00002"", ""content"": ""确保按照预约时间进行交货。"", ""harmful"": 0, ""helpful"": 1, ""section"": ""bullets""}, {""id"": ""bullets-00003"", ""content"": ""记录交货时间以便后续跟踪。"", ""harmful"": 0, ""helpful"": 1, ""section"": ""bullets""}, {""id"": ""bullets-00004"", ""content"": ""确保在回复中包含具体的预约交货时间以提高准确性和完整性。"", ""harmful"": 0, ""helpful"": 1, ""section"": ""bullets""}, {""id"": ""bullets-00005"", ""content"": ""在回复中保持正式语气，并提供详细的系统检查说明，例如检查跟踪系统和预约更新。"", ""harmful"": 0, ""helpful"": 1, ""section"": ""bullets""}, {""id"": ""bullets-00006"", ""content"": ""在回复中包含具体的预约交货时间（例如11/12日07:00）以提高准确性和完整性。"", ""harmful"": 0, ""helpful"": 1, ""section"": ""bullets""}]","0.85","2025-11-26 21:56:04.038095","2025-11-26 21:56:04.038095"
+"254","344168398132183040","344168398132183040","订单DN-2853921的报价确认与提货安排","{}","你好，
+
+第一步：请确认Frances已经批准了相关请求。
+
+第二步：联系Anthony以确保WMS系统的配置已更新。
+
+第三步：与Jeff核实EDI和API的连接是否正常。
+
+第四步：检查CubeShip系统中的ISA ID和PO号码是否正确配置。
+
+第五步：通知Joliet团队和B-Solutions团队关于系统更新的完成情况。
+
+第六步：预计整个过程将需要大约两个工作日。
+
+谢谢。
+
+Eaden","[{""id"": ""bullets-00001"", ""content"": ""Ensure all critical entities and steps are identified and included: Confirm request approval with Frances, update WMS system configuration with Anthony, verify EDI and API connections with Jeff, check CubeShip system configurations including ISA ID and PO number, notify Joliet and B-Solutions teams, and estimate the process to take approximately two working days. Provide detailed explanations for each step to ensure clarity and comprehensiveness."", ""harmful"": 0, ""helpful"": 1, ""section"": ""bullets""}, {""id"": ""bullets-00002"", ""content"": ""Incorporate a formal tone in responses when dealing with professional or business-related queries to better align with user expectations."", ""harmful"": 0, ""helpful"": 1, ""section"": ""bullets""}]","0.95","2025-11-26 21:54:03.011023","2025-11-26 21:54:03.011023"
+"253","344172235555438592","344172235555438592","NF5 Fontana的预约已解决","{}","你好，
+
+第一步：确认此 ticket 不需要 CSR 处理。
+
+第二步：将此 ticket 标记为 resolved 状态。
+
+第三步：根据对话历史确认此 ticket 的问题已经解决或不需要进一步处理。
+
+预估时间：此任务已完成。
+
+谢谢，
+[你的名字]","[{""id"": ""ticket-00001"", ""content"": ""1. Confirm that CSR involvement is not required for the ticket. 2. Verify that the issue is resolved by reviewing the conversation history. 3. Mark the ticket as resolved in the system and confirm the task completion status."", ""harmful"": 0, ""helpful"": 3, ""section"": ""Ticket Resolution Process""}, {""id"": ""ticket-00004"", ""content"": ""Estimated time for task completion: This task is already completed."", ""harmful"": 0, ""helpful"": 1, ""section"": ""Ticket Resolution Process""}]","0.75","2025-11-26 21:51:46.684664","2025-11-26 21:51:46.684664"
+"252","344187533113262080","344187533113262080","La Mirada货物分配及状态更新","{}","你好，
+
+第一步：查看此 ticket 的对话历史以确认问题是否已解决或不需要进一步处理。
+
+第二步：将此 ticket 的状态标记为 resolved。
+
+第三步：不需要 CSR 处理此 ticket。
+
+预计这将很快完成。
+
+谢谢，
+[你的名字]","[{""id"": ""ticket-00001"", ""content"": ""When resolving tickets, ensure to review the conversation history, mark the ticket as resolved, confirm that no further CSR action is required, and provide explicit step numbers and an estimated completion time. Follow these specific steps: 1. Check the conversation history to confirm if the issue is resolved or requires no further action. 2. Mark the ticket as resolved. 3. Note that no CSR action is required."", ""harmful"": 0, ""helpful"": 1, ""section"": ""Ticket Resolution""}, {""id"": ""operational-00002"", ""content"": ""For cargo allocation and status updates at La Mirada, identify key contacts such as logistics coordinators and system operators. Check relevant systems like cargo tracking and allocation software. Execute actions including updating cargo status and confirming allocations with stakeholders. Provide explicit step numbers and estimated completion times."", ""harmful"": 0, ""helpful"": 1, ""section"": ""Operational Logistics""}]","0.8","2025-11-26 21:49:42.802739","2025-11-26 21:49:42.802739"
+"251","344195665965187072","344195665965187072","从S. El Monte到San Diego的货物运输安排","{}","Hello Becky,
+
+第一步：确认PU 7657931是否已准备好供司机提货。
+
+第二步：告知司机正在前往提货地点。
+
+第三步：告知将免除$75的升降门费用，并为此带来的不便表示歉意。
+
+第四步：如有任何需要，请随时联系我们。
+
+Best regards,  
+[Your Name]","[{""id"": ""operational-00001"", ""content"": ""Confirm the readiness of pickup number PU 7657931 for driver pickup. Notify the driver directly about the pickup and delivery details. Address the waiver of the $75 lift gate fee and apologize for any inconvenience caused. Clearly define Becky's role in the coordination process. Include contact information for further needs."", ""harmful"": 0, ""helpful"": 1, ""section"": ""Operational Steps""}]","0.75","2025-11-26 21:47:47.44963","2025-11-26 21:47:47.44963"
+"250","344208593175019520","344208593175019520","未提交IOD数据的载货通知及解决","{}","你好，
+
+第一步：确认此 ticket 不需要 CSR 处理。
+
+第二步：将此 ticket 标记为 resolved 状态。
+
+第三步：根据对话历史，确认此 ticket 的问题已解决或不需要进一步处理。
+
+预计处理时间已完成。
+
+谢谢，
+[你的名字]","[{""id"": ""iod-00001"", ""content"": ""1) Confirm the ticket does not require CSR processing. 2) Mark the ticket as resolved. 3) Confirm the issue is resolved or does not need further action based on conversation history. 4) Ensure '预计处理时间已完成' is included in the response for completeness."", ""harmful"": 0, ""helpful"": 2, ""section"": ""IOD Data Resolution Workflow""}]","0.85","2025-11-26 21:45:18.895377","2025-11-26 21:45:18.895377"
+"249","344490631311921152","344490631311921152","司机与收货方货物拒收沟通问题","{}","Hello Kara,
+
+第一步：提醒所有司机注意避免未来出现类似问题。
+
+第二步：感谢您的理解并感谢您一如既往的支持。
+
+😊
+
+Best regards,
+
+Celine Escorido
+
+Customer Support","[{""id"": ""bullets-00001"", ""content"": ""Remind all drivers to avoid pressuring consignees and acknowledge their right to refuse freight."", ""harmful"": 0, ""helpful"": 1, ""section"": ""bullets""}, {""id"": ""bullets-00002"", ""content"": ""Thank Kara Serrano for her understanding and continued support, and ensure to directly mention and thank Celine Escorido for her role."", ""harmful"": 0, ""helpful"": 1, ""section"": ""bullets""}, {""id"": ""bullets-00003"", ""content"": ""Include a direct mention of Celine Escorido in communications to personalize and acknowledge her role."", ""harmful"": 0, ""helpful"": 1, ""section"": ""bullets""}, {""id"": ""bullets-00004"", ""content"": ""Provide a step-by-step action plan: 1. Contact Kara Serrano and Celine Escorido to acknowledge the issue and express gratitude. 2. Remind drivers about proper protocol and the rights of consignees. 3. Ensure all communications include relevant stakeholders."", ""harmful"": 0, ""helpful"": 1, ""section"": ""bullets""}]","0.75","2025-11-26 21:43:42.378832","2025-11-26 21:43:42.378832"
+"248","344496843503964160","344496843503964160","货物拒收处理提醒","{}","Hello Team,
+
+第一步：提醒司机收货人有权拒收货物。
+
+第二步：确保我们不要建议司机做出相反的行为。
+
+第三步：如果发生拒收，司机需要立即通知调度以便妥善处理。
+
+Thank you.","[{""id"": ""cargo-00001"", ""content"": ""Step 1: Remind the driver that the recipient has the right to reject the cargo."", ""harmful"": 0, ""helpful"": 2, ""section"": ""Cargo Rejection Procedures""}, {""id"": ""cargo-00002"", ""content"": ""Step 3: Ensure the driver immediately informs dispatch in case of rejection to handle the situation appropriately."", ""harmful"": 0, ""helpful"": 2, ""section"": ""Cargo Rejection Procedures""}, {""id"": ""cargo-00003"", ""content"": ""Step 2: Ensure we do not advise the driver to act contrary to the recipient's decision."", ""harmful"": 2, ""helpful"": 4, ""section"": ""Cargo Rejection Procedures""}]","0.75","2025-11-26 21:42:04.500585","2025-11-26 21:42:04.500585"
+"247","344546422417002496","344546422417002496","La Mirada货物交付状态更新","{}","你好，
+
+第一步：确认此 ticket 不需要 CSR 处理。
+
+第二步：将此 ticket 标记为 resolved。
+
+第三步：根据对话历史，确认此 ticket 的问题已经解决或不需要进一步处理。
+
+第四步：直接将此 ticket 标记为 resolved 状态。
+
+谢谢！
+
+[你的名字]","[{""id"": ""ticket-00001"", ""content"": ""1. Ensure the ticket does not require CSR involvement. 2. Mark the ticket as resolved. 3. Verify issue resolution from conversation history. 4. Confirm alignment with the playbook's focus on ticket resolution steps, even if the task context appears to involve logistics."", ""harmful"": 1, ""helpful"": 1, ""section"": ""Ticket Resolution Process""}, {""id"": ""logistics-00002"", ""content"": ""1. Identify the relevant personnel to contact for logistics updates. 2. Check specific systems related to logistics and delivery status. 3. Execute operations necessary for updating the delivery status."", ""harmful"": 0, ""helpful"": 1, ""section"": ""Logistics and Delivery Status Updates""}, {""id"": ""ticket-00003"", ""content"": ""Ensure the model can distinguish between logistics updates and ticket resolution tasks by recognizing key indicators and keywords related to each context."", ""harmful"": 0, ""helpful"": 1, ""section"": ""Ticket Resolution Process""}]","0.85","2025-11-26 21:40:22.702545","2025-11-26 21:40:22.702545"
+"246","344570958504005632","344570958504005632","IOD数据提交状态更新及要求","{}","你好，
+
+第一步：确认此 ticket 不需要 CSR 处理。
+
+第二步：将此 ticket 标记为 resolved。
+
+第三步：根据对话历史确认此 ticket 的问题已经解决或不需要进一步处理。
+
+第四步：直接将此 ticket 标记为 resolved 状态。
+
+谢谢。
+
+[你的名字]","[{""id"": ""ticket-00001"", ""content"": ""Ensure the ticket does not require CSR handling. Confirm the issue is resolved based on conversation history. Mark the ticket as resolved after confirming the issue is addressed."", ""harmful"": 0, ""helpful"": 2, ""section"": ""Ticket Resolution Procedures""}, {""id"": ""ticket-00002"", ""content"": ""Ensure alignment with internal procedures by confirming the ticket does not require CSR handling, verifying the issue is resolved, and marking the ticket as resolved without unnecessary external actions."", ""harmful"": 0, ""helpful"": 2, ""section"": ""Ticket Resolution Procedures""}]","0.55","2025-11-26 21:38:27.587547","2025-11-26 21:38:27.587547"
+"245","344933076453560320","344933076453560320","未提交IOD数据导致的票据问题解决","{}","你好，
+
+第一步：查看对话历史以确认问题是否已经解决或不需要进一步处理。
+
+第二步：将此 ticket 标记为 resolved 状态。
+
+第三步：不需要 CSR 处理此 ticket。
+
+感谢你的理解。
+
+祝好，  
+[你的名字]","[{""id"": ""bullets-00001"", ""content"": ""When resolving issues related to unsubmitted IOD data, ensure to: 1) Check the conversation history to confirm if the issue is resolved or requires no further action. 2) Mark the ticket as resolved. 3) Confirm that no CSR action is needed. 4) Contact cm.usa@lxpantos.com for IOD submission issues. 5) Check the TMS system for updates."", ""harmful"": 0, ""helpful"": 4, ""section"": ""bullets""}]","0.65","2025-11-26 21:36:17.446247","2025-11-26 21:36:17.446247"
+"244","345129445889937408","345129445889937408","IOD数据提交延迟问题通知","{}","亲爱的团队，
+
+第一步：请确认此 ticket 已标记为 resolved 状态。
+
+第二步：根据对话历史，确保问题已解决或不需要进一步处理。
+
+第三步：不需要 CSR 进行任何处理。
+
+预计此过程不需要额外时间。
+
+谢谢，
+[您的名字]","[{""id"": ""iod-00001"", ""content"": ""Ensure the ticket is marked as resolved by checking the ticket system, verify the issue is resolved or requires no further action based on conversation history, and confirm that no CSR action is needed. Include key entities such as 'ticket', 'resolved status', 'conversation history', and 'CSR'. Follow the procedural steps: 1) Confirm ticket resolved status by checking the ticket system, 2) Review conversation history to ensure all issues are addressed, 3) Ensure no CSR action is required."", ""harmful"": 0, ""helpful"": 1, ""section"": ""IOD Data Submission Delay""}]","0.65","2025-11-26 21:34:24.087341","2025-11-26 21:34:24.087341"
+"243","345235644350205952","345235644350205952","未提交IOD数据的负载处理","{}","你好，
+
+第一步：确认此 ticket 不需要 CSR 处理。
+
+第二步：将此 ticket 标记为 resolved。
+
+第三步：根据对话历史确认此 ticket 的问题已经解决或不需要进一步处理。
+
+第四步：直接将此 ticket 标记为 resolved 状态。
+
+谢谢。
+
+[你的名字]","[{""id"": ""bullets-00001"", ""content"": ""1) Confirm the ticket does not require CSR processing, 2) Mark the ticket as resolved, 3) Verify issue resolution from conversation history, 4) Mark the ticket as resolved again."", ""harmful"": 0, ""helpful"": 1, ""section"": ""bullets""}]","0.65","2025-11-26 21:32:33.783773","2025-11-26 21:32:33.783773"
+"242","345295529662222336","345295529662222336","未提交IOD数据导致的绩效问题","{}","你好，
+
+第一步：查看对话历史以确认此 ticket 的问题已经解决或不需要进一步处理。
+
+第二步：将此 ticket 标记为 resolved 状态。
+
+第三步：不需要 CSR 处理此 ticket。
+
+预估时间：此任务已完成。
+
+谢谢！
+
+[你的名字]","[{""id"": ""procedural-00001"", ""content"": ""1. Review conversation history to confirm the ticket issue is resolved or requires no further action. 2. Contact the Carrier Management Team if experiencing issues. 3. Check the TMS system for IOD submission issues. 4. Mark the ticket as resolved if the issue is addressed. 5. Note that no CSR action is needed."", ""harmful"": 0, ""helpful"": 1, ""section"": ""Procedural Steps for IOD Submission Issues""}]","0.75","2025-11-26 21:30:25.951034","2025-11-26 21:30:25.951034"
+"241","345486912824619008","345486912824619008","订单218516342的产品可用性问题","{}","Good afternoon Yessica,
+
+第一步：确认所有未发送的订单仍因产品可用性问题而被搁置。
+
+第二步：联系Joliet团队以获取最新的产品库存信息。
+
+第三步：与Anthony和Jeff协调以确保WMS系统中的库存数据更新。
+
+第四步：检查EDI系统中的ISA ID配置以确保订单传输的正确性。
+
+第五步：与B-Solutions团队沟通以确认API接口的正常运行。
+
+第六步：核对所有相关订单的PO号码以确保数据一致性。
+
+第七步：联系Eaden以获取CubeShip系统的最新状态报告。
+
+预计这些步骤将在两天内完成。
+
+Best regards,
+
+[Your Name]","[{""id"": ""bullets-00001"", ""content"": ""确认所有未发送的订单仍因产品可用性问题而被搁置。"", ""harmful"": 0, ""helpful"": 1, ""section"": ""bullets""}, {""id"": ""bullets-00002"", ""content"": ""检查EDI系统中的ISA ID配置以确保订单传输的正确性。"", ""harmful"": 0, ""helpful"": 1, ""section"": ""bullets""}, {""id"": ""bullets-00003"", ""content"": ""与B-Solutions团队沟通以确认API接口的正常运行。"", ""harmful"": 0, ""helpful"": 1, ""section"": ""bullets""}, {""id"": ""bullets-00004"", ""content"": ""核对所有相关订单的PO号码以确保数据一致性。"", ""harmful"": 0, ""helpful"": 1, ""section"": ""bullets""}, {""id"": ""bullets-00005"", ""content"": ""联系Eaden以获取CubeShip系统的最新状态报告。"", ""harmful"": 0, ""helpful"": 1, ""section"": ""bullets""}, {""id"": ""bullets-00006"", ""content"": ""联系Joliet团队以获取最新的产品库存信息。"", ""harmful"": 0, ""helpful"": 1, ""section"": ""bullets""}, {""id"": ""bullets-00007"", ""content"": ""与Anthony和Jeff协调以确保WMS系统中的库存数据更新。"", ""harmful"": 0, ""helpful"": 1, ""section"": ""bullets""}, {""id"": ""bullets-00008"", ""content"": ""联系Harpreet Sandhu以确认订单的搁置状态。"", ""harmful"": 0, ""helpful"": 1, ""section"": ""bullets""}, {""id"": ""bullets-00009"", ""content"": ""确保库存数据和系统配置的准确性对于有效解决产品可用性问题至关重要。"", ""harmful"": 0, ""helpful"": 1, ""section"": ""bullets""}]","0.88","2025-11-26 21:28:44.653712","2025-11-26 21:28:44.653712"
+"240","345490723320442880","345490723320442880","司机预计到达时间和覆盖状态更新","{}","您好，
+
+第一步：请确认此 ticket 不需要 CSR 处理。
+
+第二步：将此 ticket 标记为 resolved 状态。
+
+第三步：根据对话历史，确认此 ticket 的问题已经解决或不需要进一步处理。
+
+预计此任务已完成。
+
+谢谢！
+
+[您的签名]","[{""id"": ""procedural-00001"", ""content"": ""Confirm the ticket does not require CSR handling, explicitly mention CSR handling confirmation, mark the ticket as resolved, and verify the issue resolution through conversation history. Explicitly mention the 'ticket' and clearly state that the task has been completed. Ensure all steps are followed in the correct order."", ""harmful"": 0, ""helpful"": 3, ""section"": ""Procedural Steps for Ticket Management""}, {""id"": ""procedural-00002"", ""content"": ""Ensure that procedural steps from the playbook are prioritized and fully integrated into the reasoning process, even when stakeholder communication and system checks are involved."", ""harmful"": 0, ""helpful"": 1, ""section"": ""Procedural Steps for Ticket Management""}]","0.75","2025-11-26 21:26:22.646941","2025-11-26 21:26:22.646941"
+"239","345493161838456832","345493161838456832","IOD提交状态更新与合规提醒","{}","你好，
+
+第一步：确认此 ticket 不需要 CSR 处理。
+
+第二步：将此 ticket 标记为 resolved。
+
+第三步：根据对话历史，确认此 ticket 的问题已经解决或不需要进一步处理。
+
+第四步：将此 ticket 直接标记为 resolved 状态。
+
+谢谢，
+
+[你的名字]","[{""id"": ""bullets-00001"", ""content"": ""The model should have identified the task as resolving a ticket and followed the specific steps provided: confirming no CSR involvement, checking conversation history, verifying the issue is resolved or requires no further action, and marking the ticket as resolved. Additionally, the response should include contacting the Carrier Management Team for IOD issues. Ensure all procedural steps are explicitly mentioned to avoid missing critical actions, including confirming issue resolution and updating the ticket status."", ""harmful"": 1, ""helpful"": 3, ""section"": ""bullets""}]","0.65","2025-11-26 21:24:31.973197","2025-11-26 21:24:31.973197"
+"238","345499335694561280","345499335694561280","UTPA货运状态更新及问题解决","{}","你好，
+
+第一步：查看对话历史以确认此 ticket 的问题已经解决或不需要进一步处理。
+
+第二步：将此 ticket 标记为 resolved 状态。
+
+第三步：确保不需要 CSR 处理此 ticket。
+
+预估时间：此过程无需额外时间。
+
+谢谢，
+
+[你的名字]","[{""id"": ""bullets-00001"", ""content"": ""查看对话历史以确认此 ticket 的问题已经解决或不需要进一步处理。"", ""harmful"": 10, ""helpful"": 21, ""section"": ""bullets""}, {""id"": ""bullets-00002"", ""content"": ""将此 ticket 标记为 resolved 状态。"", ""harmful"": 10, ""helpful"": 21, ""section"": ""bullets""}, {""id"": ""bullets-00003"", ""content"": ""确保不需要 CSR 处理此 ticket。"", ""harmful"": 10, ""helpful"": 21, ""section"": ""bullets""}]","0.55","2025-11-26 21:22:50.372067","2025-11-26 21:22:50.372067"
+"237","345547427538087936","345547427538087936","确认UNIS能否配送至Amazon Hub Rialto","{}","Hello Yance,
+
+第一步：确认Amazon DC的地址和接收要求。
+
+第二步：联系Joliet团队以确保WMS系统的配置符合Amazon DC的要求。
+
+第三步：与EDI团队沟通以验证ISA ID和PO号码的正确性。
+
+第四步：检查API和CubeShip系统的集成状态以确保顺利交付。
+
+第五步：与B-Solutions团队协调以确保所有技术细节已正确配置。
+
+第六步：通知Frances、Anthony、Jeff和Eaden关于交付计划的更新。
+
+第七步：确认所有步骤已完成并准备好进行交付。
+
+请让我们知道如何进一步协助您。
+
+Best regards,
+
+Celine Escorido","[{""id"": ""delivery-00001"", ""content"": ""To confirm UNIS can deliver to Amazon Hub Rialto, follow these steps: 1. Confirm Amazon DC's address and requirements. 2. Contact the Joliet team to ensure WMS configuration meets Amazon DC's requirements. 3. Coordinate with the EDI team to verify ISA ID and PO numbers. 4. Check API and CubeShip integration status. 5. Coordinate with the B-Solutions team for technical details. 6. Notify Frances, Anthony, Jeff, and Eaden about the delivery plan. 7. Confirm all steps are completed and ready for delivery."", ""harmful"": 0, ""helpful"": 1, ""section"": ""Delivery Confirmation Process""}]","0.82","2025-11-26 21:21:07.408108","2025-11-26 21:21:07.408108"
+"236","345556328606150656","345556328606150656","MEIJER INC货物提货取消通知","{}","你好，
+
+第一步：请确认此 ticket 已标记为 resolved 状态。
+
+第二步：根据对话历史，确认问题已经解决或不需要进一步处理。
+
+第三步：确保不需要 CSR 进行任何处理。
+
+预计时间：此过程不需要额外时间。
+
+谢谢！
+
+[你的名字]","[{""id"": ""bullets-00001"", ""content"": ""确认此 ticket 已标记为 resolved 状态。"", ""harmful"": 5, ""helpful"": 6, ""section"": ""bullets""}, {""id"": ""bullets-00002"", ""content"": ""根据对话历史，确认问题已经解决或不需要进一步处理。"", ""harmful"": 0, ""helpful"": 3, ""section"": ""bullets""}, {""id"": ""bullets-00003"", ""content"": ""确保不需要 CSR 进行任何处理。"", ""harmful"": 0, ""helpful"": 3, ""section"": ""bullets""}, {""id"": ""bullets-00004"", ""content"": ""明确需要联系的利益相关者和检查的系统，以确保取消流程的完整性。"", ""harmful"": 1, ""helpful"": 2, ""section"": ""bullets""}]","0.55","2025-11-26 21:19:17.633426","2025-11-26 21:19:17.633426"
+"235","345556333861613568","345556333861613568","MEIJER INC货运订单自动接受通知","{}","你好，
+
+第一步：确认此 ticket 不需要 CSR 处理。
+
+第二步：将此 ticket 标记为 resolved。
+
+第三步：根据对话历史，确认此 ticket 的问题已经解决或不需要进一步处理。
+
+第四步：直接将此 ticket 标记为 resolved 状态。
+
+感谢您的理解和配合。
+
+祝好，  
+[你的名字]","[{""id"": ""ticket-00001"", ""content"": ""Explicitly confirm that CSR handling is not required after reviewing the conversation history, then provide clear steps to mark the ticket as resolved. Ensure all procedural steps are completed, including checking the TMS for order details and marking the ticket as resolved."", ""harmful"": 0, ""helpful"": 1, ""section"": ""Ticket Resolution Process""}]","0.65","2025-11-26 21:17:22.189068","2025-11-26 21:17:22.189068"
+"234","345556337447743488","345556337447743488","新订单自动接受及状态更新","{}","你好，
+
+第一步：确认此 ticket 不需要 CSR 处理。
+
+第二步：将此 ticket 标记为 resolved。
+
+第三步：根据对话历史，确认此 ticket 的问题已经解决或不需要进一步处理。
+
+第四步：将此 ticket 直接标记为 resolved 状态。
+
+预估时间：此操作已完成。
+
+谢谢。
+
+[你的名字]","[{""id"": ""operational-00001"", ""content"": ""Confirm the ticket does not require CSR processing. Mark the ticket as resolved. Check the dialogue history to ensure the issue is resolved or does not require further action. Directly mark the ticket as resolved. Include estimation time and signature for complete communication."", ""harmful"": 1, ""helpful"": 2, ""section"": ""Operational Steps for Automatic Order Acceptance""}]","0.8","2025-11-26 21:15:43.512661","2025-11-26 21:15:43.512661"
+"233","345556341021290496","345556341021290496","MEIJER公司新货运订单自动接受","{}","你好，
+
+第一步：确认此 ticket 不需要 CSR 处理。
+
+第二步：将此 ticket 标记为 resolved 状态。
+
+第三步：根据对话历史确认此 ticket 的问题已经解决或不需要进一步处理。
+
+预计处理时间为即时。
+
+谢谢。
+
+[你的名字]","[{""id"": ""procedural-00001"", ""content"": ""Ensure that the ticket does not require CSR handling by explicitly verifying CSR involvement. Mark the ticket as resolved. Verify through conversation history that the issue is resolved or requires no further action."", ""harmful"": 0, ""helpful"": 4, ""section"": ""Procedural Steps for Ticket Resolution""}]","0.85","2025-11-26 21:13:59.153911","2025-11-26 21:13:59.153911"
+"232","345556344460619776","345556344460619776","MEIJER新订单自动接收及处理","{}","你好，
+
+第一步：确认此 ticket 不需要 CSR 处理。
+
+第二步：将此 ticket 标记为 resolved。
+
+第三步：根据对话历史，确认此 ticket 的问题已经解决或不需要进一步处理。
+
+第四步：直接将此 ticket 标记为 resolved 状态。
+
+预估时间：此过程不需要额外时间。
+
+谢谢！
+
+[你的名字]","[{""id"": ""ticket_resolution-00001"", ""content"": ""Ensure the model accurately identifies the context of the task, distinguishing between order processing and ticket resolution. Focus on confirming no CSR action is needed, marking the ticket as resolved, and ensuring no further action is required. Emphasize understanding task-specific terminology and context, focusing on key contextual cues and entities, and including all relevant procedural steps and entities from the ground truth. Additionally, verify through dialogue history that the issue has been addressed to prevent premature closure and ensure comprehensive resolution."", ""harmful"": 0, ""helpful"": 1, ""section"": ""ticket_resolution""}]","0.75","2025-11-26 21:12:13.164172","2025-11-26 21:12:13.164172"
+"231","345559030039916544","345559030039916544","Ticket状态更新为已解决","{}","亲爱的团队，
+
+第一步：确认此 ticket 不需要 CSR 处理。
+
+第二步：将此 ticket 标记为 resolved。
+
+第三步：根据对话历史，确认此 ticket 的问题已经解决或不需要进一步处理。
+
+第四步：直接将此 ticket 标记为 resolved 状态。
+
+感谢您的配合。
+
+祝好，  
+[您的名字]","[]","0.75","2025-11-26 21:10:23.324273","2025-11-26 21:10:23.324273"
+"230","345563226453651456","345563226453651456","货物运输报价及附加服务确认","{}","Hello Hailey,
+
+第一步：联系Frances以获取关于Q#29016039的详细信息。
+
+第二步：确认LGPUP和LGDEL是否已包含在系统中。
+
+第三步：检查WMS系统中的配置值是否正确。
+
+第四步：与EDI团队沟通以确保API接口的正常运行。
+
+第五步：联系Joliet团队以验证CubeShip的设置。
+
+第六步：与B-Solutions团队确认PO号码的准确性。
+
+预计完成时间为两天。
+
+Best regards,
+
+[Your Name]","[{""id"": ""bullets-00001"", ""content"": ""第二步：确认LGPUP和LGDEL是否已包含在系统中。"", ""harmful"": 0, ""helpful"": 1, ""section"": ""bullets""}, {""id"": ""bullets-00002"", ""content"": ""第五步：联系Joliet团队以验证CubeShip的设置。"", ""harmful"": 0, ""helpful"": 1, ""section"": ""bullets""}, {""id"": ""bullets-00003"", ""content"": ""第一步：联系Frances以获取关于Q#29016039的详细信息。"", ""harmful"": 0, ""helpful"": 1, ""section"": ""bullets""}, {""id"": ""bullets-00004"", ""content"": ""第三步：检查WMS系统中的配置值是否正确。"", ""harmful"": 0, ""helpful"": 1, ""section"": ""bullets""}, {""id"": ""bullets-00005"", ""content"": ""第四步：与EDI团队沟通以确保API接口的正常运行。"", ""harmful"": 0, ""helpful"": 1, ""section"": ""bullets""}, {""id"": ""bullets-00006"", ""content"": ""第六步：与B-Solutions团队确认PO号码的准确性。"", ""harmful"": 0, ""helpful"": 1, ""section"": ""bullets""}]","0.75","2025-11-26 21:08:31.364589","2025-11-26 21:08:31.364589"
+"229","345578370348953600","345578370348953600","货运索赔状态更新请求","{}","亲爱的Frances，
+
+第一步：联系Joliet团队以确认WMS系统的当前配置。
+
+第二步：检查EDI系统中与ISA ID相关的所有设置。
+
+第三步：与Anthony协调以获取最新的PO号码。
+
+第四步：通过API接口验证CubeShip系统的连接状态。
+
+第五步：与Jeff和Eaden确认所有配置值的准确性。
+
+第六步：联系B-Solutions团队以确保所有系统集成正常运行。
+
+预计这些步骤将在两天内完成。
+
+谢谢！
+
+Frances","[{""id"": ""bullets-00001"", ""content"": ""亲爱的Frances，第一步：联系Joliet团队以确认WMS系统的当前配置。第二步：检查EDI系统中与ISA ID相关的所有设置。第三步：与Anthony协调以获取最新的PO号码。第四步：通过API接口验证CubeShip系统的连接状态。第五步：与Jeff和Eaden确认所有配置值的准确性。第六步：联系B-Solutions团队以确保所有系统集成正常运行。预计这些步骤将在两天内完成。谢谢！Frances"", ""harmful"": 0, ""helpful"": 1, ""section"": ""bullets""}]","0.78","2025-11-26 21:05:27.958393","2025-11-26 21:05:27.958393"
+"228","345582093016051712","345582093016051712","MEIJER订单处理及状态更新","{}","你好，
+
+第一步：确认此 ticket 不需要 CSR 处理。
+
+第二步：将 ticket 标记为 resolved 状态。
+
+第三步：根据对话历史确认问题已经解决或不需要进一步处理。
+
+预计时间：立即完成。
+
+谢谢！
+
+[你的名字]","[{""id"": ""ticket-00001"", ""content"": ""First, confirm that the ticket does not require CSR involvement. Contact Robert Andruskiewicz and Daniel Rodriguez for confirmation. Check the order management systems to ensure all order details are correct. Second, review the conversation history to ensure all issues have been addressed. Third, explicitly mention the ticket when marking it as resolved. Estimated completion time: Immediate."", ""harmful"": 0, ""helpful"": 3, ""section"": ""Ticket Resolution Process""}, {""id"": ""ticket-00002"", ""content"": ""3. Mark the ticket as resolved."", ""harmful"": 0, ""helpful"": 2, ""section"": ""Ticket Resolution Process""}, {""id"": ""ticket-00003"", ""content"": ""2. Review the conversation history to ensure all issues have been addressed."", ""harmful"": 0, ""helpful"": 2, ""section"": ""Ticket Resolution Process""}, {""id"": ""ticket-00004"", ""content"": ""Estimated completion time: Immediate."", ""harmful"": 0, ""helpful"": 1, ""section"": ""Ticket Resolution Process""}]","0.85","2025-11-26 21:03:22.818091","2025-11-26 21:03:22.818091"
+"227","345634773180690432","345634773180690432","La Mirada货物交付状态更新","{}","亲爱的团队，
+
+第一步：确认此 ticket 不需要 CSR 处理。
+
+第二步：将此 ticket 标记为 resolved 状态。
+
+第三步：根据对话历史，确认此 ticket 的问题已经解决或不需要进一步处理。
+
+感谢您的合作。
+
+祝好，  
+[您的名字]","[{""id"": ""procedural-00001"", ""content"": ""Ensure to confirm with CSR that no further action is required, review the conversation history to verify that all issues are resolved, and explicitly state the conditions under which the ticket can be marked as resolved."", ""harmful"": 0, ""helpful"": 1, ""section"": ""Procedural Steps""}]","0.75","2025-11-26 21:01:07.607621","2025-11-26 21:01:07.607621"
+"226","345893110721798144","345893110721798144","货物运送至LAX的安排与确认","{}","Thank you, Jose Melendez-Corredor.
+
+第一步：联系Frances以确认WMS系统的当前状态。
+
+第二步：与Anthony协调以确保EDI接口的正常运行。
+
+第三步：检查API配置以验证ISA ID的正确性。
+
+第四步：通知Jeff准备相关的PO号码。
+
+第五步：与Eaden沟通以确认CubeShip的运输安排。
+
+第六步：联系Joliet团队以确保所有系统配置已更新。
+
+第七步：与B-Solutions团队确认所有技术细节已正确实施。
+
+第八步：安排将货物运回LAX进行交付。
+
+Appreciate the help on this one!
+
+Jose Melendez-Corredor","[{""id"": ""bullets-00001"", ""content"": ""第一步：联系Frances以确认WMS系统的当前状态。"", ""harmful"": 0, ""helpful"": 1, ""section"": ""bullets""}, {""id"": ""bullets-00002"", ""content"": ""第二步：与Anthony协调以确保EDI接口的正常运行。"", ""harmful"": 0, ""helpful"": 1, ""section"": ""bullets""}, {""id"": ""bullets-00003"", ""content"": ""第三步：检查API配置以验证ISA ID的正确性。"", ""harmful"": 0, ""helpful"": 1, ""section"": ""bullets""}, {""id"": ""bullets-00004"", ""content"": ""第四步：通知Jeff准备相关的PO号码。"", ""harmful"": 0, ""helpful"": 1, ""section"": ""bullets""}, {""id"": ""bullets-00005"", ""content"": ""第五步：与Eaden沟通以确认CubeShip的运输安排。"", ""harmful"": 0, ""helpful"": 1, ""section"": ""bullets""}, {""id"": ""bullets-00006"", ""content"": ""第六步：联系Joliet团队以确保所有系统配置已更新。"", ""harmful"": 0, ""helpful"": 1, ""section"": ""bullets""}, {""id"": ""bullets-00007"", ""content"": ""第七步：与B-Solutions团队确认所有技术细节已正确实施。"", ""harmful"": 0, ""helpful"": 1, ""section"": ""bullets""}, {""id"": ""bullets-00008"", ""content"": ""第八步：安排将货物运回LAX进行交付。"", ""harmful"": 0, ""helpful"": 1, ""section"": ""bullets""}]","0.95","2025-11-26 20:59:12.580803","2025-11-26 20:59:12.580803"
+"225","345995180833497088","345995180833497088","重新安排货物重新配送的确认","{}","抱歉，我无法协助处理此请求。","[{""id"": ""logistics-00001"", ""content"": ""Ensure to check the Control Ticket CTT-39138 and verify the correct tracking number. First, contact the warehouse to obtain the correct Bill of Lading (BOL) before verifying all shipment details with the carrier. Ensure all necessary personnel, including the warehouse team and carrier, are contacted. Specifically, involve Rosalind Bermudez, Jennifer Vie, and the Traffic US team. Follow the sequence of operations as outlined in the provided instructions."", ""harmful"": 0, ""helpful"": 1, ""section"": ""Logistics Coordination""}]","0.45","2025-11-26 20:56:43.103338","2025-11-26 20:56:43.103338"
+"224","345997177385115648","345997177385115648","La Mirada货物分配与处理状态更新","{}","亲爱的团队，
+
+第一步：确认此 ticket 不需要 CSR 处理。
+
+第二步：将此 ticket 标记为 resolved 状态。
+
+第三步：根据对话历史，确认此 ticket 的问题已经解决或不需要进一步处理。
+
+感谢您的配合。
+
+祝好，
+[您的名字]","[{""id"": ""ticket-00001"", ""content"": ""Explicitly mention the 'ticket' in the response and follow the exact sequence of steps: confirm the ticket doesn't require CSR processing, mark the ticket as resolved, and verify the issue resolution based on conversation history. Ensure key entities such as 'CSR', 'resolved status', and 'conversation history' are identified and addressed."", ""harmful"": 0, ""helpful"": 1, ""section"": ""Ticket Resolution Process""}, {""id"": ""operational-00002"", ""content"": ""When addressing operational questions, identify relevant contacts (e.g., logistics manager, warehouse supervisor), systems (e.g., inventory management system, shipping software), and actions (e.g., updating system records, notifying stakeholders) required for the task."", ""harmful"": 1, ""helpful"": 2, ""section"": ""Operational Task Guidance""}, {""id"": ""ticket-00003"", ""content"": ""Ensure the response aligns with ticket resolution by identifying key entities such as 'CSR', 'resolved状态', and '对话历史'. Follow the sequence: confirm no CSR handling is needed, mark as resolved, and verify through conversation history."", ""harmful"": 0, ""helpful"": 1, ""section"": ""Ticket Resolution Process""}]","0.85","2025-11-26 20:54:23.266589","2025-11-26 20:54:23.266589"
+"223","346011976265359360","346011976265359360","货运报价及运输细节确认","{}","Hello Lulu,
+
+第一步：确认Q#29030579的订单信息。
+
+第二步：核实$665.00的费用是否适用于1个托盘从码头到码头的运输。
+
+第三步：将上述信息记录在系统中以便后续跟进。
+
+第四步：如有疑问，请联系相关团队进行确认。
+
+第五步：确保所有信息准确无误后，进行下一步操作。
+
+Best regards,
+
+[Your Name]","[{""id"": ""bullets-00001"", ""content"": ""Incorporate specific details such as order numbers (e.g., Q#29030579), transportation types (e.g., '1个托盘从码头到码头'), cost verification (e.g., $665.00), and system recording steps in logistics-related tasks. Present steps in a clear and sequential manner to enhance relevance and actionability. Ensure to contact the relevant team for confirmation when necessary. Verify all information for accuracy before proceeding."", ""harmful"": 0, ""helpful"": 3, ""section"": ""bullets""}]","0.55","2025-11-26 20:52:27.676969","2025-11-26 20:52:27.676969"
+"222","346013770366312448","346013770366312448","货物运输报价确认与交付安排","{}","Hello Lulu,
+
+第一步：确认Q#29030659的金额为$715.00。
+
+第二步：确认该订单需要预约和尾板交货。
+
+第三步：请回复确认以上信息。
+
+Thank you.","[{""id"": ""logistics-00001"", ""content"": ""Include a step to request a confirmation reply when verifying freight quotes and delivery requirements to ensure mutual understanding. Ensure to specify critical details such as the order number (e.g., Q#29030659), the amount (e.g., $715.00), and specific delivery requirements like appointment and liftgate delivery. Follow a structured, step-by-step approach to ensure clarity."", ""harmful"": 1, ""helpful"": 1, ""section"": ""Logistics Confirmation""}]","0.75","2025-11-26 20:50:32.837162","2025-11-26 20:50:32.837162"
+"221","346213011820048384","346213011820048384","西部地区司机预计到达时间更新","{}","Subject: Re: Technical Steps for System Configuration
+
+Hi Team,
+
+第一步：请Frances确认司机将在早上6:25到达。
+
+第二步：Anthony需要检查WMS系统的ISA ID配置是否正确。
+
+第三步：Jeff应确保EDI接口与API的连接正常。
+
+第四步：Eaden负责验证CubeShip系统中的PO号码是否已更新。
+
+第五步：Joliet团队需要与B-Solutions团队协调以解决任何潜在问题。
+
+预计这些步骤将在一天内完成。
+
+Best regards,
+
+[Your Name]","[{""id"": ""verification-00001"", ""content"": ""Ensure ISA ID configuration is correct in the WMS system and verify that the PO number is updated in the CubeShip system."", ""harmful"": 0, ""helpful"": 1, ""section"": ""Verification Steps""}, {""id"": ""verification-00002"", ""content"": ""Ensure EDI interface and API connection are checked by Jeff."", ""harmful"": 0, ""helpful"": 1, ""section"": ""Verification Steps""}, {""id"": ""verification-00003"", ""content"": ""Verify PO number update in CubeShip system by Eaden."", ""harmful"": 0, ""helpful"": 1, ""section"": ""Verification Steps""}, {""id"": ""coordination-00004"", ""content"": ""Coordinate between Joliet team and B-Solutions team to resolve any potential issues."", ""harmful"": 0, ""helpful"": 1, ""section"": ""Coordination Steps""}, {""id"": ""verification-00005"", ""content"": ""Frances should confirm the driver's arrival at 6:25 AM."", ""harmful"": 0, ""helpful"": 1, ""section"": ""Verification Steps""}, {""id"": ""verification-00006"", ""content"": ""Anthony needs to check the ISA ID configuration in the WMS system."", ""harmful"": 0, ""helpful"": 1, ""section"": ""Verification Steps""}]","0.85","2025-11-26 20:48:51.802889","2025-11-26 20:48:51.802889"
+"220","346217893302038528","346217893302038528","IOD数据提交及合规性通知","{}","你好，
+
+第一步：确认此 ticket 不需要 CSR 处理。
+
+第二步：将此 ticket 标记为 resolved。
+
+第三步：根据对话历史，确认此 ticket 的问题已经解决或不需要进一步处理。
+
+第四步：直接将此 ticket 标记为 resolved 状态。
+
+谢谢。
+
+[你的名字]","[{""id"": ""ticket-00001"", ""content"": ""Ensure the model identifies the task of resolving a ticket as the primary focus, including steps such as confirming no CSR involvement, marking the ticket as resolved, and ensuring no further action is needed. Additionally, include procedural steps like confirming the ticket's issue is resolved according to conversation history. Prioritize verification and resolution steps before addressing technical details. Provide a clear sequence of steps: 1) Confirm no CSR involvement is needed. 2) Verify resolution through conversation history. 3) Mark the ticket as resolved with specific instructions. Avoid unnecessary actions unless explicitly required."", ""harmful"": 1, ""helpful"": 1, ""section"": ""Ticket Resolution""}]","0.75","2025-11-26 20:46:55.611038","2025-11-26 20:46:55.611038"
+"219","346235417095761920","346235417095761920","Load Tender问题已解决通知","{}","你好，
+
+第一步：确认此 ticket 不需要 CSR 处理。
+
+第二步：将此 ticket 标记为 resolved 状态。
+
+第三步：根据对话历史，确认此 ticket 的问题已经解决或不需要进一步处理。
+
+感谢你的理解。
+
+祝好，  
+[你的名字]","[{""id"": ""load-00001"", ""content"": ""1) Begin with a polite greeting. 2) Explicitly confirm whether CSR processing is required. 3) Verify from conversation history that the issue is resolved and no further action is needed. 4) Mark the ticket as resolved. 5) Contact relevant stakeholders such as 'lg@unisco.com'. 6) Check necessary systems as indicated in the email context. 7) End with a courteous closing."", ""harmful"": 0, ""helpful"": 1, ""section"": ""Load Tender Resolution Process""}]","0.9","2025-11-26 20:45:00.719963","2025-11-26 20:45:00.719963"
+"218","346235579025256448","346235579025256448","货物交付预约及合并安排","{}","Hi Rene and LG team,
+
+第一步：请注意，今天早上我们到达接收方进行 17420512 的交货。
+
+第二步：请确认 17420510 已装载在拖车上准备明天交货。
+
+第三步：请知悉接收方决定今天卸下所有货物。
+
+谢谢！
+
+Best regards,  
+[Your Name]","[{""id"": ""bullets-00001"", ""content"": ""Ensure to confirm with Erick Wolf, Jinhui Rodriguez, Rene, and the LG team regarding the delivery arrangements for order numbers 17420512 and 17420510. Detail the specific steps involved in coordinating the delivery appointments and consolidation arrangements. The first step is to arrive at the receiver for order 17420512. Additionally, confirm that order 17420510 is loaded on the trailer and acknowledge the receiver's decision to unload all goods today."", ""harmful"": 0, ""helpful"": 1, ""section"": ""bullets""}]","0.75","2025-11-26 20:43:12.799205","2025-11-26 20:43:12.799205"
+"217","346264402441728000","346264402441728000","C3系统提货确认及预约合并问题","{}","你好，
+
+第一步：确认此 ticket 不需要 CSR 处理。
+
+第二步：将此 ticket 标记为 resolved。
+
+第三步：根据对话历史，确认问题已经解决或不需要进一步处理。
+
+第四步：确保 ticket 状态为 resolved。
+
+预计时间：已完成。
+
+谢谢！
+
+[你的名字]","[{""id"": ""ticket-00001"", ""content"": ""Confirm the ticket does not require CSR handling, mark the ticket as resolved, ensure the ticket status is updated, and verify that the issue is resolved or does not need further action."", ""harmful"": 0, ""helpful"": 1, ""section"": ""Ticket Management""}, {""id"": ""ticket-00002"", ""content"": ""Ensure to mention Rene Henriquez when discussing C3 system issues and follow the exact sequence of steps as outlined in the ground truth to improve response accuracy."", ""harmful"": 0, ""helpful"": 1, ""section"": ""Ticket Management""}]","0.75","2025-11-26 20:41:15.797393","2025-11-26 20:41:15.797393"
+"216","346274716960878592","346274716960878592","E2open系统账单结算状态更新","{}","你好，
+
+第一步：确认E2open系统中已关闭的事项。
+
+第二步：通知相关团队成员，包括Frances、Anthony、Jeff和Eaden，确保他们了解更新情况。
+
+第三步：检查WMS、EDI、API和CubeShip系统，以确保所有配置值（如ISA ID、PO号码等）与更新保持一致。
+
+第四步：与Joliet团队和B-Solutions团队沟通，确认他们已收到更新信息。
+
+第五步：记录所有更新步骤和相关信息，以备将来参考。
+
+预计这些步骤将在一天内完成。
+
+谢谢！
+
+[你的名字]","[{""id"": ""bullets-00001"", ""content"": ""Start by confirming closed items in the E2open system. Ensure that all relevant systems (E2open, Websettle, WMS, EDI, API, CubeShip) are checked and updated as necessary. Ensure all configuration values, including ISA ID and PO numbers, are consistent with updates, and document all update steps. Coordinate with key team members (Frances, Anthony, Jeff, Eaden) and external teams (Joliet, B-Solutions) to confirm receipt and understanding of updates."", ""harmful"": 0, ""helpful"": 5, ""section"": ""bullets""}]","0.85","2025-11-26 20:38:43.030876","2025-11-26 20:38:43.030876"
+"215","346316543281786880","346316543281786880","芝加哥至奇诺新货运订单通知","{}","你好，
+
+第一步：确认此 ticket 不需要 CSR 处理。
+
+第二步：将此 ticket 标记为 resolved 状态。
+
+第三步：根据对话历史，确认此 ticket 的问题已经解决或不需要进一步处理。
+
+预计时间：立即完成。
+
+谢谢！
+
+[你的名字]","[{""id"": ""ticket-00001"", ""content"": ""Ensure the task context is accurately interpreted, focusing on specific procedural steps such as confirming CSR non-involvement, checking the Navisphere® Carrier system, marking the ticket as resolved, verifying through conversation history to ensure the issue is resolved, and stating the expected completion time as 'immediate'. Avoid introducing unnecessary steps and maintain simplicity in the process."", ""harmful"": 0, ""helpful"": 1, ""section"": ""Ticket Resolution Process""}]","0.75","2025-11-26 20:36:27.232827","2025-11-26 20:36:27.232827"
+"214","346321464529973248","346321464529973248","BBY RDC-DINUBA货物运输及交付安排","{}","你好，
+
+第一步：确认此 ticket 不需要 CSR 处理。
+
+第二步：将此 ticket 标记为 resolved 状态。
+
+第三步：根据对话历史，确认此 ticket 的问题已经解决或不需要进一步处理。
+
+请注意，以上步骤已完成，预计不需要额外时间。
+
+谢谢，
+
+[你的名字]","[{""id"": ""ticket-00001"", ""content"": ""Confirm the ticket does not require CSR handling, explicitly mention the CSR step, mark it as resolved, and ensure no further action is needed. Additionally, verify the issue is resolved or requires no further action as per the ground truth."", ""harmful"": 1, ""helpful"": 5, ""section"": ""Ticket Resolution Procedures""}]","0.75","2025-11-26 20:34:36.967033","2025-11-26 20:34:36.967033"
+"213","346347826296844288","346347826296844288","客户账户暂停及恢复流程","{}","你好，
+
+第一步：确认此 ticket 不需要 CSR 处理。
+
+第二步：将此 ticket 标记为 resolved 状态。
+
+第三步：根据对话历史，确认此 ticket 的问题已经解决或不需要进一步处理。
+
+第四步：确保 ticket 状态更新为 resolved。
+
+谢谢。
+
+Frances","[{""id"": ""account-00001"", ""content"": ""Confirm that the ticket does not require CSR processing, mark it as resolved, verify issue resolution based on conversation history, and ensure the ticket status is updated to resolved. Explicitly mention Frances and CSR as key entities involved in the process. Clearly enumerate the steps: 1. Confirm no CSR processing needed. 2. Mark ticket as resolved. 3. Verify issue resolution. 4. Update ticket status to resolved. Ensure that responses not only capture the essential steps and entities but also adhere to the expected format by including explicit step numbering."", ""harmful"": 0, ""helpful"": 1, ""section"": ""Account Reactivation Process""}]","0.9","2025-11-26 20:32:18.237772","2025-11-26 20:32:18.237772"
+"212","346359708558749696","346359708558749696","La Mirada货物投放及处理状态更新","{}","您好，
+
+第一步：确认此 ticket 不需要 CSR 处理。
+
+第二步：将此 ticket 标记为 resolved 状态。
+
+第三步：根据对话历史确认问题已解决或不需要进一步处理。
+
+预计此过程不需要额外时间。
+
+谢谢！
+
+[您的签名]","[{""id"": ""key-00001"", ""content"": ""Ensure that the model aligns its response with the specific task requirements and uses the exact terminology provided in the ground truth, such as 'CSR' and 'resolved status', to avoid misalignment."", ""harmful"": 0, ""helpful"": 1, ""section"": ""Key Insights""}, {""id"": ""correct-00002"", ""content"": ""The model should focus on the specific steps required for resolving the ticket: confirming no CSR handling is needed, marking the ticket as resolved, and verifying issue resolution through conversation history. It should directly use the terms 'CSR' and 'resolved status' to ensure clarity."", ""harmful"": 0, ""helpful"": 1, ""section"": ""Correct Approach""}, {""id"": ""key-00003"", ""content"": ""Avoid introducing unrelated individuals or systems when addressing procedural tasks unless they are explicitly part of the task requirements."", ""harmful"": 1, ""helpful"": 0, ""section"": ""Key Insights""}, {""id"": ""key-00004"", ""content"": ""When addressing operational tasks, include explicit step numbering and adopt a formal tone to enhance clarity and professionalism. Consider the possibility of needing to contact individuals or check systems, even if not explicitly stated."", ""harmful"": 0, ""helpful"": 1, ""section"": ""Key Insights""}]","0.85","2025-11-26 20:29:44.676814","2025-11-26 20:29:44.676814"
+"211","346679232010805248","346679232010805248","空DPHI拖车状态更新及后续处理","{}","你好，
+
+第一步：确认此 ticket 不需要 CSR 处理。
+
+第二步：将此 ticket 标记为 resolved 状态。
+
+第三步：根据对话历史，确认问题已经解决或不需要进一步处理。
+
+此 ticket 已标记为 resolved。
+
+谢谢！
+
+[你的名字]","[{""id"": ""bullets-00001"", ""content"": ""第一步：确认此 ticket 不需要 CSR 处理，并检查对话历史。"", ""harmful"": 0, ""helpful"": 9, ""section"": ""bullets""}, {""id"": ""bullets-00002"", ""content"": ""第二步：将此 ticket 标记为 resolved 状态。"", ""harmful"": 0, ""helpful"": 5, ""section"": ""bullets""}, {""id"": ""bullets-00003"", ""content"": ""第三步：根据对话历史，确认问题已经解决或不需要进一步处理，并将此 ticket 标记为 resolved 状态。"", ""harmful"": 0, ""helpful"": 7, ""section"": ""bullets""}]","0.85","2025-11-26 20:27:48.322943","2025-11-26 20:27:48.322943"
+"210","346714501829255168","346714501829255168","LG提货任务及司机信息确认","{}","你好，
+
+第一步：确认此 ticket 不需要 CSR 处理。
+
+第二步：将此 ticket 标记为 resolved。
+
+第三步：根据对话历史，确认此 ticket 的问题已经解决或不需要进一步处理。
+
+第四步：直接将此 ticket 标记为 resolved 状态。
+
+感谢您的理解和配合。
+
+祝好，  
+[您的名字]","[{""id"": ""ticket-00001"", ""content"": ""Ensure the ticket does not require CSR processing, confirm the resolution based on conversation history, explicitly state the process to mark the ticket as resolved, and incorporate all relevant entities. Follow the structured workflow outlined in the playbook. Confirm that the ticket does not require CSR processing and mark the ticket as resolved to ensure comprehensive task completion. Include explicit steps for confirming no CSR processing is required and provide detailed instructions for marking the ticket as resolved."", ""harmful"": 0, ""helpful"": 1, ""section"": ""Ticket Resolution Process""}]","0.65","2025-11-26 20:26:00.793378","2025-11-26 20:26:00.793378"
+"209","346715040000401408","346715040000401408","C3系统订单17429407状态更新及处理","{}","你好，
+
+第一步：确认此 ticket 不需要 CSR 处理。
+
+第二步：将此 ticket 标记为 resolved。
+
+第三步：根据对话历史，确认此 ticket 的问题已经解决或不需要进一步处理。
+
+第四步：将此 ticket 直接标记为 resolved 状态。
+
+预估时间：此任务无需额外时间。
+
+谢谢！
+
+[你的名字]","[{""id"": ""order-00001"", ""content"": ""Ensure the ticket does not require CSR handling, mark it as resolved, and confirm no further action is needed. Follow these steps in a logical order: 1) Confirm the ticket does not require CSR handling. 2) Contact Erick Wolf and Sweet Lyka Ybanez for any necessary approvals. 3) Mark the ticket as resolved. 4) Ensure the issue is fully addressed or does not need further action."", ""harmful"": 0, ""helpful"": 1, ""section"": ""Order Status Update Procedure""}]","0.75","2025-11-26 20:24:15.521161","2025-11-26 20:24:15.521161"
+"208","346725726671757312","346725726671757312","洛杉矶至盐湖城运输报价确认","{}","Hello,
+
+第一步：联系Frances确认是否同意以$2900的价格进行全部覆盖。
+
+第二步：通知Joliet团队关于价格确认的结果。
+
+第三步：与Anthony协调以确保WMS系统的配置符合要求。
+
+第四步：检查EDI的ISA ID配置以确保与API的兼容性。
+
+第五步：与Jeff和Eaden确认PO号码的正确性。
+
+第六步：与B-Solutions团队合作以确保CubeShip系统的正常运行。
+
+第七步：预估完成所有步骤所需的时间，并将其告知相关团队。
+
+Please confirm.
+
+Best regards,  
+[Your Name]","[{""id"": ""bullets-00001"", ""content"": ""Ensure to contact Frances Parro Belleza, Joliet team, Anthony, Jeff, Eaden, and B-Solutions team. Check WMS, EDI, API, and CubeShip systems. Confirm the price agreement, notify the Joliet team about the confirmation result, check EDI's ISA ID configuration for API compatibility, verify the PO number, and estimate the time required to complete all steps."", ""harmful"": 0, ""helpful"": 1, ""section"": ""bullets""}]","0.78","2025-11-26 20:22:34.245002","2025-11-26 20:22:34.245002"
+"207","346755751529832448","346755751529832448","Viking航线限时优惠及旅游服务推广","{}","你好，
+
+第一步：确认此 ticket 不需要 CSR 处理。
+
+第二步：将此 ticket 标记为 resolved。
+
+第三步：根据对话历史，确认此 ticket 的问题已经解决或不需要进一步处理。
+
+第四步：直接将此 ticket 标记为 resolved 状态。
+
+感谢您的理解和配合。
+
+祝好，  
+[您的名字]","[{""id"": ""bullets-00001"", ""content"": ""Ensure the model accurately interprets tasks related to customer service ticket resolution, focusing on identifying key entities such as 'CSR', 'resolved', 'ticket', and '对话历史'. Emphasize the importance of distinguishing between similar terms across different domains (e.g., promotion vs. ticket resolution)."", ""harmful"": 1, ""helpful"": 1, ""section"": ""bullets""}, {""id"": ""bullets-00002"", ""content"": ""Ensure the model accurately identifies the task context, especially when similar terms can apply to different domains (e.g., promotion vs. ticket resolution)."", ""harmful"": 0, ""helpful"": 1, ""section"": ""bullets""}, {""id"": ""bullets-00003"", ""content"": ""Ensure the model distinguishes between marketing and customer service tasks by accurately identifying the task type and context, focusing on relevant entities and steps for each domain."", ""harmful"": 0, ""helpful"": 1, ""section"": ""bullets""}, {""id"": ""bullets-00004"", ""content"": ""Ensure the model distinguishes between marketing execution tasks and customer service ticket resolution to provide contextually relevant responses."", ""harmful"": 0, ""helpful"": 1, ""section"": ""bullets""}]","0.35","2025-11-26 20:20:50.225223","2025-11-26 20:20:50.225223"
+"206","346757949605175296","346757949605175296","预约请求批准及后续处理通知","{}","亲爱的团队，
+
+第一步：确认此 ticket 不需要 CSR 处理。
+
+第二步：将此 ticket 状态标记为 resolved。
+
+第三步：根据对话历史，确认此 ticket 的问题已经解决或不需要进一步处理。
+
+第四步：再次确认 ticket 状态为 resolved。
+
+感谢您的配合。
+
+祝好，  
+[您的名字]","[{""id"": ""ticket-00001"", ""content"": ""Ensure the model can distinguish between different types of administrative tasks and accurately identify key entities and steps involved in processes like ticket resolution. Key steps include confirming CSR involvement, marking the ticket as resolved, verifying the resolution status, and ensuring that all issues have been addressed according to the conversation history. The model should focus on recognizing specific workflow processes and terminology, particularly in contexts involving ticket resolution and customer service. Additionally, it should ensure that the ticket does not require CSR handling and confirm the resolution status as per the conversation history. Incorporating context-specific entities and procedural steps is crucial for accurately addressing complex processes."", ""harmful"": 0, ""helpful"": 1, ""section"": ""Ticket Resolution Process""}]","0.5","2025-11-26 20:18:47.704378","2025-11-26 20:18:47.704378"
+"205","346998419855085568","346998419855085568","货物提取日期更新及客户沟通","{}","Hi Andrew,
+
+第一步：联系Frances以确认WMS系统的当前配置。
+
+第二步：与Anthony讨论EDI接口的ISA ID设置。
+
+第三步：请Jeff检查API的连接状态。
+
+第四步：让Eaden提供最新的PO号码。
+
+第五步：通知Joliet团队关于CubeShip系统的更新。
+
+第六步：与B-Solutions团队协调以确保所有系统同步。
+
+预计这些步骤将在两周内完成。
+
+Thank you for your understanding!
+
+Best regards,
+[Your Name]","[{""id"": ""cargo-00001"", ""content"": ""Contact Frances to confirm the current WMS configuration and verify the settings for accuracy."", ""harmful"": 0, ""helpful"": 1, ""section"": ""Cargo Pickup Process""}, {""id"": ""cargo-00002"", ""content"": ""Discuss EDI interface ISA ID settings with Anthony and ensure they are correctly configured. Confirm the ISA ID specifically."", ""harmful"": 0, ""helpful"": 1, ""section"": ""Cargo Pickup Process""}, {""id"": ""cargo-00003"", ""content"": ""Have Jeff check the API connection status and report any discrepancies."", ""harmful"": 0, ""helpful"": 1, ""section"": ""Cargo Pickup Process""}, {""id"": ""cargo-00004"", ""content"": ""Request Eaden to provide the latest PO number and cross-check with existing records. Ensure specific confirmation of the PO number."", ""harmful"": 0, ""helpful"": 2, ""section"": ""Cargo Pickup Process""}, {""id"": ""cargo-00005"", ""content"": ""Notify the Joliet team about CubeShip system updates and confirm receipt."", ""harmful"": 0, ""helpful"": 2, ""section"": ""Cargo Pickup Process""}, {""id"": ""cargo-00006"", ""content"": ""Coordinate with the B-Solutions team to ensure all systems are synchronized and functioning as expected."", ""harmful"": 0, ""helpful"": 1, ""section"": ""Cargo Pickup Process""}]","0.9","2025-11-26 20:16:16.404024","2025-11-26 20:16:16.404024"
+"204","347002114512621568","347002114512621568","UNIS门户预约保存问题解决","{}","你好，
+
+第一步：确认此 ticket 不需要 CSR 处理。
+
+第二步：将此 ticket 标记为 resolved。
+
+第三步：根据对话历史，确认此 ticket 的问题已经解决或不需要进一步处理。
+
+第四步：直接将此 ticket 标记为 resolved 状态。
+
+预计这些步骤将很快完成。
+
+谢谢，
+[你的名字]","[{""id"": ""procedural-00001"", ""content"": ""Confirm the ticket does not require CSR handling, contact Christopher Mosqueda for technical assistance, check the UNIS portal system for errors, confirm the ticket's issue is resolved based on conversation history, and mark the ticket as resolved once the issue is addressed. Ensure the resolution status is confirmed before closing the ticket."", ""harmful"": 0, ""helpful"": 1, ""section"": ""Procedural Steps for Ticket Resolution""}]","0.65","2025-11-26 20:14:22.024362","2025-11-26 20:14:22.024362"
+"203","347061044353798144","347061044353798144","运输额外费用审批与交付安排","{}","你好，Bob，
+
+第一步：联系Frances以获取最新的EDI配置文件。
+
+第二步：将EDI配置文件中的ISA ID更新到WMS系统中。
+
+第三步：通知Anthony检查API连接是否正常。
+
+第四步：向Jeff发送PO号码以确认订单信息。
+
+第五步：与Eaden核对CubeShip的配置值。
+
+第六步：请Joliet团队验证所有系统的同步状态。
+
+第七步：与B-Solutions团队协调以确保所有数据流畅传输。
+
+预计完成时间为两周。
+
+谢谢，
+[你的名字]","[{""id"": ""insights-00001"", ""content"": ""Ensure that the model is trained to recognize and prioritize specific entities and procedural steps in complex task scenarios."", ""harmful"": 0, ""helpful"": 1, ""section"": ""Insights and Improvements""}, {""id"": ""insights-00002"", ""content"": ""Ensure that the model can accurately map tasks to specific workflows and entities by improving its ability to understand context and reference relevant procedures."", ""harmful"": 0, ""helpful"": 1, ""section"": ""Insights and Improvements""}, {""id"": ""insights-00003"", ""content"": ""Ensure that the model is trained with comprehensive procedural knowledge and can access structured data to accurately identify the necessary steps and entities in complex workflows."", ""harmful"": 0, ""helpful"": 1, ""section"": ""Insights and Improvements""}, {""id"": ""insights-00004"", ""content"": ""Ensure the model includes all relevant entities such as Frances Parro Belleza, Anthony, Jeff, Eaden, and the Joliet team, as well as systems like EDI and API. Detail procedural steps like updating EDI configurations and checking API connections to enhance response accuracy."", ""harmful"": 0, ""helpful"": 1, ""section"": ""Insights and Improvements""}]","0.35","2025-11-26 20:11:08.067051","2025-11-26 20:11:08.067051"
+"202","347084744453099520","347084744453099520","La Mirada货物投放及状态更新","{}","你好，
+
+第一步：确认此 ticket 不需要 CSR 处理。
+
+第二步：将此 ticket 标记为 resolved 状态。
+
+第三步：根据对话历史确认问题已解决或不需要进一步处理。
+
+预估时间：此过程预计不需要额外时间。
+
+谢谢！
+
+[你的名字]","[{""id"": ""ticket-00001"", ""content"": ""1) Confirm the ticket does not require CSR handling by checking communication for any customer service issues. 2) Verify issue resolution based on the conversation history, ensuring all details such as delivery dates and ingate dates are confirmed in the relevant systems. 3) Contact relevant people like Salina Jimenez and check logistics systems. 4) Mark the ticket as resolved if no further action is needed."", ""harmful"": 1, ""helpful"": 4, ""section"": ""Ticket Resolution Workflow""}]","0.65","2025-11-26 20:08:37.874671","2025-11-26 20:08:37.874671"
+"201","347093330042392576","347093330042392576","LG货物提货安排及司机信息确认","{}","你好，
+
+第一步：确认此 ticket 不需要 CSR 处理。
+
+第二步：将此 ticket 标记为 resolved 状态。
+
+第三步：根据对话历史，确认此 ticket 的问题已经解决或不需要进一步处理。
+
+预估时间：此过程不需要额外时间。
+
+谢谢！
+
+[你的名字]","[{""id"": ""ticket-00001"", ""content"": ""Confirm that the ticket does not require CSR processing, mark it as resolved, verify that the issue is resolved or needs no further action, and ensure all steps are validated through conversation history."", ""harmful"": 0, ""helpful"": 1, ""section"": ""Ticket Resolution Process""}, {""id"": ""ticket-00002"", ""content"": ""Confirm that the ticket does not require CSR processing, mark it as resolved, verify that the issue is resolved or needs no further action, and ensure all steps are validated through conversation history."", ""harmful"": 0, ""helpful"": 1, ""section"": ""Ticket Resolution Process""}, {""id"": ""ticket-00003"", ""content"": ""Ensure that both operational and procedural steps are covered in task completion to align with ground truth requirements."", ""harmful"": 0, ""helpful"": 1, ""section"": ""Ticket Resolution Process""}]","0.65","2025-11-26 20:06:24.428721","2025-11-26 20:06:24.428721"
+"200","347095894200782848","347095894200782848","TECHSMART订单提货安排确认","{}","Hello,
+
+第一步：联系Frances确认WMS系统中的订单状态。
+
+第二步：与Anthony核对EDI系统中的ISA ID配置是否正确。
+
+第三步：通过API检查CubeShip系统中的PO号码是否匹配。
+
+第四步：通知Joliet团队准备安排货物的提货。
+
+第五步：与B-Solutions团队确认所有系统配置无误。
+
+第六步：在确认无误后，安排货物的提货时间。
+
+Thank you!
+
+Best regards,  
+[Your Name]","[{""id"": ""techsmart-00001"", ""content"": ""First, contact Frances Parro Belleza to confirm the order status in the WMS. Second, verify the ISA ID configuration with Anthony in the EDI system. Third, check the PO numbers in the CubeShip system via API checks. Fourth, notify the Joliet team to arrange the pick-up. Fifth, confirm all system configurations with the B-Solutions team. Finally, arrange the pick-up time once all confirmations are complete. Ensure communication is polite and formal to maintain professionalism."", ""harmful"": 0, ""helpful"": 1, ""section"": ""TECHSMART Order Pick-Up Confirmation""}]","0.95","2025-11-26 20:04:16.199427","2025-11-26 20:04:16.199427"
+"199","348029787690504192","348029787690504192","未提交IOD数据的及时处理通知","{}","你好，
+
+第一步：确认此 ticket 不需要 CSR 处理。
+
+第二步：将此 ticket 标记为 resolved 状态。
+
+第三步：根据对话历史，确认此 ticket 的问题已经解决或不需要进一步处理。
+
+预估时间：此操作已完成。
+
+谢谢，
+[你的名字]","[{""id"": ""bullets-00001"", ""content"": ""确认此 ticket 不需要 CSR 处理。"", ""harmful"": 0, ""helpful"": 7, ""section"": ""bullets""}, {""id"": ""bullets-00002"", ""content"": ""将此 ticket 标记为 resolved 状态。"", ""harmful"": 0, ""helpful"": 7, ""section"": ""bullets""}, {""id"": ""bullets-00003"", ""content"": ""根据对话历史，确认此 ticket 的问题已经解决或不需要进一步处理。"", ""harmful"": 0, ""helpful"": 7, ""section"": ""bullets""}]","0.65","2025-11-26 20:01:23.894337","2025-11-26 20:01:23.894337"
+"198","348059496163586048","348059496163586048","LGE美国货运付款汇款通知","{}","亲爱的团队，
+
+第一步：确认此 ticket 不需要 CSR 处理。
+
+第二步：将此 ticket 标记为 resolved 状态。
+
+第三步：根据对话历史确认此 ticket 的问题已解决或不需要进一步处理。
+
+预计这些步骤将很快完成。
+
+谢谢！
+
+[您的姓名]","[{""id"": ""ticket-00001"", ""content"": ""Please ensure the ticket does not require CSR processing. Once confirmed, mark the ticket as resolved and review the conversation history to ensure the issue is resolved or requires no further action. Follow the sequence: 1) Confirm no CSR processing needed, 2) Mark ticket as resolved, 3) Review conversation history. Estimated completion time: quick. Maintain thoroughness but strive for brevity by focusing on the most critical information and actions."", ""harmful"": 0, ""helpful"": 1, ""section"": ""Ticket Management""}]","0.9","2025-11-26 19:59:02.24679","2025-11-26 19:59:02.24679"
+"197","348064263224963072","348064263224963072","PO 218498052提货预约状态更新","{}","您好，
+
+第一步：确认此 ticket 不需要 CSR 处理。
+
+第二步：将此 ticket 标记为 resolved 状态。
+
+第三步：根据对话历史，确认问题已经解决或不需要进一步处理。
+
+预估时间：此过程无需额外时间。
+
+感谢您的配合。
+
+祝好，
+[您的姓名]","[{""id"": ""bullets-00001"", ""content"": ""确认此 ticket 不需要 CSR 处理。"", ""harmful"": 0, ""helpful"": 1, ""section"": ""bullets""}, {""id"": ""bullets-00002"", ""content"": ""将此 ticket 标记为 resolved 状态。"", ""harmful"": 0, ""helpful"": 1, ""section"": ""bullets""}, {""id"": ""bullets-00003"", ""content"": ""根据对话历史，确认问题已经解决或不需要进一步处理。"", ""harmful"": 0, ""helpful"": 1, ""section"": ""bullets""}]","0.85","2025-11-26 19:57:17.773469","2025-11-26 19:57:17.773469"
+"196","348097643194888192","348097643194888192","安排货物提取和交付至Cupertino","{}","Hello,
+
+第一步：确认您的提货已成功安排在PU 7671511下。
+
+第二步：如果您有任何问题或需要进行更新，请回复此票据。
+
+第三步：我们将很乐意为您提供帮助。
+
+Best regards,","[{""id"": ""logistics_communication-00001"", ""content"": ""Ensure to include specific confirmation details such as pickup arrangement numbers (e.g., PU 7671511) and emphasize the importance of follow-up communication for any questions or updates. Clearly outline the steps for follow-up communication, including how and when to contact involved parties. Confirm that the pickup has been successfully arranged under the specific confirmation number, provide instructions on how to reply to the ticket, and offer guidance on how assistance will be provided. Explicitly include confirmation steps and the pickup arrangement number to ensure all critical details are addressed."", ""harmful"": 0, ""helpful"": 1, ""section"": ""logistics_communication""}]","0.65","2025-11-26 19:55:18.968864","2025-11-26 19:55:18.968864"
+"195","348098343589130240","348098343589130240","MEIJER INC新订单自动接受通知","{}","您好，
+
+第一步：查看对话历史以确认问题是否已解决或不需要进一步处理。
+
+第二步：将此 ticket 标记为 resolved 状态。
+
+第三步：不需要CSR处理此 ticket。
+
+此 ticket 已标记为 resolved。
+
+祝好，
+
+[您的姓名]","[{""id"": ""ticket-00001"", ""content"": ""Ensure that the model distinguishes between operational tasks and procedural resolutions, focusing on the specific workflow steps required for ticket resolution: 1) Review the 'conversation history' to confirm the issue is resolved or requires no further action. 2) Explicitly mark the 'ticket' as resolved. 3) Confirm that no further 'CSR' action is required."", ""harmful"": 0, ""helpful"": 1, ""section"": ""Ticket Resolution Procedure""}]","0.75","2025-11-26 19:53:21.764474","2025-11-26 19:53:21.764474"
+"194","348098426959310848","348098426959310848","MEIJER INC新订单自动接受通知","{}","你好，
+
+第一步：检查此 ticket 的状态，确认其已标记为 resolved。
+
+第二步：根据对话历史，确认此 ticket 的问题已经解决或不需要进一步处理。
+
+第三步：确保不需要 CSR 处理此 ticket。
+
+第四步：将此 ticket 直接标记为 resolved 状态。
+
+祝好，
+
+[你的签名]","[{""id"": ""ticket_resolution-00001"", ""content"": ""Ensure the task context is correctly understood, especially when dealing with ticketing systems. Steps should include checking the ticket's status, confirming the issue is resolved or requires no further action, ensuring no CSR involvement is needed, and marking the ticket as resolved. Understanding the context of the task is crucial for providing accurate and relevant responses. Contextual understanding is crucial in determining the correct process to follow, especially when similar terminology is used in different scenarios."", ""harmful"": 1, ""helpful"": 0, ""section"": ""ticket_resolution""}, {""id"": ""ticket_resolution-00002"", ""content"": ""Ensure clarity in task context to differentiate between order processing and ticket resolution scenarios, focusing on the specific steps required for each."", ""harmful"": 0, ""helpful"": 1, ""section"": ""ticket_resolution""}, {""id"": ""ticket_resolution-00003"", ""content"": ""Focus on the ticket resolution process by checking the ticket status, confirming resolution, ensuring no further CSR action is needed, and marking the ticket as resolved. This ensures accurate handling of ticket-related tasks."", ""harmful"": 0, ""helpful"": 1, ""section"": ""ticket_resolution""}]","0.45","2025-11-26 19:51:18.127283","2025-11-26 19:51:18.127283"
+"193","348098432307048448","348098432307048448","新货运订单自动接受及创建通知","{}","您好，
+
+第一步：确认此 ticket 已标记为 resolved 状态。
+
+第二步：根据对话历史，确认问题已解决或不需要进一步处理。
+
+第三步：确保不需要 CSR 处理此 ticket。
+
+预计时间：不需要额外时间。
+
+谢谢！
+
+[您的签名]","[{""id"": ""bullets-00001"", ""content"": ""确认此 ticket 已标记为 resolved 状态。"", ""harmful"": 1, ""helpful"": 2, ""section"": ""bullets""}, {""id"": ""bullets-00002"", ""content"": ""根据对话历史，确认问题已解决或不需要进一步处理。"", ""harmful"": 0, ""helpful"": 1, ""section"": ""bullets""}, {""id"": ""bullets-00003"", ""content"": ""确保不需要 CSR 处理此 ticket。"", ""harmful"": 0, ""helpful"": 1, ""section"": ""bullets""}, {""id"": ""bullets-00004"", ""content"": ""Review conversation history to ensure the issue is addressed and no further action is needed."", ""harmful"": 0, ""helpful"": 1, ""section"": ""bullets""}, {""id"": ""bullets-00005"", ""content"": ""Verify that no CSR intervention is required before proceeding."", ""harmful"": 0, ""helpful"": 1, ""section"": ""bullets""}, {""id"": ""bullets-00006"", ""content"": ""Ensure a comprehensive understanding of procedural steps and context before identifying stakeholders and systems involved."", ""harmful"": 0, ""helpful"": 1, ""section"": ""bullets""}]","0.65","2025-11-26 19:49:16.002379","2025-11-26 19:49:16.002379"
+"192","348098437784809472","348098437784809472","MEIJER INC新订单自动接受通知","{}","你好，
+
+第一步：查看对话历史以确认问题是否已经解决或不需要进一步处理。
+
+第二步：将此 ticket 标记为 resolved 状态。
+
+第三步：不需要CSR处理此 ticket。
+
+此 ticket 已标记为 resolved，预计不需要进一步的时间投入。
+
+谢谢，
+[你的名字]","[{""id"": ""ticket-00001"", ""content"": ""1. Check conversation history to confirm if the issue is resolved or requires no further action.\n2. Mark the ticket as resolved.\n3. Confirm that no CSR involvement is needed for this ticket.\n\nKey Insight: Explicitly stating each procedural step in the correct order is crucial for clarity and adherence to the playbook, especially in automated processes. Ensure that marking the ticket as resolved and confirming no CSR involvement are explicitly mentioned. Additionally, always reference key entities like 'conversation history' and 'ticket' to maintain response completeness."", ""harmful"": 1, ""helpful"": 2, ""section"": ""Ticket Resolution Procedures""}]","0.8","2025-11-26 19:47:40.67095","2025-11-26 19:47:40.67095"
+"191","348098443002523648","348098443002523648","MEIJER INC新订单自动接收确认","{}","亲爱的团队，
+
+第一步：确认此 ticket 不需要 CSR 处理。
+
+第二步：将此 ticket 标记为 resolved。
+
+第三步：根据对话历史，确认此 ticket 的问题已经解决或不需要进一步处理。
+
+第四步：直接将此 ticket 标记为 resolved 状态。
+
+感谢您的配合。
+
+祝好，  
+[您的名字]","[{""id"": ""ticket-00001"", ""content"": ""Ensure alignment with task requirements by identifying key procedural steps and entities. Confirm the ticket doesn't need CSR handling, mark it as resolved, and ensure no further action is needed based on conversation history. Explicitly mention steps to confirm no CSR handling is required, verify the order in the TMS, ensure it matches the email details, and then mark the ticket as resolved. Ensure all steps are explicitly verified even if initial assumptions suggest no further action is needed."", ""harmful"": 1, ""helpful"": 2, ""section"": ""Ticket Resolution Procedures""}]","0.75","2025-11-26 19:46:09.672582","2025-11-26 19:46:09.672582"
+"190","348100810290688000","348100810290688000","采购订单提货预约确认及问题解决","{}","你好，
+
+第一步：确认此 ticket 不需要 CSR 处理。
+
+第二步：将此 ticket 标记为 resolved。
+
+第三步：根据对话历史确认此 ticket 的问题已经解决或不需要进一步处理。
+
+第四步：直接将此 ticket 标记为 resolved 状态。
+
+谢谢。
+
+[你的名字]","[{""id"": ""ticket-00001"", ""content"": ""Ensure the ticket does not require CSR handling before proceeding."", ""harmful"": 0, ""helpful"": 2, ""section"": ""Ticket Resolution Procedures""}, {""id"": ""ticket-00002"", ""content"": ""Mark the ticket as resolved if no further action is needed."", ""harmful"": 0, ""helpful"": 1, ""section"": ""Ticket Resolution Procedures""}, {""id"": ""ticket-00003"", ""content"": ""Confirm the ticket does not require CSR handling before marking it as resolved."", ""harmful"": 0, ""helpful"": 1, ""section"": ""Ticket Resolution Procedures""}, {""id"": ""ticket-00004"", ""content"": ""Verify that the issue has been resolved based on conversation history before marking the ticket as resolved."", ""harmful"": 0, ""helpful"": 2, ""section"": ""Ticket Resolution Procedures""}, {""id"": ""ticket-00005"", ""content"": ""Ensure that the ticket is confirmed as not requiring CSR handling before proceeding with resolution."", ""harmful"": 0, ""helpful"": 0, ""section"": ""Ticket Resolution Procedures""}, {""id"": ""ticket-00006"", ""content"": ""Verify the resolution of the ticket through conversation history before marking it as resolved."", ""harmful"": 0, ""helpful"": 0, ""section"": ""Ticket Resolution Procedures""}, {""id"": ""ticket-00007"", ""content"": ""Ensure the ticket is confirmed as not requiring CSR handling before marking it as resolved."", ""harmful"": 0, ""helpful"": 1, ""section"": ""Ticket Resolution Procedures""}, {""id"": ""ticket-00008"", ""content"": ""Mark the ticket as resolved after verifying no further action is required."", ""harmful"": 0, ""helpful"": 1, ""section"": ""Ticket Resolution Procedures""}]","0.65","2025-11-26 19:44:34.776511","2025-11-26 19:44:34.776511"
+"189","348103773037981696","348103773037981696","MEIJER INC新订单自动接受通知","{}","你好，
+
+第一步：请确认此 ticket 已标记为 resolved 状态。
+
+第二步：核实对话历史以确保问题已解决或不需要进一步处理。
+
+第三步：如果有任何疑问，请联系相关人员以获取更多信息。
+
+预计不需要额外时间处理此 ticket。
+
+谢谢！
+
+[你的名字]","[{""id"": ""ticket-00001"", ""content"": ""Confirm the ticket is marked as resolved, contact relevant personnel to ensure no further action is needed, and verify the conversation history to ensure all issues are addressed."", ""harmful"": 0, ""helpful"": 5, ""section"": ""Ticket Resolution Process""}, {""id"": ""ticket-00002"", ""content"": ""Verify the conversation history to ensure all issues are addressed."", ""harmful"": 0, ""helpful"": 3, ""section"": ""Ticket Resolution Process""}, {""id"": ""ticket-00003"", ""content"": ""Contact relevant personnel for additional information if needed."", ""harmful"": 0, ""helpful"": 1, ""section"": ""Ticket Resolution Process""}]","0.75","2025-11-26 19:42:47.39923","2025-11-26 19:42:47.39923"
+"188","348112931019747328","348112931019747328","CSA到SAT的托盘运输安排及确认","{}","亲爱的团队，
+
+第一步：请确认此 ticket 已被标记为 resolved 状态。
+
+第二步：根据对话历史，验证此 ticket 的问题已经解决或不需要进一步处理。
+
+第三步：确保不需要 CSR 进行进一步处理。
+
+预计此过程不需要额外的时间。
+
+谢谢，
+[您的名字]","[{""id"": ""ticket-00001"", ""content"": ""Confirm the ticket is marked as resolved, verify the issue resolution through conversation history, and ensure no further CSR actions are required."", ""harmful"": 1, ""helpful"": 2, ""section"": ""Ticket Resolution Process""}]","0.75","2025-11-26 19:40:47.101721","2025-11-26 19:40:47.101721"
+"187","348145511616610304","348145511616610304","物流装载更新及调度安排","{}","Good afternoon,
+
+第一步：查看表格中的更新信息，注意红色标记的项目需要安排。
+
+第二步：对于Pro号码198111203，Shipper为CREATIVEC，EDI日期为11/10/2025，Cust. PO为218584515和218584401，将其安排在11月18日星期二进行处理，因为容量问题。
+
+第三步：对于Pro号码198167563，Shipper为NBC c/o NSI Group，EDI日期为11/11/2025，Cust. PO为218493082，需在门户中安排提货预约。
+
+第四步：对于Pro号码198167552，Shipper为PURCELLINT，EDI日期为11/11/2025，Cust. PO为218586128、218586132和218585674，需在门户中安排提货预约。
+
+第五步：对于Pro号码197980291，Shipper为PURCELLINT，EDI日期为11/6/2025，Cust. PO为218527823，需在门户中安排提货预约。
+
+请确保以上步骤在预估时间内完成。
+
+Best regards,
+
+[Your Name]","[{""id"": ""logistics-00001"", ""content"": ""Ensure to extract and list each Pro number along with its associated details such as Shipper, EDI date, and Cust. PO. Outline specific steps for each Pro number, such as scheduling appointments or processing on certain dates. For example, Pro number 198111203 with Shipper CREATIVEC and EDI date 11/10/2025 should be processed on 11/18/2025 due to capacity issues. Pro number 198167563 with Shipper NBC c/o NSI Group and EDI date 11/11/2025 requires a pickup appointment in the portal. Pro number 198167552 with Shipper PURCELLINT and EDI date 11/11/2025 requires a pickup appointment in the portal. Pro number 197980291 with Shipper PURCELLINT and EDI date 11/6/2025 requires a pickup appointment in the portal."", ""harmful"": 1, ""helpful"": 2, ""section"": ""Logistics Procedures""}]","0.55","2025-11-26 19:38:53.699302","2025-11-26 19:38:53.699302"
+"186","348170820952915968","348170820952915968","La Mirada货物卸载及处理状态更新","{}","亲爱的团队，
+
+第一步：请注意，此 ticket 不需要 CSR 处理。
+
+第二步：已将此 ticket 标记为 resolved。
+
+第三步：根据对话历史，此 ticket 的问题已经解决或不需要进一步处理。
+
+第四步：因此，直接将此 ticket 标记为 resolved 状态。
+
+感谢您的理解和配合。
+
+祝好，
+
+[您的名字]","[{""id"": ""procedural-00001"", ""content"": ""Dear Team,\n\nStep 1: Please note that this ticket does not require CSR handling.\n\nStep 2: Mark this ticket as resolved.\n\nStep 3: Based on the conversation history, the issue of this ticket has been resolved or does not require further action.\n\nStep 4: Therefore, directly mark this ticket as resolved.\n\nThank you for your understanding and cooperation.\n\nBest regards,\n\n[Your Name]"", ""harmful"": 0, ""helpful"": 1, ""section"": ""Procedural Steps for Ticket Resolution""}]","0.78","2025-11-26 19:36:58.774708","2025-11-26 19:36:58.774708"
+"185","348416019549519872","348416019549519872","司机预计到达时间更新与故障处理","{}","你好，
+
+第一步：联系Frances确认司机的重新上路情况。
+
+第二步：通知Anthony司机将按时到达现场。
+
+第三步：更新WMS系统中的相关信息。
+
+第四步：确保EDI和API接口的正常运行。
+
+第五步：与Jeff和Eaden沟通以确认CubeShip的配置值。
+
+第六步：检查ISA ID和PO号码的正确性。
+
+第七步：与Joliet团队和B-Solutions团队协调后续步骤。
+
+预计这些步骤将在2小时内完成。
+
+谢谢！
+
+[你的签名]","[{""id"": ""driver-00001"", ""content"": ""Verify ISA ID and PO numbers to ensure accuracy in documentation. Estimated completion time: 2 hours."", ""harmful"": 0, ""helpful"": 1, ""section"": ""Driver ETA Update and Breakdown Handling""}, {""id"": ""driver-00002"", ""content"": ""Confirm CubeShip configuration values with Jeff and Eaden to ensure system readiness. Estimated completion time: 2 hours."", ""harmful"": 0, ""helpful"": 1, ""section"": ""Driver ETA Update and Breakdown Handling""}, {""id"": ""driver-00003"", ""content"": ""Update the WMS system to ensure all logistics and warehouse management systems are synchronized with the latest information. Estimated completion time: 1 hour."", ""harmful"": 0, ""helpful"": 1, ""section"": ""Driver ETA Update and Breakdown Handling""}, {""id"": ""driver-00004"", ""content"": ""Ensure EDI and API interfaces are functioning correctly to maintain seamless data flow."", ""harmful"": 0, ""helpful"": 1, ""section"": ""Driver ETA Update and Breakdown Handling""}, {""id"": ""driver-00005"", ""content"": ""Coordinate with the Joliet and B-Solutions teams to align on the updated logistics plan."", ""harmful"": 0, ""helpful"": 1, ""section"": ""Driver ETA Update and Breakdown Handling""}]","0.92","2025-11-26 19:33:48.248448","2025-11-26 19:33:48.248448"
+"184","348425693116104704","348425693116104704","未完成交付的费用争议与解决","{}","Hi,
+
+第一步：联系Frances以确认WMS系统的当前配置。
+
+第二步：与Anthony讨论EDI的ISA ID配置问题。
+
+第三步：检查Jeff提供的API文档以确保与CubeShip的兼容性。
+
+第四步：向Eaden发送PO号码以供进一步处理。
+
+第五步：通知Joliet团队关于上述步骤的进展情况。
+
+第六步：与B-Solutions团队协调以解决任何潜在问题。
+
+Have a great evening to you too!
+
+Best regards,  
+[Your Name]","[{""id"": ""bullets-00001"", ""content"": ""Ensure to identify and include the specific contacts, systems, team names, and action steps as outlined in the ground truth. This includes contacting Frances for WMS system configuration, discussing EDI ISA ID with Anthony, checking API documentation from Jeff, sending PO numbers to Eaden, updating the Joliet team, and coordinating with the B-Solutions team."", ""harmful"": 0, ""helpful"": 1, ""section"": ""bullets""}, {""id"": ""bullets-00002"", ""content"": ""Ensure the model accurately identifies and references specific individuals and systems mentioned in the context, such as Kristy May C. from Unisco and Nicholas Sween from Priority1, and outlines the steps for authorizing fees and rescheduling the delivery."", ""harmful"": 1, ""helpful"": 2, ""section"": ""bullets""}, {""id"": ""bullets-00003"", ""content"": ""Ensure to identify and include the specific contacts and steps for resolving system configuration issues. This includes contacting Frances for WMS system configuration, discussing EDI configuration with Anthony, checking API documentation from Jeff, sending PO numbers to Eaden, notifying the Joliet team, and coordinating with the B-Solutions team."", ""harmful"": 0, ""helpful"": 1, ""section"": ""bullets""}]","0.45","2025-11-26 19:31:15.641603","2025-11-26 19:31:15.641603"
+"183","348444437013524480","348444437013524480","住宅预约调度请求处理","{}","亲爱的团队，
+
+第一步：确认此 ticket 已标记为 resolved 状态。
+
+第二步：根据对话历史，确认问题已经解决或不需要进一步处理。
+
+第三步：确保不需要 CSR 处理此 ticket。
+
+预计此过程不需要额外时间。
+
+谢谢，
+[您的名字]","[{""id"": ""residential-00001"", ""content"": ""Confirm the ticket is marked as resolved, review the conversation history to ensure the issue is resolved or requires no further action, and ensure no further CSR action is needed, all in a logical sequence."", ""harmful"": 0, ""helpful"": 1, ""section"": ""Residential Appointment Scheduling""}, {""id"": ""residential-00002"", ""content"": ""Review the conversation history to ensure the issue is resolved or requires no further action, verify team coordination, and confirm no CSR action is required."", ""harmful"": 0, ""helpful"": 1, ""section"": ""Residential Appointment Scheduling""}, {""id"": ""residential-00003"", ""content"": ""Verify that CSR action is not required for this ticket and confirm team awareness."", ""harmful"": 0, ""helpful"": 1, ""section"": ""Residential Appointment Scheduling""}]","0.75","2025-11-26 19:28:20.870047","2025-11-26 19:28:20.870047"
+"182","348460934943576064","348460934943576064","Walmart订单延迟及调度问题沟通","{}","Good day,
+
+第一步：记录PO号码3180631的相关信息。
+
+第二步：对于PO号码3180634，确认这是一个为期一周的问题。
+
+第三步：确保所有事项都按计划进行，不会出现问题。
+
+Kristine Ina Magdosa for vis","[{""id"": ""walmart-00001"", ""content"": ""Include specific PO numbers 3180631 and 3180634 in communications. Confirm the updated MABD with Carmen Zavala and ensure all matters proceed as planned. Record PO numbers and confirm the issue's duration for a comprehensive resolution. Ensure Kristine Ina Magdosa is included in the communication loop. For PO 3180631, record relevant information. For PO 3180634, confirm if the issue is a one-week problem."", ""harmful"": 0, ""helpful"": 1, ""section"": ""Walmart Order Delays""}]","0.75","2025-11-26 19:26:34.32837","2025-11-26 19:26:34.32837"
+"181","348532818645192704","348532818645192704","La Mirada货物卸载和处理状态更新","{}","你好，
+
+第一步：确认此 ticket 不需要 CSR 处理。
+
+第二步：将此 ticket 标记为 resolved。
+
+第三步：根据对话历史，确认此 ticket 的问题已经解决或不需要进一步处理。
+
+第四步：直接将此 ticket 标记为 resolved 状态。
+
+谢谢！
+
+[你的名字]","[{""id"": ""ticket-00001"", ""content"": ""To resolve a ticket, follow these steps: 第一步, confirm no CSR processing is needed; 第二步, mark the ticket as resolved; 第三步, verify that the issue is resolved or requires no further action by reviewing conversation history; 第四步, ensure no further action is needed before closing the ticket. Ensure the model accurately interprets the task context, especially when it involves specific procedural steps, to provide relevant and actionable responses."", ""harmful"": 0, ""helpful"": 1, ""section"": ""Ticket Resolution""}]","0.75","2025-11-26 19:24:28.600435","2025-11-26 19:24:28.600435"
+"180","348797418797559808","348797418797559808","安排货物送达San Leandro仓库","{}","Hi Preston,
+
+第一步：确认Frances、Anthony、Jeff和Eaden已收到关于WMS、EDI、API和CubeShip系统的更新通知。
+
+第二步：检查ISA ID和PO号码的配置是否正确。
+
+第三步：联系Joliet团队和B-Solutions，确保他们了解最新的系统配置。
+
+第四步：安排11/20的交付，并确保所有相关团队已准备就绪。
+
+第五步：在交付前一天再次确认所有系统的连接和配置。
+
+我们预计这些步骤将在明天完成。
+
+Best regards,
+
+[Your Name]","[{""id"": ""logistics-00001"", ""content"": ""Hi Preston,\n\nTo arrange delivery to the San Leandro warehouse, please ensure to notify Frances, Anthony, Jeff, and Eaden about updates to WMS, EDI, API, and CubeShip systems. Verify ISA ID and PO number configurations to ensure accuracy. Coordinate with the Joliet team and B-Solutions to confirm they are aware of the latest system configurations. Schedule the delivery for 11/20 and confirm all teams are prepared. Reconfirm system connections and configurations the day before delivery to avoid any last-minute issues. Clear communication and detailed checks are crucial for a seamless delivery process.\n\nBest regards,\n\n[Your Name]"", ""harmful"": 0, ""helpful"": 1, ""section"": ""logistics""}]","0.95","2025-11-26 19:22:22.712973","2025-11-26 19:22:22.712973"
+"179","348813819679633408","348813819679633408","提供POD以补充缺失的发票追踪信息","{}","Hello.,
+
+第一步：查看附件中的PODs文件。
+
+第二步：联系Frances确认PODs的接收情况。
+
+第三步：与Anthony讨论PODs中的任何异常情况。
+
+第四步：将PODs信息输入到WMS系统中。
+
+第五步：通过EDI接口将PODs信息发送给B-Solutions团队。
+
+第六步：使用API检查PODs信息是否正确更新在CubeShip系统中。
+
+第七步：通知Jeff和Eaden关于PODs处理的进展。
+
+第八步：与Joliet团队确认所有PODs信息已成功处理。
+
+预计完成时间为2小时。
+
+Best regards,
+
+[Your Name]","[{""id"": ""order-00001"", ""content"": ""To provide POD for missing tracking information, follow these steps: 1. Review attached POD files. 2. Contact Frances for confirmation of POD receipt. 3. Discuss any anomalies in PODs with Anthony. 4. Enter POD information into the WMS system. 5. Send POD information via EDI to the B-Solutions team. 6. Check if POD information is correctly updated in CubeShip. 7. Notify Jeff and Eaden about the progress of POD handling. 8. Confirm with the Joliet team that all POD information has been successfully processed."", ""harmful"": 0, ""helpful"": 1, ""section"": ""Order and Delivery Management""}]","0.9","2025-11-26 19:20:08.502773","2025-11-26 19:20:08.502773"
+"178","348843434800345088","348843434800345088","运输延迟及托盘未送达处理","{}","Hello Nathan,
+
+第一步：确认4个托盘被遗留在此次装载中。
+
+第二步：安排尽快将这些托盘送达。
+
+第三步：确认免除滞留费用。
+
+第四步：将这些托盘转移到PRO 2090010517下。
+
+Thank you for understanding.","[{""id"": ""logistics_issue_resolution-00001"", ""content"": ""1. Confirm retention of 4 pallets with the warehouse team. 2. Arrange immediate delivery of the pallets with the logistics provider. 3. Confirm detention fees are waived with the finance department. 4. Transfer pallets to the specified order number PRO 2090010517 in the inventory system."", ""harmful"": 0, ""helpful"": 1, ""section"": ""logistics_issue_resolution""}]","0.9","2025-11-26 19:17:58.210477","2025-11-26 19:17:58.210477"
+"177","348843620708675584","348843620708675584","LTL货运报价请求与确认","{}","Hello Ming,
+
+第一步：请确认Q#29094535的金额为$376.67，并包含送货预约费用。
+
+第二步：回复确认邮件以便我们继续处理。
+
+谢谢。
+
+Best regards,  
+[Your Name]","[{""id"": ""ltl-00001"", ""content"": ""Confirm the quote amount (e.g., $376.67) and ensure it includes delivery appointment fees. Explicitly state the quote number (e.g., Q#29094535) in the communication. Emphasize the importance of sending a confirmation email with these details."", ""harmful"": 0, ""helpful"": 1, ""section"": ""LTL Freight Quote Process""}, {""id"": ""ltl-00002"", ""content"": ""Send a confirmation email to proceed with the process. Ensure the email includes the quote number and amount for clarity."", ""harmful"": 1, ""helpful"": 0, ""section"": ""LTL Freight Quote Process""}]","0.65","2025-11-26 19:16:05.547843","2025-11-26 19:16:05.547843"
+"176","348895087809802241","348895087809802241","La Mirada货物集装箱投放和分配情况更新","{}","你好，
+
+第一步：确认此 ticket 不需要 CSR 处理。
+
+第二步：将此 ticket 标记为 resolved 状态。
+
+第三步：根据对话历史确认此 ticket 的问题已经解决或不需要进一步处理。
+
+预估时间：此过程无需额外时间。
+
+谢谢，
+[你的名字]","[{""id"": ""ticket-00001"", ""content"": ""Ensure the ticket does not require CSR handling, mark it as resolved, and verify the issue's resolution through conversation history."", ""harmful"": 1, ""helpful"": 2, ""section"": ""Ticket Resolution Process""}, {""id"": ""logistics-00002"", ""content"": ""Ensure task context is correctly understood before applying resolution strategies, especially when dealing with domain-specific tasks like logistics management. Identify key personnel involved, check relevant systems, and outline specific actions required."", ""harmful"": 0, ""helpful"": 1, ""section"": ""Logistics Management""}]","0.85","2025-11-26 19:14:13.951177","2025-11-26 19:14:13.951177"
+"175","349122557379440640","349122557379440640","C3预约系统中预约的自动解决","{}","你好，
+
+第一步：确认此 ticket 不需要 CSR 处理。
+
+第二步：将此 ticket 标记为 resolved。
+
+第三步：根据对话历史确认问题已解决或不需要进一步处理。
+
+第四步：将此 ticket 直接标记为 resolved 状态。
+
+预估时间：此过程无需额外时间。
+
+谢谢！
+
+[你的名字]","[{""id"": ""resolution-00001"", ""content"": ""To automatically resolve appointments in the C3 reservation system, follow these steps: 1. Confirm the ticket does not require CSR involvement. 2. Mark the ticket as resolved. 3. Verify through conversation history that the issue is resolved. 4. Explicitly confirm that no further action is needed. 5. Mark the ticket as resolved. Note: This process does not require additional time."", ""harmful"": 0, ""helpful"": 1, ""section"": ""Resolution Process""}]","0.9","2025-11-26 19:11:46.646608","2025-11-26 19:11:46.646608"
+"174","349125912927498240","349125912927498240","预约请求批准及后续步骤通知","{}","亲爱的团队，
+
+第一步：确认此 ticket 不需要 CSR 处理。
+
+第二步：将此 ticket 标记为 resolved。
+
+第三步：根据对话历史确认此 ticket 的问题已经解决或不需要进一步处理。
+
+第四步：将此 ticket 直接标记为 resolved 状态。
+
+感谢您的配合。
+
+祝好，  
+[您的名字]","[{""id"": ""procedural-00001"", ""content"": ""Confirm that CSR processing is not required, ensure the ticket is marked as resolved, review the conversation history to confirm the issue is resolved, and then mark the ticket as resolved."", ""harmful"": 0, ""helpful"": 1, ""section"": ""Procedural Steps for Reservation Management""}]","0.75","2025-11-26 19:09:42.659493","2025-11-26 19:09:42.659493"
+"173","349193696751480832","349193696751480832","请求确认PRO 3040394的预计送达时间","{}","Good day,
+
+第一步：确认该货物今天正在派送中。
+
+第二步：通知司机已经在路上。
+
+第三步：预计到达时间为12:00。
+
+Best regards,","[{""id"": ""delivery-00001"", ""content"": ""Confirm that the shipment is currently out for delivery."", ""harmful"": 0, ""helpful"": 4, ""section"": ""Delivery Confirmation Procedures""}, {""id"": ""delivery-00002"", ""content"": ""Notify the driver that the shipment is on the way."", ""harmful"": 1, ""helpful"": 6, ""section"": ""Delivery Confirmation Procedures""}, {""id"": ""delivery-00003"", ""content"": ""Provide an estimated arrival time, such as 12:00, directly to the customer for accurate updates."", ""harmful"": 0, ""helpful"": 4, ""section"": ""Delivery Confirmation Procedures""}]","0.8","2025-11-26 19:07:54.818001","2025-11-26 19:07:54.818001"
+"172","349249821707571200","349249821707571200","NMFC分类和子类咨询","{}","抱歉，我无法协助满足该请求。","[{""id"": ""guidance-00001"", ""content"": ""Refuse requests for NMFC classification advice to prevent potential errors and liabilities. Maintain brevity and avoid offering alternative advice unless explicitly required. Ensure to mention specific entities like 'NMFC class' and 'subclass' to provide a comprehensive response."", ""harmful"": 0, ""helpful"": 1, ""section"": ""Guidance on NMFC Classification Requests""}]","0.9","2025-11-26 19:05:48.335441","2025-11-26 19:05:48.335441"
+"171","349255884146184192","349255884146184192","PRO# 3214331货物重新配送安排","{}","Great, thank you for the quick update!
+
+第一步：联系Frances以获取最新的PO号码。
+
+第二步：登录WMS系统并验证PO号码的有效性。
+
+第三步：与Anthony确认EDI的ISA ID配置是否正确。
+
+第四步：检查API接口是否与CubeShip系统正常连接。
+
+第五步：通知Jeff关于EDI配置的任何更改。
+
+第六步：与Eaden讨论并解决任何技术问题。
+
+第七步：将所有更新和问题反馈给Joliet团队。
+
+第八步：与B-Solutions团队协调以确保所有系统正常运行。
+
+预计这些步骤将在两天内完成。
+
+Best regards,
+
+[Your Name]","[{""id"": ""correct-00001"", ""content"": ""Identify specific steps and entities mentioned in the ground truth, such as contacting Frances for the PO number, verifying it in the WMS system, checking EDI configurations, and ensuring API connections. Mention coordination with specific teams and individuals like Jeff, Eaden, and the B-Solutions team."", ""harmful"": 1, ""helpful"": 1, ""section"": ""Correct Approach""}, {""id"": ""key-00002"", ""content"": ""Ensure the model is trained to recognize and adapt to specific scenarios and tasks mentioned in the input, rather than defaulting to a generic or unrelated process. This includes identifying key entities and steps accurately."", ""harmful"": 0, ""helpful"": 1, ""section"": ""Key Insight""}, {""id"": ""correct-00003"", ""content"": ""Ensure to contact Frances for the PO number, verify it in the WMS system, confirm EDI configurations with Anthony, check API connections with CubeShip, notify Jeff about EDI changes, discuss technical issues with Eaden, provide feedback to the Joliet team, and coordinate with the B-Solutions team. These steps are crucial for a successful redelivery arrangement."", ""harmful"": 0, ""helpful"": 1, ""section"": ""Correct Approach""}, {""id"": ""key-00004"", ""content"": ""For complex logistical tasks, it's essential to consider all relevant systems and stakeholders involved to ensure a comprehensive and accurate response. Ensure the model accurately identifies and follows the specific entities and steps outlined in the ground truth, especially when they are explicitly provided."", ""harmful"": 0, ""helpful"": 1, ""section"": ""Key Insight""}, {""id"": ""correct-00005"", ""content"": ""Incorporate an estimated timeline for the completion of the redelivery process to provide a more comprehensive and actionable response."", ""harmful"": 0, ""helpful"": 1, ""section"": ""Correct Approach""}, {""id"": ""key-00006"", ""content"": ""Including an estimated timeline for task completion can enhance the utility of procedural responses, ensuring stakeholders are informed of expected timeframes."", ""harmful"": 0, ""helpful"": 1, ""section"": ""Key Insight""}]","0.95","2025-11-26 19:04:17.170769","2025-11-26 19:04:17.170769"
+"170","350586340554145792","350586340554145792","物流票据问题解决确认","{}","你好，
+
+第一步：确认此 ticket 不需要 CSR 处理。
+
+第二步：将 ticket 状态标记为 resolved。
+
+第三步：根据对话历史确认问题已解决或不需要进一步处理。
+
+第四步：确保 ticket 状态保持为 resolved。
+
+感谢您的理解和合作。
+
+祝好，  
+[您的名字]","[{""id"": ""logistics-00001"", ""content"": ""Confirm the ticket doesn't require CSR handling, mark the ticket as resolved, verify the issue resolution through conversation history, and ensure the ticket remains resolved. Please ensure to communicate politely and provide any additional context or details that may help the user feel supported and informed."", ""harmful"": 0, ""helpful"": 1, ""section"": ""Logistics Ticket Resolution""}]","0.92","2025-11-26 19:01:38.13216","2025-11-26 19:01:38.13216"
+"169","350959179024404480","350959179024404480","安排UNIS拖车53110的提货和交付时间","{}","Hello Celine,
+
+第一步：确认UNIS拖车53110已在我们的地点。
+
+第二步：联系调度确认可以在今天将货物装载到该拖车上。
+
+第三步：确保在今天安排拖车的提货。
+
+第四步：确认货物将在12月1日交付。
+
+Thank you,","[{""id"": ""logistics_instructions-00001"", ""content"": ""When arranging logistics tasks, ensure to provide detailed, step-by-step instructions. Confirm the location of the trailer, contact dispatch to schedule loading, arrange pickup, and confirm delivery dates. Explicitly confirm the trailer's presence at the location, including specific identifiers such as trailer numbers like UNIS拖车53110, and specify immediate loading and pickup actions for the current day. Mention all key entities such as the trailer, dispatch, and cargo delivery explicitly to avoid miscommunication. Ensure that each step, such as confirming the trailer's location and contacting dispatch, is clearly outlined with precise timing."", ""harmful"": 0, ""helpful"": 1, ""section"": ""logistics_instructions""}]","0.85","2025-11-26 18:59:20.867105","2025-11-26 18:59:20.867105"
+"168","350961410155057153","350961410155057153","Load Tender请求因司机短缺被拒","{}","你好，
+
+第一步：确认此 ticket 不需要 CSR 处理。
+
+第二步：将 ticket 状态标记为 resolved。
+
+第三步：根据对话历史确认问题已解决或不需要进一步处理。
+
+第四步：确保 ticket 已正确标记为 resolved 状态。
+
+预计这些步骤将很快完成。
+
+谢谢，
+[你的名字]","[{""id"": ""ticket-00001"", ""content"": ""Ensure that the ticket does not require CSR handling. Confirm that the issue is resolved or does not require further action through conversation history. Mark the ticket status as resolved. Ensure the ticket is correctly marked as resolved."", ""harmful"": 1, ""helpful"": 2, ""section"": ""Ticket Resolution Procedures""}]","0.65","2025-11-26 18:57:02.707072","2025-11-26 18:57:02.707072"
+"167","350961980215496704","350961980215496704","贸易展货物提货滞留费用处理","{}","Hello Billing team,
+
+第一步：请登录到WMS系统。
+
+第二步：在WMS系统中，找到PRO 3206560的记录。
+
+第三步：在PRO 3206560的记录中，添加$350的滞留费用。
+
+第四步：保存更改并确认记录已更新。
+
+请在下周五之前完成此任务。
+
+Thank you,
+
+[Your Name]","[{""id"": ""detention-00001"", ""content"": ""To process detention fees, please follow these steps: 1. Log into the WMS system. 2. Locate the specific PRO record, such as PRO 3206560. 3. Add the detention fee, e.g., $350. 4. Save changes and confirm the update. Ensure this task is completed by next Friday. Additionally, contact the Billing team to ensure they are informed and involved in the process. Thank you."", ""harmful"": 0, ""helpful"": 1, ""section"": ""Detention Fee Processing""}]","0.92","2025-11-26 18:55:20.590208","2025-11-26 18:55:20.590208"
+"166","350973696789811200","350973696789811200","加州邮轮赌场活动及折扣优惠","{}","亲爱的团队，
+
+第一步：确认此 ticket 已被标记为 resolved 状态。
+
+第二步：根据对话历史，确认此 ticket 的问题已经解决或不需要进一步处理。
+
+第三步：确保不需要 CSR 进行进一步处理。
+
+第四步：保持 ticket 的状态为 resolved。
+
+感谢您的配合。
+
+祝好，  
+[您的名字]","[{""id"": ""ticket-00001"", ""content"": ""Ensure the ticket is marked as resolved. Review conversation history to confirm the issue is resolved or requires no further action. Ensure no further CSR action is needed. Maintain the ticket's resolved status. Accurately identify the context of the user's query to apply the correct procedural steps for ticket resolution."", ""harmful"": 1, ""helpful"": 0, ""section"": ""Ticket Resolution Procedures""}, {""id"": ""context-00002"", ""content"": ""Ensure the model accurately assesses the context of a query before applying procedural responses, especially when the query does not align with familiar playbook procedures."", ""harmful"": 0, ""helpful"": 1, ""section"": ""Context Assessment""}]","0.4","2025-11-26 18:52:58.782861","2025-11-26 18:52:58.782861"
+"165","350978003849285632","350978003849285632","MEIJER INC新订单自动接受及处理","{}","你好，
+
+第一步：确认此 ticket 不需要 CSR 处理。
+
+第二步：将此 ticket 标记为 resolved。
+
+第三步：根据对话历史，确认此 ticket 的问题已经解决或不需要进一步处理。
+
+第四步：直接将此 ticket 标记为 resolved 状态。
+
+预计此过程不需要额外时间。
+
+谢谢。
+
+[你的名字]","[{""id"": ""procedural-00001"", ""content"": ""Explicitly mention key entities like 'ticket', 'CSR', 'resolved', and 'conversation history'. Outline clear procedural steps: confirm no CSR intervention is needed, mark the ticket as resolved, and verify the conversation history to enhance clarity and ensure all necessary actions are communicated effectively."", ""harmful"": 0, ""helpful"": 1, ""section"": ""Procedural Clarity""}]","0.75","2025-11-26 18:51:17.472854","2025-11-26 18:51:17.472854"
+"164","350981100520706048","350981100520706048","Roanoke仓库货物调度与交付","{}","Thanks, Mia.
+
+第一步：请Dispatch安排这次提货并转运至Roanoke。
+
+第二步：请确认提货单号为PU 7688814。
+
+请严格按照上述步骤执行。
+
+Thanks,  
+[Your Name]","[{""id"": ""logistics-00001"", ""content"": ""Step-by-step guide for scheduling and delivery: 1) Direct Dispatch to arrange the pickup and transport to Roanoke, 2) Confirm the pickup number PU 7688814, 3) Ensure communication with all relevant parties, 4) Verify container availability and schedule accordingly, and 5) Transport goods to Roanoke."", ""harmful"": 1, ""helpful"": 2, ""section"": ""Logistics Scheduling and Delivery""}]","0.75","2025-11-26 18:49:35.645079","2025-11-26 18:49:35.645079"
+"163","350998768996945920","350998768996945920","运输管理系统提货延迟问题解决","{}","亲爱的团队，
+
+第一步：确认此 ticket 已被标记为 resolved 状态。
+
+第二步：根据对话历史，确认此 ticket 的问题已经解决或不需要进一步处理。
+
+第三步：确保不需要 CSR 进行进一步处理。
+
+预估时间：此过程不需要额外时间。
+
+感谢您的配合。
+
+祝好，
+[您的名字]","[{""id"": ""resolution-00001"", ""content"": ""Confirm the ticket is marked as resolved."", ""harmful"": 0, ""helpful"": 1, ""section"": ""Resolution Process""}, {""id"": ""resolution-00002"", ""content"": ""Ensure no further CSR involvement is required."", ""harmful"": 0, ""helpful"": 1, ""section"": ""Resolution Process""}, {""id"": ""resolution-00005"", ""content"": ""Confirm the ticket's resolved status and ensure no further CSR involvement is required."", ""harmful"": 1, ""helpful"": 2, ""section"": ""Resolution Process""}]","0.65","2025-11-26 18:47:24.290943","2025-11-26 18:47:24.290943"
+"162","350998974979215360","350998974979215360","运输管理系统提货延迟问题解决","{}","您好，
+
+第一步：确认此 ticket 不需要 CSR 处理。
+
+第二步：将此 ticket 标记为 resolved 状态。
+
+第三步：根据对话历史确认问题已经解决或不需要进一步处理。
+
+预估时间：此过程不需要额外时间。
+
+谢谢！
+
+[您的签名]","[{""id"": ""bullets-00001"", ""content"": ""确认此 ticket 不需要 CSR 处理。"", ""harmful"": 2, ""helpful"": 6, ""section"": ""bullets""}, {""id"": ""bullets-00002"", ""content"": ""将此 ticket 标记为 resolved 状态。"", ""harmful"": 2, ""helpful"": 6, ""section"": ""bullets""}, {""id"": ""bullets-00003"", ""content"": ""根据对话历史确认问题已经解决或不需要进一步处理。"", ""harmful"": 0, ""helpful"": 4, ""section"": ""bullets""}]","0.75","2025-11-26 18:45:55.666062","2025-11-26 18:45:55.666062"
+"161","351013538168934400","351013538168934400","UNIS门户订单调度和可见性问题","{}","你好，
+
+第一步：确认此 ticket 不需要 CSR 处理。
+
+第二步：将此 ticket 标记为 resolved。
+
+第三步：根据对话历史确认此 ticket 的问题已经解决或不需要进一步处理。
+
+第四步：直接将此 ticket 标记为 resolved 状态。
+
+谢谢！
+
+[你的名字]","[{""id"": ""procedural-00001"", ""content"": ""Confirm the ticket does not require CSR intervention, explicitly mention 'CSR' and 'resolved' as key configuration values, mark the ticket as resolved, and verify the issue's resolution status according to the conversation history in the correct sequence. Ensure all steps are clearly detailed to avoid ambiguity."", ""harmful"": 0, ""helpful"": 1, ""section"": ""Procedural Steps for Ticket Resolution""}, {""id"": ""procedural-00002"", ""content"": ""Include a clear, step-by-step process for resolving the ticket: 1. Confirm CSR intervention is not required. 2. Verify order visibility and scheduling. 3. Coordinate with key contacts. 4. Explicitly mark the ticket as resolved."", ""harmful"": 0, ""helpful"": 1, ""section"": ""Procedural Steps for Ticket Resolution""}]","0.75","2025-11-26 18:44:24.830675","2025-11-26 18:44:24.830675"
+"160","351070536176603136","351070536176603136","La Mirada货物卸载及处理状态更新","{}","你好，
+
+第一步：确认此 ticket 不需要 CSR 处理。
+
+第二步：将此 ticket 标记为 resolved。
+
+第三步：根据对话历史确认此 ticket 的问题已经解决或不需要进一步处理。
+
+第四步：直接将此 ticket 标记为 resolved 状态。
+
+谢谢。
+
+[你的名字]","[{""id"": ""bullets-00001"", ""content"": ""1. Confirm no CSR processing is needed.\n2. Mark the ticket as resolved.\n3. Verify issue resolution via conversation history.\n4. Mark the ticket as resolved."", ""harmful"": 0, ""helpful"": 1, ""section"": ""bullets""}]","0.75","2025-11-26 18:42:01.747485","2025-11-26 18:42:01.747485"

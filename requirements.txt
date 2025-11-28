@@ -99,7 +99,7 @@ multidict==6.7.0
     #   yarl
 multiprocess==0.70.16
     # via datasets
-numpy==2.3.4
+numpy==2.2.6
     # via
     #   datasets
     #   pandas
@@ -195,3 +195,14 @@ yarl==1.22.0
     # via aiohttp
 zipp==3.23.0
     # via importlib-metadata
+# Database dependencies for ACE Ticket learning
+# Note: pgvector is a PostgreSQL server-side extension, not a Python package
+# Install it on the PostgreSQL server: CREATE EXTENSION vector;
+pymysql>=1.0.0
+pg8000>=1.30.0
+psycopg2-binary>=2.9.0
+sqlalchemy>=2.0.0
+
+# Additional dependencies for ACE Ticket
+httpx>=0.25.0
+markdownify>=0.11.0

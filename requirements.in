@@ -18,3 +18,15 @@ pyyaml>=6.0.0
 
 # Optional benchmark dependencies (install separately if needed)
 # appworld>=0.1.0  # For AppWorld benchmark support
+
+# Database dependencies for ACE Ticket learning
+# Note: pgvector is a PostgreSQL server-side extension, not a Python package
+# Install it on the PostgreSQL server: CREATE EXTENSION vector;
+pymysql>=1.0.0
+pg8000>=1.30.0
+psycopg2-binary>=2.9.0
+sqlalchemy>=2.0.0
+
+# Additional dependencies for ACE Ticket
+httpx>=0.25.0
+markdownify>=0.11.0
