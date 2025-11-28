@@ -1,0 +1,196 @@
+# Agentic Context Engineering: Complete Guide
+
+**How ACE enables AI agents to improve through in-context learning instead of fine-tuning.**
+
+---
+
+## What is Agentic Context Engineering?
+
+Agentic Context Engineering (ACE) is a framework introduced by researchers at Stanford University and SambaNova Systems that enables AI agents to improve performance by dynamically curating their own context through execution feedback.
+
+**Key Innovation:** Instead of updating model weights through expensive fine-tuning cycles, ACE treats context as a living "playbook" that evolves based on what strategies actually work in practice.
+
+**Research Paper:** [Agentic Context Engineering (arXiv:2510.04618)](https://arxiv.org/abs/2510.04618)
+
+---
+
+## The Core Problem
+
+Modern AI agents face a fundamental limitation: they don't learn from execution history. When an agent makes a mistake, developers must manually intervene—editing prompts, adjusting parameters, or fine-tuning the model.
+
+**Traditional approaches have major drawbacks:**
+- **Repetitive failures:** Agents lack institutional memory
+- **Manual intervention:** Doesn't scale as complexity increases
+- **Expensive adaptation:** Fine-tuning costs $10,000+ per cycle and takes weeks
+- **Black box improvement:** Unclear what changed or why
+
+---
+
+## How ACE Works
+
+ACE introduces a three-agent architecture where specialized roles collaborate to build and maintain a dynamic knowledge base called the "playbook."
+
+### The Three Agents
+
+**1. Generator** - Task Execution
+- Performs the actual work using strategies from the playbook
+- Operates like a traditional agent but with access to learned knowledge
+
+**2. Reflector** - Performance Analysis
+- Analyzes execution outcomes without human supervision
+- Identifies which strategies worked, which failed, and why
+- Generates insights that inform playbook updates
+
+**3. Curator** - Knowledge Management
+- Adds new strategies based on successful executions
+- Removes or marks strategies that consistently fail
+- Merges semantically similar strategies to prevent redundancy
+
+### The Playbook
+
+The playbook stores learned strategies as structured "bullets"—discrete pieces of knowledge with metadata:
+
+```json
+{
+  "content": "When querying financial data, filter by date range first to reduce result set size",
+  "helpful_count": 12,
+  "harmful_count": 1,
+  "section": "task_guidance"
+}
+```
+
+### The Learning Cycle
+
+1. **Execution:** Generator receives a task and retrieves relevant playbook bullets
+2. **Action:** Generator executes using retrieved strategies
+3. **Reflection:** Reflector analyzes the execution outcome
+4. **Curation:** Curator updates the playbook with delta operations
+5. **Iteration:** Process repeats, playbook grows more refined over time
+
+---
+
+## Key Technical Innovations
+
+### Delta Updates (Preventing Context Collapse)
+
+A critical insight from the ACE paper: LLMs exhibit **brevity bias** when asked to rewrite context. They compress information, losing crucial details.
+
+ACE solves this through **delta updates**—incremental modifications that never ask the LLM to regenerate entire contexts:
+
+- **Add:** Insert new bullet to playbook
+- **Remove:** Delete specific bullet by ID
+- **Modify:** Update specific fields (helpful_count, content refinement)
+
+This preserves the exact wording and structure of learned knowledge.
+
+### Semantic Deduplication
+
+As agents learn, they may generate similar but differently-worded strategies. ACE prevents playbook bloat through embedding-based deduplication, keeping the playbook concise while capturing diverse knowledge.
+
+### Hybrid Retrieval
+
+Instead of dumping the entire playbook into context, ACE uses hybrid retrieval to select only the most relevant bullets. This:
+
+- Keeps context windows manageable
+- Prioritizes proven strategies
+- Reduces token costs
+
+---
+
+## Performance Results
+
+The Stanford team evaluated ACE across multiple benchmarks:
+
+**AppWorld Agent Benchmark:**
+- **+17.1 percentage points** improvement vs. base LLM (≈40% relative improvement)
+- Tested on complex multi-step tasks requiring tool use and reasoning
+
+**Finance Domain (FiNER):**
+- **+8.6 percentage points** improvement on financial reasoning tasks
+
+**Adaptation Efficiency:**
+- **86.9% lower adaptation latency** compared to existing context-adaptation methods
+
+**Key Insight:** Performance improvements compound over time. As the playbook grows, agents make fewer mistakes on similar tasks, creating a positive feedback loop.
+
+---
+
+## When to Use ACE
+
+### Best Fit Use Cases
+
+**Software Development Agents**
+- Learn project-specific patterns (naming conventions, error handling)
+- Build knowledge of common bugs and solutions
+- Accumulate code review guidelines
+
+**Customer Support Automation**
+- Learn which issues need human escalation
+- Discover effective communication patterns
+- Build institutional knowledge of edge cases
+
+**Data Analysis Agents**
+- Learn efficient query patterns
+- Discover which visualizations work for which data types
+- Build baseline expectations from execution history
+
+**Research Assistants**
+- Learn effective search strategies per domain
+- Discover citation patterns and summarization techniques
+- Build knowledge of reliable sources
+
+### When NOT to Use ACE
+
+ACE may not be the right fit when:
+- **Single-use tasks:** No benefit from learning if task never repeats
+- **Perfect first-time execution required:** ACE learns through iteration
+- **Purely factual retrieval:** Traditional RAG may be more appropriate
+
+---
+
+## ACE vs. Other Approaches
+
+### vs. Fine-Tuning
+
+| Aspect | ACE | Fine-Tuning |
+|--------|-----|-------------|
+| Speed | Immediate (after single execution) | Days to weeks |
+| Cost | Inference only | $10K+ per iteration |
+| Interpretability | Readable playbook | Black box weights |
+| Reversibility | Edit/remove strategies easily | Requires retraining |
+
+### vs. RAG
+
+| Aspect | ACE | RAG |
+|--------|-----|-----|
+| Knowledge Source | Learned from execution | Static documents |
+| Update Mechanism | Autonomous curation | Manual updates |
+| Content Type | Strategies, patterns | Facts, references |
+| Optimization | Self-improving | Requires query tuning |
+
+---
+
+## Getting Started
+
+Ready to build self-learning agents? Check out these resources:
+
+- **[Quick Start Guide](QUICK_START.md)** - Get running in 5 minutes
+- **[Integration Guide](INTEGRATION_GUIDE.md)** - Add ACE to existing agents
+- **[API Reference](API_REFERENCE.md)** - Complete API documentation
+- **[Examples](../examples/)** - Ready-to-run code examples
+
+---
+
+## Additional Resources
+
+### Research
+- [Original ACE Paper (arXiv)](https://arxiv.org/abs/2510.04618)
+
+### Community
+- [Discord Server](https://discord.com/invite/mqCqH7sTyK)
+- [GitHub](https://github.com/kayba-ai/agentic-context-engine)
+- [Kayba Website](https://kayba.ai/)
+
+---
+
+**Last Updated:** November 2025

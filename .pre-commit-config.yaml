@@ -1,0 +1,20 @@
+repos:
+  # Black - code formatting (auto-fixes)
+  - repo: https://github.com/psf/black
+    rev: 24.10.0
+    hooks:
+      - id: black
+        args: [--line-length=88]
+        language_version: python3.12
+
+  # MyPy - type checking (blocks commits on errors)
+  - repo: https://github.com/pre-commit/mirrors-mypy
+    rev: v1.11.2
+    hooks:
+      - id: mypy
+        args: [--ignore-missing-imports, --warn-unused-configs]
+        additional_dependencies:
+          - types-requests
+          - types-pyyaml
+        files: ^ace/
+        language_version: python3.12
